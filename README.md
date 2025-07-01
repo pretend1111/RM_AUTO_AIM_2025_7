@@ -1,6 +1,6 @@
-# RM Auto Aim Detection System
+# RM_AUTO_AIM_2025_7
 
-这是一个基于 ROS2 的自动瞄准检测系统，用于 RoboMaster 比赛。
+RM Auto Aim Detection System - 基于 ROS2 的自动瞄准检测系统，用于 RoboMaster 比赛。
 
 ## 项目结构
 
