@@ -46,7 +46,3 @@ ros2 launch rm_armor_detect armor_detect.launch.py
 # 运行符文检测
 ros2 launch rm_rune_detect rune_detect.launch.py
 ```
-
-## 许可证
-
-待定
