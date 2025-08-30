@@ -1,0 +1,17 @@
+[0.016s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.050s] [ 14%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[0.051s] [ 42%] Built target video_subscriber_node
+[2.733s] In file included from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:15[m[K,
+[2.734s]                  from [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:1[m[K:
+[2.734s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:11:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct rm_armor_detect::Detection[m[K’
+[2.734s]    11 | struct [01;31m[KDetection[m[K {
+[2.734s]       |        [01;31m[K^~~~~~~~~[m[K
+[2.734s] In file included from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:14[m[K,
+[2.734s]                  from [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:1[m[K:
+[2.734s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/car_detector.hpp:12:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct rm_armor_detect::Detection[m[K’
+[2.734s]    12 | struct [01;36m[KDetection[m[K
+[2.734s]       |        [01;36m[K^~~~~~~~~[m[K
+[5.225s] gmake[2]: *** [CMakeFiles/video_subscriber_component.dir/build.make:76：CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o] 错误 1
+[5.225s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/video_subscriber_component.dir/all] 错误 2
+[5.226s] gmake: *** [Makefile:146：all] 错误 2
+[5.227s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32

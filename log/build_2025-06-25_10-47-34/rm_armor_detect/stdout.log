@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target armor_detect_main[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_detect_component[0m
+[ 28%] Built target armor_detect
+[ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libarmor_detect_component.so[0m
+[ 85%] [32m[1mLinking CXX executable armor_detect_main[0m
+[ 85%] Built target armor_detect_component

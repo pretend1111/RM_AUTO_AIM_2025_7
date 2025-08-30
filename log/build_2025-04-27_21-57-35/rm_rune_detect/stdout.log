@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target rm_rune_detect[0m
+[35m[1mConsolidate compiler generated dependencies of target rune_detect_node[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o[0m

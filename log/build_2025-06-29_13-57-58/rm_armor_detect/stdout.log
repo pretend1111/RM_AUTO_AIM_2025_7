@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[ 22%] Built target video_subscriber_node
+[ 33%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o[0m

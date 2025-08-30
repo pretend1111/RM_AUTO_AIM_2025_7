@@ -1,0 +1,69 @@
+[0.008s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.022s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.099s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.103s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.432s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.433s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.437s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.739s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[14.750s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[14.767s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[14.773s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[18.280s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.326s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[18.326s] -- Configured cppcheck include dirs: /home/pretend/code/src/rm_armor_detect/include
+[18.327s] -- Configured cppcheck exclude dirs and/or files: 
+[18.327s] -- Added test 'lint_cmake' to check CMake code style
+[18.328s] -- Added test 'uncrustify' to check C / C++ code style
+[18.328s] -- Configured uncrustify additional arguments: 
+[18.328s] -- Added test 'xmllint' to check XML markup files
+[18.328s] -- Configuring done
+[18.355s] -- Generating done
+[18.365s] -- Build files have been written to: /home/pretend/code/build/rm_armor_detect
+[18.384s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_node[0m
+[18.384s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[18.394s] [ 14%] Built target video_subscriber_node
+[18.398s] [ 21%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o[0m
+[19.734s] In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:1[m[K:
+[19.734s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:[m[K In constructor ‘[01m[Krm_armor_detect::NumberClassifier::NumberClassifier(const string&, const string&, double, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[19.734s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:118:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Krm_armor_detect::NumberClassifier::threshold_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[19.734s]   118 |   double [01;35m[Kthreshold_[m[K;
+[19.734s]       |          [01;35m[K^~~~~~~~~~[m[K
+[19.734s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:117:28:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > rm_armor_detect::NumberClassifier::ignore_classes_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[19.734s]   117 |   std::vector<std::string> [01;35m[Kignore_classes_[m[K;
+[19.734s]       |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[19.734s] [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[19.734s]    14 | [01;35m[KNumberClassifier[m[K::NumberClassifier(
+[19.735s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[19.737s] [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::NumberClassifier::classify(std::vector<rm_armor_detect::Armor>&)[m[K’:
+[19.737s] [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:119:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.737s]   119 |     if ([01;35m[Klabel_id < class_names_.size()[m[K) {
+[19.737s]       |         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[21.706s] [ 28%] [32m[1mLinking CXX shared library libvideo_subscriber_component.so[0m
+[22.102s] [ 42%] Built target video_subscriber_component
+[22.109s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_main[0m
+[22.114s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_detect_demo.dir/src/armor_detect_demo.cpp.o[0m
+[22.115s] [ 64%] [32mBuilding CXX object CMakeFiles/enhanced_video_subscriber.dir/src/enhanced_video_subscriber.cpp.o[0m
+[22.115s] [ 64%] [32mBuilding CXX object CMakeFiles/realtime_armor_detect.dir/src/realtime_armor_detect.cpp.o[0m
+[22.121s] [ 71%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[22.741s] [ 78%] Built target video_subscriber_main
+[24.487s] [ 85%] [32m[1mLinking CXX executable armor_detect_demo[0m
+[24.562s] [ 92%] [32m[1mLinking CXX executable realtime_armor_detect[0m
+[25.110s] [ 92%] Built target armor_detect_demo
+[25.252s] [01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:68:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid EnhancedVideoSubscriber::processImage(cv::Mat&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[25.252s]    68 |     void [01;31m[KprocessImage[m[K(cv::Mat & image) override
+[25.252s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[25.262s] [01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid EnhancedVideoSubscriber::processImage(cv::Mat&)[m[K’:
+[25.262s] [01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:120:30:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessImage[m[K’ is not a member of ‘[01m[Krm_armor_detect::VideoSubscriberNode[m[K’
+[25.262s]   120 |         VideoSubscriberNode::[01;31m[KprocessImage[m[K(image);
+[25.262s]       |                              [01;31m[K^~~~~~~~~~~~[m[K
+[25.296s] [ 92%] Built target realtime_armor_detect
+[26.078s] gmake[2]: *** [CMakeFiles/enhanced_video_subscriber.dir/build.make:76：CMakeFiles/enhanced_video_subscriber.dir/src/enhanced_video_subscriber.cpp.o] 错误 1
+[26.078s] gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/enhanced_video_subscriber.dir/all] 错误 2
+[26.079s] gmake: *** [Makefile:146：all] 错误 2
+[26.081s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32

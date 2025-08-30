@@ -1,0 +1,102 @@
+[0.012s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target armor_detect_component[0m
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target armor_detect_main[0m
+[0.057s] [ 28%] Built target armor_detect
+[0.062s] [ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[0.067s] [ 57%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[2.435s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In constructor ‘[01m[Krm_armor_detect::ArmorDetectNode::ArmorDetectNode(const rclcpp::NodeOptions&)[m[K’:
+[2.435s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:29:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdraw_confidence[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.435s]    29 |   bool [01;35m[Kdraw_confidence[m[K = this->declare_parameter<bool>("draw_confidence", true);
+[2.435s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:30:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdraw_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.435s]    30 |   bool [01;35m[Kdraw_count[m[K = this->declare_parameter<bool>("draw_count", true);
+[2.435s]       |        [01;35m[K^~~~~~~~~~[m[K
+[2.435s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:31:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfill_polygon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.435s]    31 |   bool [01;35m[Kfill_polygon[m[K = this->declare_parameter<bool>("fill_polygon", true);
+[2.435s]       |        [01;35m[K^~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:32:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kline_thickness[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.435s]    32 |   int [01;35m[Kline_thickness[m[K = this->declare_parameter<int>("line_thickness", 2);
+[2.435s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:33:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koverlay_alpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.435s]    33 |   double [01;35m[Koverlay_alpha[m[K = this->declare_parameter<double>("overlay_alpha", 0.3);
+[2.435s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[2.438s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In constructor ‘[01m[Krm_armor_detect::ArmorDetectNode::ArmorDetectNode(const rclcpp::NodeOptions&)[m[K’:
+[2.438s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:29:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdraw_confidence[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.438s]    29 |   bool [01;35m[Kdraw_confidence[m[K = this->declare_parameter<bool>("draw_confidence", true);
+[2.438s]       |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.438s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:30:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdraw_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.438s]    30 |   bool [01;35m[Kdraw_count[m[K = this->declare_parameter<bool>("draw_count", true);
+[2.438s]       |        [01;35m[K^~~~~~~~~~[m[K
+[2.438s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:31:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfill_polygon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.438s]    31 |   bool [01;35m[Kfill_polygon[m[K = this->declare_parameter<bool>("fill_polygon", true);
+[2.438s]       |        [01;35m[K^~~~~~~~~~~~[m[K
+[2.438s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:32:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kline_thickness[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.438s]    32 |   int [01;35m[Kline_thickness[m[K = this->declare_parameter<int>("line_thickness", 2);
+[2.438s]       |       [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.438s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:33:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Koverlay_alpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.438s]    33 |   double [01;35m[Koverlay_alpha[m[K = this->declare_parameter<double>("overlay_alpha", 0.3);
+[2.438s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[2.717s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[2.717s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:132:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.717s]   132 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+[2.717s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.730s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[2.730s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:132:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.730s]   132 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+[2.730s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.732s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)[m[K’:
+[2.732s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:346:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.732s]   346 |   float [01;35m[Kscale_x[m[K = img_width / input_width_;
+[2.732s]       |         [01;35m[K^~~~~~~[m[K
+[2.732s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:347:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.732s]   347 |   float [01;35m[Kscale_y[m[K = img_height / input_height_;
+[2.732s]       |         [01;35m[K^~~~~~~[m[K
+[2.745s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)[m[K’:
+[2.745s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:346:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.745s]   346 |   float [01;35m[Kscale_x[m[K = img_width / input_width_;
+[2.745s]       |         [01;35m[K^~~~~~~[m[K
+[2.745s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:347:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.745s]   347 |   float [01;35m[Kscale_y[m[K = img_height / input_height_;
+[2.745s]       |         [01;35m[K^~~~~~~[m[K
+[9.750s] [ 71%] [32m[1mLinking CXX executable armor_detect_main[0m
+[9.786s] [ 85%] [32m[1mLinking CXX shared library libarmor_detect_component.so[0m
+[9.961s] [ 85%] Built target armor_detect_component
+[10.136s] [100%] Built target armor_detect_main
+[10.143s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[10.145s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[10.149s] -- Install configuration: "Release"
+[10.150s] -- Execute custom install script
+[10.150s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+[10.150s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp
+[10.150s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main
+[10.150s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+[10.150s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch/armor_detect.launch.py
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/armor.onnx
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.sh
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.dsv
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[10.151s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[10.152s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[10.152s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[10.152s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[10.152s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[10.152s] -- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_libraries-extras.cmake
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_targets-extras.cmake
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[10.158s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[10.159s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so
+[10.161s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so" to ""
+[10.162s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/run_armor_detect.sh
+[10.162s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport.cmake
+[10.162s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport-release.cmake
+[10.163s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

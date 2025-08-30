@@ -1,0 +1,33 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/single_armor_tracker.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libarmor_tracker_component.so[0m
+[ 60%] Built target armor_tracker_component
+[ 80%] [32m[1mLinking CXX executable armor_tracker_node[0m
+[100%] Built target armor_tracker_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_node
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/single_armor_tracker.hpp
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/library_path.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/library_path.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/package_run_dependencies/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/parent_prefix_path/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.bash
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.zsh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/packages/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/rclcpp_components/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig-version.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.xml

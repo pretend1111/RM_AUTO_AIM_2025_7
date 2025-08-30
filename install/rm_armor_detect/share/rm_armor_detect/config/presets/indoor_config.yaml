@@ -1,0 +1,45 @@
+# 室内环境装甲板检测配置
+# 适用于室内光照条件，距离2-5米的检测场景
+
+/video_subscriber_node:
+  ros__parameters:
+    # 基础参数
+    topic_name: "image_raw"
+    display_image: true
+    window_name: "室内装甲板检测"
+    use_sensor_data_qos: true
+    
+    # 曝光增强 - 室内光线较暗，需要增强
+    enable_exposure_enhancement: true
+    exposure_gain: 0.8
+    
+    # 车辆检测
+    enable_car_detection: true
+    model_path: "~/code/src/rm_armor_detect/models/car/car.onnx"
+    detection_confidence_threshold: 0.03
+    
+    # 数字分类
+    enable_number_classification: true
+    number_model_path: "~/code/src/rm_armor_detect/models/number/mlp.onnx"
+    number_label_path: "~/code/src/rm_armor_detect/models/number/label.txt"
+    number_confidence_threshold: 0.6
+    
+    # 二值化阈值 - 室内光线暗，降低阈值
+    binary_threshold: 120
+    detect_color: 1
+    debug_contours: true
+    
+    # 灯条参数 - 室内环境相对稳定
+    light_params:
+      min_ratio: 0.08
+      max_ratio: 0.7
+      max_angle: 45.0
+    
+    # 装甲板参数 - 适合中近距离
+    armor_params:
+      min_light_ratio: 0.6
+      min_small_center_distance: 0.9
+      max_small_center_distance: 3.5
+      min_large_center_distance: 3.2
+      max_large_center_distance: 6.0
+      max_angle: 40.0 

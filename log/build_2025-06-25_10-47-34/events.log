@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000112] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000128] (-) JobUnselected: {'identifier': 'rm_armor_tracker'}
+[0.000137] (-) JobUnselected: {'identifier': 'rm_rune_detect'}
+[0.000145] (-) JobUnselected: {'identifier': 'video_trial_node'}
+[0.000153] (rm_armor_detect) JobQueued: {'identifier': 'rm_armor_detect', 'dependencies': OrderedDict()}
+[0.000163] (rm_armor_detect) JobStarted: {'identifier': 'rm_armor_detect'}
+[0.007334] (rm_armor_detect) JobProgress: {'identifier': 'rm_armor_detect', 'progress': 'cmake'}
+[0.007991] (rm_armor_detect) JobProgress: {'identifier': 'rm_armor_detect', 'progress': 'build'}
+[0.008413] (rm_armor_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_armor_detect', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_armor_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32::/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.1.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c7adb2f6-c49f-4bc5-82ae-be28ff5f059f.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1534_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_armor_detect'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.059283] (rm_armor_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_detect_main\x1b[0m\n'}
+[0.059961] (rm_armor_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_detect_component\x1b[0m\n'}
+[0.064285] (rm_armor_detect) StdoutLine: {'line': b'[ 28%] Built target armor_detect\n'}
+[0.068504] (rm_armor_detect) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o\x1b[0m\n'}
+[0.068810] (rm_armor_detect) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o\x1b[0m\n'}
+[0.099038] (-) TimerEvent: {}
+[0.199280] (-) TimerEvent: {}
+[0.299532] (-) TimerEvent: {}
+[0.399778] (-) TimerEvent: {}
+[0.500020] (-) TimerEvent: {}
+[0.600400] (-) TimerEvent: {}
+[0.700666] (-) TimerEvent: {}
+[0.800947] (-) TimerEvent: {}
+[0.901282] (-) TimerEvent: {}
+[1.001588] (-) TimerEvent: {}
+[1.101942] (-) TimerEvent: {}
+[1.202331] (-) TimerEvent: {}
+[1.302632] (-) TimerEvent: {}
+[1.402988] (-) TimerEvent: {}
+[1.503377] (-) TimerEvent: {}
+[1.603669] (-) TimerEvent: {}
+[1.703976] (-) TimerEvent: {}
+[1.804242] (-) TimerEvent: {}
+[1.904511] (-) TimerEvent: {}
+[2.004791] (-) TimerEvent: {}
+[2.105074] (-) TimerEvent: {}
+[2.205367] (-) TimerEvent: {}
+[2.305657] (-) TimerEvent: {}
+[2.405951] (-) TimerEvent: {}
+[2.506222] (-) TimerEvent: {}
+[2.606662] (-) TimerEvent: {}
+[2.695391] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rm_armor_detect::ArmorDetectNode::init_model()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.695533] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:108:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kinput_type\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.695573] (rm_armor_detect) StderrLine: {'line': b'  108 |     ov::element::Type \x1b[01;35m\x1b[Kinput_type\x1b[m\x1b[K = ov::element::f32;\n'}
+[2.695604] (rm_armor_detect) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.695632] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rm_armor_detect::ArmorDetectNode::init_model()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.695661] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:108:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kinput_type\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.695689] (rm_armor_detect) StderrLine: {'line': b'  108 |     ov::element::Type \x1b[01;35m\x1b[Kinput_type\x1b[m\x1b[K = ov::element::f32;\n'}
+[2.695714] (rm_armor_detect) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.706776] (-) TimerEvent: {}
+[2.807103] (-) TimerEvent: {}
+[2.907449] (-) TimerEvent: {}
+[3.007750] (-) TimerEvent: {}
+[3.108060] (-) TimerEvent: {}
+[3.208337] (-) TimerEvent: {}
+[3.308693] (-) TimerEvent: {}
+[3.408970] (-) TimerEvent: {}
+[3.509332] (-) TimerEvent: {}
+[3.609643] (-) TimerEvent: {}
+[3.709910] (-) TimerEvent: {}
+[3.810291] (-) TimerEvent: {}
+[3.910577] (-) TimerEvent: {}
+[4.010917] (-) TimerEvent: {}
+[4.111272] (-) TimerEvent: {}
+[4.211552] (-) TimerEvent: {}
+[4.311899] (-) TimerEvent: {}
+[4.412163] (-) TimerEvent: {}
+[4.512424] (-) TimerEvent: {}
+[4.612708] (-) TimerEvent: {}
+[4.712968] (-) TimerEvent: {}
+[4.813245] (-) TimerEvent: {}
+[4.913523] (-) TimerEvent: {}
+[5.013818] (-) TimerEvent: {}
+[5.114092] (-) TimerEvent: {}
+[5.214483] (-) TimerEvent: {}
+[5.314761] (-) TimerEvent: {}
+[5.415085] (-) TimerEvent: {}
+[5.515356] (-) TimerEvent: {}
+[5.615628] (-) TimerEvent: {}
+[5.715895] (-) TimerEvent: {}
+[5.816199] (-) TimerEvent: {}
+[5.916464] (-) TimerEvent: {}
+[6.016775] (-) TimerEvent: {}
+[6.117037] (-) TimerEvent: {}
+[6.217396] (-) TimerEvent: {}
+[6.317715] (-) TimerEvent: {}
+[6.418089] (-) TimerEvent: {}
+[6.518337] (-) TimerEvent: {}
+[6.618646] (-) TimerEvent: {}
+[6.718996] (-) TimerEvent: {}
+[6.819332] (-) TimerEvent: {}
+[6.919634] (-) TimerEvent: {}
+[7.019900] (-) TimerEvent: {}
+[7.120196] (-) TimerEvent: {}
+[7.220455] (-) TimerEvent: {}
+[7.320737] (-) TimerEvent: {}
+[7.421026] (-) TimerEvent: {}
+[7.521304] (-) TimerEvent: {}
+[7.579303] (rm_armor_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.579429] (rm_armor_detect) StderrLine: {'line': b'In copy constructor \xe2\x80\x98\x1b[01m\x1b[Krm_armor_detect::ArmorBox::ArmorBox(const rm_armor_detect::ArmorBox&)\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[7.579462] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rm_armor_detect::ArmorBox; _Args = {const rm_armor_detect::ArmorBox&}; _Tp = rm_armor_detect::ArmorBox]\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:4\x1b[m\x1b[K,\n'}
+[7.579507] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rm_armor_detect::ArmorBox; _Args = {const rm_armor_detect::ArmorBox&}; _Tp = rm_armor_detect::ArmorBox]\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17\x1b[m\x1b[K,\n'}
+[7.579540] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rm_armor_detect::ArmorBox; _Alloc = std::allocator<rm_armor_detect::ArmorBox>]\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1192:30\x1b[m\x1b[K,\n'}
+[7.579569] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:312:23\x1b[m\x1b[K:\n'}
+[7.579596] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:21:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karmor.rm_armor_detect::ArmorBox::class_id\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.579650] (rm_armor_detect) StderrLine: {'line': b'   21 | struct \x1b[01;35m\x1b[KArmorBox\x1b[m\x1b[K {\n'}
+[7.579682] (rm_armor_detect) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.579708] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.579735] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:296:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karmor\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.579765] (rm_armor_detect) StderrLine: {'line': b'  296 |       ArmorBox \x1b[01;36m\x1b[Karmor\x1b[m\x1b[K;\n'}
+[7.579790] (rm_armor_detect) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.588629] (rm_armor_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.588728] (rm_armor_detect) StderrLine: {'line': b'In copy constructor \xe2\x80\x98\x1b[01m\x1b[Krm_armor_detect::ArmorBox::ArmorBox(const rm_armor_detect::ArmorBox&)\x1b[m\x1b[K\xe2\x80\x99,\n'}
+[7.588765] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = rm_armor_detect::ArmorBox; _Args = {const rm_armor_detect::ArmorBox&}; _Tp = rm_armor_detect::ArmorBox]\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:4\x1b[m\x1b[K,\n'}
+[7.588795] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = rm_armor_detect::ArmorBox; _Args = {const rm_armor_detect::ArmorBox&}; _Tp = rm_armor_detect::ArmorBox]\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17\x1b[m\x1b[K,\n'}
+[7.588825] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = rm_armor_detect::ArmorBox; _Alloc = std::allocator<rm_armor_detect::ArmorBox>]\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1192:30\x1b[m\x1b[K,\n'}
+[7.588852] (rm_armor_detect) StderrLine: {'line': b'    inlined from \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99 at \x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:312:23\x1b[m\x1b[K:\n'}
+[7.588878] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:21:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karmor.rm_armor_detect::ArmorBox::class_id\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized\x07-Wmaybe-uninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.588905] (rm_armor_detect) StderrLine: {'line': b'   21 | struct \x1b[01;35m\x1b[KArmorBox\x1b[m\x1b[K {\n'}
+[7.588929] (rm_armor_detect) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.588954] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.588979] (rm_armor_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:296:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Karmor\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.589034] (rm_armor_detect) StderrLine: {'line': b'  296 |       ArmorBox \x1b[01;36m\x1b[Karmor\x1b[m\x1b[K;\n'}
+[7.589068] (rm_armor_detect) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.621422] (-) TimerEvent: {}
+[7.721741] (-) TimerEvent: {}
+[7.822074] (-) TimerEvent: {}
+[7.922343] (-) TimerEvent: {}
+[8.022674] (-) TimerEvent: {}
+[8.122940] (-) TimerEvent: {}
+[8.223256] (-) TimerEvent: {}
+[8.323514] (-) TimerEvent: {}
+[8.423857] (-) TimerEvent: {}
+[8.524158] (-) TimerEvent: {}
+[8.624407] (-) TimerEvent: {}
+[8.724662] (-) TimerEvent: {}
+[8.824962] (-) TimerEvent: {}
+[8.925251] (-) TimerEvent: {}
+[9.012068] (rm_armor_detect) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libarmor_detect_component.so\x1b[0m\n'}
+[9.012249] (rm_armor_detect) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable armor_detect_main\x1b[0m\n'}
+[9.025348] (-) TimerEvent: {}
+[9.125607] (-) TimerEvent: {}
+[9.225872] (-) TimerEvent: {}
+[9.326144] (-) TimerEvent: {}
+[9.341292] (rm_armor_detect) StdoutLine: {'line': b'[ 85%] Built target armor_detect_component\n'}
+[9.426312] (-) TimerEvent: {}
+[9.526763] (-) TimerEvent: {}
+[9.568038] (rm_armor_detect) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[9.568244] (rm_armor_detect) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[9.588494] (rm_armor_detect) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.591290] (rm_armor_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armor_detect_main.dir/build.make:260\xef\xbc\x9aarmor_detect_main] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[9.591471] (rm_armor_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141\xef\xbc\x9aCMakeFiles/armor_detect_main.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.591644] (rm_armor_detect) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[9.593073] (rm_armor_detect) CommandEnded: {'returncode': 2}
+[9.608820] (rm_armor_detect) JobEnded: {'identifier': 'rm_armor_detect', 'rc': 2}
+[9.609581] (-) EventReactorShutdown: {}

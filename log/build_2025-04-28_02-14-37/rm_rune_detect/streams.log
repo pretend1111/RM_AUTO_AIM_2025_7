@@ -1,0 +1,102 @@
+[0.011s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[0.044s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.146s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.481s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.484s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.490s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.546s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[67.310s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[67.360s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[67.377s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[67.405s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[67.413s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[79.598s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[79.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[79.645s] -- Configured cppcheck include dirs: /home/pretend/code/src/rm_rune_detect/include
+[79.645s] -- Configured cppcheck exclude dirs and/or files: 
+[79.645s] -- Added test 'flake8' to check Python code syntax and style conventions
+[79.646s] -- Added test 'lint_cmake' to check CMake code style
+[79.646s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[79.647s] -- Added test 'uncrustify' to check C / C++ code style
+[79.647s] -- Configured uncrustify additional arguments: 
+[79.647s] -- Added test 'xmllint' to check XML markup files
+[79.649s] -- Configuring done
+[79.665s] -- Generating done
+[79.669s] -- Build files have been written to: /home/pretend/code/build/rm_rune_detect
+[79.685s] [35m[1mConsolidate compiler generated dependencies of target rm_rune_detect[0m
+[79.686s] [35m[1mConsolidate compiler generated dependencies of target rune_detect_node[0m
+[79.698s] [  9%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o[0m
+[79.698s] [ 18%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/preprocess.cpp.o[0m
+[79.698s] [ 27%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/rune_detect_node.cpp.o[0m
+[79.698s] [ 36%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_main.cpp.o[0m
+[79.698s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/optimization.cpp.o[0m
+[79.698s] [ 54%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_node.cpp.o[0m
+[79.699s] [ 63%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o[0m
+[79.699s] [ 72%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/optimization.cpp.o[0m
+[79.700s] [ 81%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/preprocess.cpp.o[0m
+[81.809s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kvoid rm_rune_detect::OpenvinoDetect::initializeModel(const string&)[m[K’:
+[81.809s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:95:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.809s]    95 |                 const auto& [01;35m[Kshape[m[K = input.get_shape();
+[81.809s]       |                             [01;35m[K^~~~~[m[K
+[81.809s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:105:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.809s]   105 |                 const auto& [01;35m[Kshape[m[K = output.get_shape();
+[81.809s]       |                             [01;35m[K^~~~~[m[K
+[81.814s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kvoid rm_rune_detect::OpenvinoDetect::initializeModel(const string&)[m[K’:
+[81.814s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:95:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.814s]    95 |                 const auto& [01;35m[Kshape[m[K = input.get_shape();
+[81.814s]       |                             [01;35m[K^~~~~[m[K
+[81.814s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:105:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.814s]   105 |                 const auto& [01;35m[Kshape[m[K = output.get_shape();
+[81.814s]       |                             [01;35m[K^~~~~[m[K
+[81.815s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)[m[K’:
+[81.815s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.815s]   389 |                 float [01;35m[Kcenter_x[m[K = (x1 + x2) / 2.0f;
+[81.815s]       |                       [01;35m[K^~~~~~~~[m[K
+[81.815s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.815s]   390 |                 float [01;35m[Kcenter_y[m[K = (y1 + y2) / 2.0f;
+[81.815s]       |                       [01;35m[K^~~~~~~~[m[K
+[81.820s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)[m[K’:
+[81.820s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.820s]   389 |                 float [01;35m[Kcenter_x[m[K = (x1 + x2) / 2.0f;
+[81.820s]       |                       [01;35m[K^~~~~~~~[m[K
+[81.820s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[81.820s]   390 |                 float [01;35m[Kcenter_y[m[K = (y1 + y2) / 2.0f;
+[81.820s]       |                       [01;35m[K^~~~~~~~[m[K
+[90.648s] [ 90%] [32m[1mLinking CXX executable rune_detect_node[0m
+[90.660s] [100%] [32m[1mLinking CXX shared library librm_rune_detect.so[0m
+[91.360s] [100%] Built target rm_rune_detect
+[91.531s] [100%] Built target rune_detect_node
+[91.537s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[91.538s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect
+[91.542s] -- Install configuration: ""
+[91.542s] -- Execute custom install script
+[91.542s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/rm_rune_detect/rune_detect_node
+[91.542s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/librm_rune_detect.so
+[91.543s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/common_types.hpp
+[91.543s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/openvino_detect.hpp
+[91.544s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/optimization.hpp
+[91.548s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/preprocess.hpp
+[91.548s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/rune_detect_node.hpp
+[91.548s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/models/rune_detect_320.onnx
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/launch/rune_detect.launch.py
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/package_run_dependencies/rm_rune_detect
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/parent_prefix_path/rm_rune_detect
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.sh
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.dsv
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.sh
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.dsv
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.bash
+[91.549s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.sh
+[91.550s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.zsh
+[91.550s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.dsv
+[91.550s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv
+[91.553s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/packages/rm_rune_detect
+[91.554s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/rclcpp_components/rm_rune_detect
+[91.554s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig.cmake
+[91.554s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig-version.cmake
+[91.554s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.xml
+[91.555s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect

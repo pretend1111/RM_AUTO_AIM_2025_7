@@ -1,0 +1,148 @@
+[0.686s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rm_rune_detect', '--symlink-install', '--event-handlers', 'console_direct+']
+[0.686s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rm_rune_detect'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9a13fafd60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9a13faf430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9a13faf430>>)
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.782s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pretend/code'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_rune_detect) by extension 'ros'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_rune_detect' with type 'ros.ament_cmake' and name 'rm_rune_detect'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-hik-camera-main) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-hik-camera-main' with type 'ros.ament_cmake' and name 'hik_camera'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/video_trial_node) by extension 'ros'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/video_trial_node' with type 'ros.ament_cmake' and name 'video_trial_node'
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.806s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hik_camera' in 'src/ros2-hik-camera-main'
+[0.806s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'video_trial_node' in 'src/video_trial_node'
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.807s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/humble
+[0.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'cmake_args' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'cmake_target' from command line to 'None'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'cmake_clean_first' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'cmake_force_configure' from command line to 'False'
+[0.832s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'ament_cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.833s] Level 5:colcon.colcon_core.verb:set package 'rm_rune_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.833s] DEBUG:colcon.colcon_core.verb:Building package 'rm_rune_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretend/code/build/rm_rune_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretend/code/install/rm_rune_detect', 'merge_install': False, 'path': '/home/pretend/code/src/rm_rune_detect', 'symlink_install': True, 'test_result_base': None}
+[0.833s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.833s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.833s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretend/code/src/rm_rune_detect' with build type 'ament_cmake'
+[0.834s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretend/code/src/rm_rune_detect'
+[0.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.835s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.835s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/rm_rune_detect -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_rune_detect
+[44.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/rm_rune_detect -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_rune_detect
+[44.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[46.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[46.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_rune_detect)
+[46.504s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect' for CMake module files
+[46.505s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect' for CMake config files
+[46.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_rune_detect', 'cmake_prefix_path')
+[46.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.ps1'
+[46.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.dsv'
+[46.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.sh'
+[46.506s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect/lib'
+[46.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_rune_detect', 'ld_library_path_lib')
+[46.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.ps1'
+[46.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.dsv'
+[46.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.sh'
+[46.507s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect/bin'
+[46.507s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect/lib/pkgconfig/rm_rune_detect.pc'
+[46.507s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect/lib/python3.10/site-packages'
+[46.507s] Level 1:colcon.colcon_core.environment:checking '/home/pretend/code/install/rm_rune_detect/bin'
+[46.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.ps1'
+[46.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv'
+[46.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.sh'
+[46.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.bash'
+[46.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.zsh'
+[46.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretend/code/install/rm_rune_detect/share/colcon-core/packages/rm_rune_detect)
+[46.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[46.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[46.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[46.520s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[46.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[46.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[46.524s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[46.527s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[46.527s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretend/code/install/local_setup.ps1'
+[46.528s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pretend/code/install/_local_setup_util_ps1.py'
+[46.529s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretend/code/install/setup.ps1'
+[46.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretend/code/install/local_setup.sh'
+[46.530s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pretend/code/install/_local_setup_util_sh.py'
+[46.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretend/code/install/setup.sh'
+[46.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretend/code/install/local_setup.bash'
+[46.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretend/code/install/setup.bash'
+[46.531s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretend/code/install/local_setup.zsh'
+[46.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretend/code/install/setup.zsh'

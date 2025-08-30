@@ -1,0 +1,23 @@
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_main.cpp:3[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: 没有那个文件或目录
+    6 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: 没有那个文件或目录
+    6 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: 没有那个文件或目录
+    6 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/armor_detect_main.dir/build.make:90：CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/armor_detect_main.dir/build.make:76：CMakeFiles/armor_detect_main.dir/src/armor_detect_main.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/armor_detect_component.dir/build.make:76：CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/armor_detect_main.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/armor_detect_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,4 @@
+Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker
+Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker

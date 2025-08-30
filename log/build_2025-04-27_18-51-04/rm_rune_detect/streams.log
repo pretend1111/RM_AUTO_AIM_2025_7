@@ -1,0 +1,38 @@
+[0.008s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target rm_rune_detect[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target rune_detect_node[0m
+[0.055s] [ 11%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o[0m
+[0.057s] [ 22%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o[0m
+[2.121s] [ 44%] [32m[1mLinking CXX shared library librm_rune_detect.so[0m
+[2.121s] [ 44%] [32m[1mLinking CXX executable rune_detect_node[0m
+[3.004s] [ 66%] Built target rm_rune_detect
+[3.162s] [100%] Built target rune_detect_node
+[3.187s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[3.202s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect
+[3.211s] -- Install configuration: ""
+[3.211s] -- Execute custom install script
+[3.212s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/lib/rm_rune_detect/rune_detect_node
+[3.223s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/lib/librm_rune_detect.so
+[3.236s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/common_types.hpp
+[3.244s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/openvino_detect.hpp
+[3.250s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/preprocess.hpp
+[3.257s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/rune_detect_node.hpp
+[3.264s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/models/rune_detect_320.onnx
+[3.274s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/launch/rune_detect.launch.py
+[3.281s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/package_run_dependencies/rm_rune_detect
+[3.287s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/parent_prefix_path/rm_rune_detect
+[3.295s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.sh
+[3.303s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.dsv
+[3.309s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.sh
+[3.316s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.dsv
+[3.325s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.bash
+[3.333s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.sh
+[3.341s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.zsh
+[3.348s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.dsv
+[3.356s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv
+[3.364s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/packages/rm_rune_detect
+[3.370s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/rclcpp_components/rm_rune_detect
+[3.375s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig.cmake
+[3.380s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig-version.cmake
+[3.385s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.xml
+[3.390s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect

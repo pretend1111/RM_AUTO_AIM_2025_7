@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_node[0m
+[0.053s] [ 16%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[0.058s] [ 50%] Built target video_subscriber_node
+[3.329s] [ 66%] [32m[1mLinking CXX shared library libvideo_subscriber_component.so[0m
+[3.604s] [ 66%] Built target video_subscriber_component
+[3.611s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_main[0m
+[3.622s] [ 83%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[4.031s] [100%] Built target video_subscriber_main
+[4.038s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[4.039s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[4.044s] -- Install configuration: "Release"
+[4.044s] -- Execute custom install script
+[4.044s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_node
+[4.044s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/video_subscriber_node.hpp
+[4.044s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/libvideo_subscriber_component.so
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_main
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[4.045s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[4.046s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[4.046s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[4.046s] -- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[4.052s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[4.052s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[4.052s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[4.052s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[4.053s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[4.054s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

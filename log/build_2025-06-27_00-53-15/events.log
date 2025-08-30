@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000566] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000600] (-) JobUnselected: {'identifier': 'rm_armor_tracker'}
+[0.000625] (-) JobUnselected: {'identifier': 'video_trial_node'}
+[0.000650] (rm_rune_detect) JobQueued: {'identifier': 'rm_rune_detect', 'dependencies': OrderedDict()}
+[0.000676] (rm_rune_detect) JobStarted: {'identifier': 'rm_rune_detect'}
+[0.005579] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'cmake'}
+[0.006221] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '/home/pretend/code/src/rm_rune_detect', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_rune_detect'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025/runtime/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32::/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src/rm_rune_detect'), ('TERM_PROGRAM_VERSION', '1.1.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-80fc19a4-917c-460e-8bfa-c79390a96d0c.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('OPENVINO_LOG_LEVEL', '1'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '32'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.022073] (rm_rune_detect) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099593] (-) TimerEvent: {}
+[0.105076] (rm_rune_detect) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.109179] (rm_rune_detect) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199721] (-) TimerEvent: {}
+[0.300011] (-) TimerEvent: {}
+[0.320952] (rm_rune_detect) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.322314] (rm_rune_detect) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.326289] (rm_rune_detect) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.331906] (rm_rune_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.340310] (rm_rune_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.359497] (rm_rune_detect) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.360497] (rm_rune_detect) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400133] (-) TimerEvent: {}
+[0.500437] (-) TimerEvent: {}
+[0.600753] (-) TimerEvent: {}
+[0.701173] (-) TimerEvent: {}
+[0.801496] (-) TimerEvent: {}
+[0.901825] (-) TimerEvent: {}
+[1.002169] (-) TimerEvent: {}
+[1.102482] (-) TimerEvent: {}
+[1.202772] (-) TimerEvent: {}
+[1.303115] (-) TimerEvent: {}
+[1.403408] (-) TimerEvent: {}
+[1.503735] (-) TimerEvent: {}
+[1.604046] (-) TimerEvent: {}
+[1.704357] (-) TimerEvent: {}
+[1.804648] (-) TimerEvent: {}
+[1.904973] (-) TimerEvent: {}
+[2.005272] (-) TimerEvent: {}
+[2.105556] (-) TimerEvent: {}
+[2.205913] (-) TimerEvent: {}
+[2.306187] (-) TimerEvent: {}
+[2.406481] (-) TimerEvent: {}
+[2.506775] (-) TimerEvent: {}
+[2.607102] (-) TimerEvent: {}
+[2.707382] (-) TimerEvent: {}
+[2.807768] (-) TimerEvent: {}
+[2.908064] (-) TimerEvent: {}
+[3.008362] (-) TimerEvent: {}
+[3.108651] (-) TimerEvent: {}
+[3.208925] (-) TimerEvent: {}
+[3.309338] (-) TimerEvent: {}
+[3.409676] (-) TimerEvent: {}
+[3.509995] (-) TimerEvent: {}
+[3.610324] (-) TimerEvent: {}
+[3.710631] (-) TimerEvent: {}
+[3.810943] (-) TimerEvent: {}
+[3.911272] (-) TimerEvent: {}
+[4.011575] (-) TimerEvent: {}
+[4.111868] (-) TimerEvent: {}
+[4.212152] (-) TimerEvent: {}
+[4.312502] (-) TimerEvent: {}
+[4.412819] (-) TimerEvent: {}
+[4.513152] (-) TimerEvent: {}
+[4.613484] (-) TimerEvent: {}
+[4.713755] (-) TimerEvent: {}
+[4.814098] (-) TimerEvent: {}
+[4.914543] (-) TimerEvent: {}
+[5.014878] (-) TimerEvent: {}
+[5.115184] (-) TimerEvent: {}
+[5.215500] (-) TimerEvent: {}
+[5.315785] (-) TimerEvent: {}
+[5.416067] (-) TimerEvent: {}
+[5.516379] (-) TimerEvent: {}
+[5.616817] (-) TimerEvent: {}
+[5.717096] (-) TimerEvent: {}
+[5.817398] (-) TimerEvent: {}
+[5.917720] (-) TimerEvent: {}
+[6.018034] (-) TimerEvent: {}
+[6.118324] (-) TimerEvent: {}
+[6.218609] (-) TimerEvent: {}
+[6.318876] (-) TimerEvent: {}
+[6.419155] (-) TimerEvent: {}
+[6.519491] (-) TimerEvent: {}
+[6.619909] (-) TimerEvent: {}
+[6.720383] (-) TimerEvent: {}
+[6.820694] (-) TimerEvent: {}
+[6.921001] (-) TimerEvent: {}
+[7.021348] (-) TimerEvent: {}
+[7.121697] (-) TimerEvent: {}
+[7.221987] (-) TimerEvent: {}
+[7.322287] (-) TimerEvent: {}
+[7.422599] (-) TimerEvent: {}
+[7.522950] (-) TimerEvent: {}
+[7.623240] (-) TimerEvent: {}
+[7.723545] (-) TimerEvent: {}
+[7.823872] (-) TimerEvent: {}
+[7.924171] (-) TimerEvent: {}
+[8.024468] (-) TimerEvent: {}
+[8.124760] (-) TimerEvent: {}
+[8.225076] (-) TimerEvent: {}
+[8.325375] (-) TimerEvent: {}
+[8.425708] (-) TimerEvent: {}
+[8.526053] (-) TimerEvent: {}
+[8.626419] (-) TimerEvent: {}
+[8.726795] (-) TimerEvent: {}
+[8.827088] (-) TimerEvent: {}
+[8.927378] (-) TimerEvent: {}
+[9.027733] (-) TimerEvent: {}
+[9.128083] (-) TimerEvent: {}
+[9.228358] (-) TimerEvent: {}
+[9.328670] (-) TimerEvent: {}
+[9.429061] (-) TimerEvent: {}
+[9.529337] (-) TimerEvent: {}
+[9.629632] (-) TimerEvent: {}
+[9.729930] (-) TimerEvent: {}
+[9.830235] (-) TimerEvent: {}
+[9.930518] (-) TimerEvent: {}
+[10.030818] (-) TimerEvent: {}
+[10.131123] (-) TimerEvent: {}
+[10.231421] (-) TimerEvent: {}
+[10.331756] (-) TimerEvent: {}
+[10.432045] (-) TimerEvent: {}
+[10.532360] (-) TimerEvent: {}
+[10.632682] (-) TimerEvent: {}
+[10.732994] (-) TimerEvent: {}
+[10.833288] (-) TimerEvent: {}
+[10.933581] (-) TimerEvent: {}
+[11.033922] (-) TimerEvent: {}
+[11.134226] (-) TimerEvent: {}
+[11.234534] (-) TimerEvent: {}
+[11.259398] (rm_rune_detect) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.286743] (rm_rune_detect) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[11.296396] (rm_rune_detect) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.314267] (rm_rune_detect) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[11.319521] (rm_rune_detect) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[11.334651] (-) TimerEvent: {}
+[11.434946] (-) TimerEvent: {}
+[11.535263] (-) TimerEvent: {}
+[11.635676] (-) TimerEvent: {}
+[11.735981] (-) TimerEvent: {}
+[11.836268] (-) TimerEvent: {}
+[11.936591] (-) TimerEvent: {}
+[12.037063] (-) TimerEvent: {}
+[12.137381] (-) TimerEvent: {}
+[12.237674] (-) TimerEvent: {}
+[12.338082] (-) TimerEvent: {}
+[12.438362] (-) TimerEvent: {}
+[12.538654] (-) TimerEvent: {}
+[12.638950] (-) TimerEvent: {}
+[12.739237] (-) TimerEvent: {}
+[12.839531] (-) TimerEvent: {}
+[12.939835] (-) TimerEvent: {}
+[13.040159] (-) TimerEvent: {}
+[13.140544] (-) TimerEvent: {}
+[13.240868] (-) TimerEvent: {}
+[13.341188] (-) TimerEvent: {}
+[13.441509] (-) TimerEvent: {}
+[13.542006] (-) TimerEvent: {}
+[13.642302] (-) TimerEvent: {}
+[13.742765] (-) TimerEvent: {}
+[13.843052] (-) TimerEvent: {}
+[13.943484] (-) TimerEvent: {}
+[14.043784] (-) TimerEvent: {}
+[14.080116] (rm_rune_detect) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.125452] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.125767] (rm_rune_detect) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pretend/code/src/rm_rune_detect/include\n'}
+[14.125836] (rm_rune_detect) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.125870] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.126098] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.126308] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.126661] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.126707] (rm_rune_detect) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.126960] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.127585] (rm_rune_detect) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.141652] (rm_rune_detect) StdoutLine: {'line': b'-- Generating done\n'}
+[14.143912] (-) TimerEvent: {}
+[14.145655] (rm_rune_detect) StdoutLine: {'line': b'-- Build files have been written to: /home/pretend/code/build/rm_rune_detect\n'}
+[14.152400] (rm_rune_detect) CommandEnded: {'returncode': 0}
+[14.154348] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'build'}
+[14.154365] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_rune_detect', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025/runtime/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32::/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src/rm_rune_detect'), ('TERM_PROGRAM_VERSION', '1.1.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-80fc19a4-917c-460e-8bfa-c79390a96d0c.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('OPENVINO_LOG_LEVEL', '1'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '32'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[14.181120] (rm_rune_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_rune_detect\x1b[0m\n'}
+[14.181716] (rm_rune_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rune_detect_node\x1b[0m\n'}
+[14.196490] (rm_rune_detect) StdoutLine: {'line': b'[ 44%] Built target rm_rune_detect\n'}
+[14.197500] (rm_rune_detect) StdoutLine: {'line': b'[100%] Built target rune_detect_node\n'}
+[14.204434] (rm_rune_detect) CommandEnded: {'returncode': 0}
+[14.205558] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'install'}
+[14.211286] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pretend/code/build/rm_rune_detect'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025/runtime/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32::/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src/rm_rune_detect'), ('TERM_PROGRAM_VERSION', '1.1.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-80fc19a4-917c-460e-8bfa-c79390a96d0c.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('OPENVINO_LOG_LEVEL', '1'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '1'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('OMP_NUM_THREADS', '32'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[14.215533] (rm_rune_detect) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[14.215895] (rm_rune_detect) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.216003] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/rm_rune_detect/rune_detect_node\n'}
+[14.216041] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/librm_rune_detect.so\n'}
+[14.216182] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/common_types.hpp\n'}
+[14.216299] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/openvino_detect.hpp\n'}
+[14.216407] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/preprocess.hpp\n'}
+[14.216437] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/rune_detect_node.hpp\n'}
+[14.216519] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/models/rune_detect_320.onnx\n'}
+[14.216639] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/launch/rune_detect.launch.py\n'}
+[14.216720] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/package_run_dependencies/rm_rune_detect\n'}
+[14.216949] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/parent_prefix_path/rm_rune_detect\n'}
+[14.217024] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.sh\n'}
+[14.217112] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.dsv\n'}
+[14.217232] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.sh\n'}
+[14.217315] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.dsv\n'}
+[14.217389] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.bash\n'}
+[14.217593] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.sh\n'}
+[14.217664] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.zsh\n'}
+[14.217692] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.dsv\n'}
+[14.217715] (rm_rune_detect) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv\n'}
+[14.222740] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/packages/rm_rune_detect\n'}
+[14.222843] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/rclcpp_components/rm_rune_detect\n'}
+[14.222955] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig.cmake\n'}
+[14.222995] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig-version.cmake\n'}
+[14.223020] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.xml\n'}
+[14.223925] (rm_rune_detect) CommandEnded: {'returncode': 0}
+[14.233855] (rm_rune_detect) JobEnded: {'identifier': 'rm_rune_detect', 'rc': 0}
+[14.234534] (-) EventReactorShutdown: {}

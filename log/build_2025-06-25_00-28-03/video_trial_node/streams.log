@@ -1,0 +1,7 @@
+[0.023s] Invoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32
+[0.125s] [ 20%] [32mBuilding CXX object CMakeFiles/video_publisher_node.dir/src/video_publisher_node.cpp.o[0m
+[0.125s] [ 40%] [32mBuilding CXX object CMakeFiles/video_trial_node.dir/src/video_publisher_node.cpp.o[0m
+[3.419s] [ 60%] [32m[1mLinking CXX executable video_publisher_node[0m
+[3.426s] [ 80%] [32m[1mLinking CXX shared library libvideo_trial_node.so[0m
+[3.582s] [ 80%] Built target video_trial_node
+[3.913s] [100%] Built target video_publisher_node

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-9c818e73d0fef8a36427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_armor_tracker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_tracker_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_tracker_component-Release-4f7242cf94f1329b6b28.json",
+					"name" : "armor_tracker_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "armor_tracker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-armor_tracker_node-Release-959d3239fc56913fd280.json",
+					"name" : "armor_tracker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_tracker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_tracker_uninstall-Release-987d1fab12d7bfac43ff.json",
+					"name" : "rm_armor_tracker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a7d2477a36d0743e275c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pretend/code/build/rm_armor_tracker",
+		"source" : "/home/pretend/code/src/rm_armor_tracker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

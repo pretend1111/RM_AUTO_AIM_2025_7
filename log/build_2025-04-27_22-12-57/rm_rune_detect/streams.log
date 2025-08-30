@@ -1,0 +1,52 @@
+[0.009s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[0.062s] Consolidate compiler generated dependencies of target rm_rune_detect
+[0.064s] Consolidate compiler generated dependencies of target rune_detect_node
+[0.069s] [ 11%] Building CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o
+[0.071s] [ 22%] Building CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o
+[1.280s] /home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp: In member function ‘std::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)’:
+[1.280s] /home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23: warning: unused variable ‘center_x’ [-Wunused-variable]
+[1.280s]   389 |                 float center_x = (x1 + x2) / 2.0f;
+[1.280s]       |                       ^~~~~~~~
+[1.280s] /home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23: warning: unused variable ‘center_y’ [-Wunused-variable]
+[1.280s]   390 |                 float center_y = (y1 + y2) / 2.0f;
+[1.280s]       |                       ^~~~~~~~
+[1.281s] /home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp: In member function ‘std::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)’:
+[1.281s] /home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23: warning: unused variable ‘center_x’ [-Wunused-variable]
+[1.281s]   389 |                 float center_x = (x1 + x2) / 2.0f;
+[1.281s]       |                       ^~~~~~~~
+[1.281s] /home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23: warning: unused variable ‘center_y’ [-Wunused-variable]
+[1.281s]   390 |                 float center_y = (y1 + y2) / 2.0f;
+[1.281s]       |                       ^~~~~~~~
+[1.913s] [ 33%] Linking CXX shared library librm_rune_detect.so
+[1.913s] [ 44%] Linking CXX executable rune_detect_node
+[2.721s] [ 66%] Built target rm_rune_detect
+[3.199s] [100%] Built target rune_detect_node
+[3.205s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[3.211s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect
+[3.215s] -- Install configuration: ""
+[3.216s] -- Execute custom install script
+[3.216s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/rm_rune_detect/rune_detect_node
+[3.217s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/librm_rune_detect.so
+[3.217s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/common_types.hpp
+[3.218s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/openvino_detect.hpp
+[3.218s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/preprocess.hpp
+[3.218s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/rune_detect_node.hpp
+[3.219s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/models/rune_detect_320.onnx
+[3.220s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/launch/rune_detect.launch.py
+[3.220s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/package_run_dependencies/rm_rune_detect
+[3.220s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/parent_prefix_path/rm_rune_detect
+[3.220s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.sh
+[3.221s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.dsv
+[3.221s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.sh
+[3.221s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.dsv
+[3.222s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.bash
+[3.222s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.sh
+[3.222s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.zsh
+[3.222s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.dsv
+[3.223s] -- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv
+[3.227s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/packages/rm_rune_detect
+[3.227s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/rclcpp_components/rm_rune_detect
+[3.227s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig.cmake
+[3.227s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig-version.cmake
+[3.227s] -- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.xml
+[3.228s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect

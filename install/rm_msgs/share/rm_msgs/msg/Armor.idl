@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_msgs/msg/Armor.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rm_msgs {
+  module msg {
+    struct Armor {
+      std_msgs::msg::Header header;
+
+      int8 id;
+
+      string name;
+
+      string type;
+
+      float distance_to_image_center;
+
+      double c_to_a_pitch;
+
+      geometry_msgs::msg::Pose pose;
+
+      boolean is_repeat;
+    };
+  };
+};

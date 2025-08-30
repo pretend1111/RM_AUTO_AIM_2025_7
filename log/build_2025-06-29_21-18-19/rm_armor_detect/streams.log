@@ -1,0 +1,17 @@
+[0.014s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[0.052s] [ 28%] Built target video_subscriber_node
+[0.061s] [ 42%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[8.899s] [ 57%] [32m[1mLinking CXX shared library libvideo_subscriber_component.so[0m
+[9.266s] [ 71%] Built target video_subscriber_component
+[9.281s] [ 85%] [32mBuilding CXX object CMakeFiles/video_subscriber_main.dir/src/video_subscriber_main.cpp.o[0m
+[12.732s] [100%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[13.223s] /usr/bin/ld: libvideo_subscriber_component.so: undefined reference to `rm_armor_detect::SimpleLightsDetector::process_detections(cv::Mat const&, std::vector<rm_armor_detect::Detection, std::allocator<rm_armor_detect::Detection> > const&)'
+[13.225s] /usr/bin/ld: libvideo_subscriber_component.so: undefined reference to `rm_armor_detect::SimpleLightsDetector::drawResults(cv::Mat&, std::vector<rm_armor_detect::Light, std::allocator<rm_armor_detect::Light> > const&, std::vector<rm_armor_detect::Armor, std::allocator<rm_armor_detect::Armor> > const&)'
+[13.227s] /usr/bin/ld: libvideo_subscriber_component.so: undefined reference to `rm_armor_detect::SimpleLightsDetector::initNumberClassifier(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)'
+[13.228s] /usr/bin/ld: libvideo_subscriber_component.so: undefined reference to `rm_armor_detect::SimpleLightsDetector::SimpleLightsDetector(int, int)'
+[13.236s] collect2: error: ld returned 1 exit status
+[13.237s] gmake[2]: *** [CMakeFiles/video_subscriber_main.dir/build.make:245：video_subscriber_main] 错误 1
+[13.238s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/video_subscriber_main.dir/all] 错误 2
+[13.238s] gmake: *** [Makefile:146：all] 错误 2
+[13.239s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32

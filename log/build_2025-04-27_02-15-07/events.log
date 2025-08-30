@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000422] (-) JobUnselected: {'identifier': 'video_trial_node'}
+[0.000443] (rm_rune_detect) JobQueued: {'identifier': 'rm_rune_detect', 'dependencies': OrderedDict()}
+[0.000463] (rm_rune_detect) JobStarted: {'identifier': 'rm_rune_detect'}
+[0.003900] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'cmake'}
+[0.004251] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'build'}
+[0.004729] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_rune_detect', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/fd861c8a80c0f9e4e35294b1915ee8a7b29ae850/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code'), ('TERM_PROGRAM_VERSION', '0.49.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2e418bc0-ba27-49ea-b9dd-96ca635195ea.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/fd861c8a80c0f9e4e35294b1915ee8a7b29ae850/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/fd861c8a80c0f9e4e35294b1915ee8a7b29ae850/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1659_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/fd861c8a80c0f9e4e35294b1915ee8a7b29ae850/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.028181] (rm_rune_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_rune_detect\x1b[0m\n'}
+[0.028617] (rm_rune_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rune_detect_node\x1b[0m\n'}
+[0.040828] (rm_rune_detect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/rune_detect_node.cpp.o\x1b[0m\n'}
+[0.040949] (rm_rune_detect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[0.040978] (rm_rune_detect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_main.cpp.o\x1b[0m\n'}
+[0.041188] (rm_rune_detect) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_node.cpp.o\x1b[0m\n'}
+[0.041237] (rm_rune_detect) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[0.099316] (-) TimerEvent: {}
+[0.199687] (-) TimerEvent: {}
+[0.299895] (-) TimerEvent: {}
+[0.400132] (-) TimerEvent: {}
+[0.500385] (-) TimerEvent: {}
+[0.600669] (-) TimerEvent: {}
+[0.700966] (-) TimerEvent: {}
+[0.720829] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:37:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyAdaptiveHistogramEqualization(const cv::Mat&, double, const Size&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.721011] (rm_rune_detect) StderrLine: {'line': b'   37 | cv::Mat \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::applyAdaptiveHistogramEqualization(\n'}
+[0.721068] (rm_rune_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.721119] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:37:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyAdaptiveHistogramEqualization(const cv::Mat&, double, const Size&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.721171] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.721220] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.721271] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.721319] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.721366] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:74:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyGaussianBlur(const cv::Mat&, const Size&, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.721415] (rm_rune_detect) StderrLine: {'line': b'   74 | cv::Mat \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::applyGaussianBlur(\n'}
+[0.721463] (rm_rune_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.721510] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:74:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyGaussianBlur(const cv::Mat&, const Size&, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.721559] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.721606] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.721654] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.721706] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.721753] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:87:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::processImage(const cv::Mat&, double, bool, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.721809] (rm_rune_detect) StderrLine: {'line': b'   87 | cv::Mat \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::processImage(\n'}
+[0.721867] (rm_rune_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.721915] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:87:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::processImage(const cv::Mat&, double, bool, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.721963] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.722010] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.722059] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.722106] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.722158] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:112:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_rune_detect::ImagePreprocessor::showComparison(const cv::Mat&, const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.722206] (rm_rune_detect) StderrLine: {'line': b'  112 | void \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::showComparison(\n'}
+[0.722254] (rm_rune_detect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.722302] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:112:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_rune_detect::ImagePreprocessor::showComparison(const cv::Mat&, const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.722390] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.722446] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.722498] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.722547] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.731928] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:37:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyAdaptiveHistogramEqualization(const cv::Mat&, double, const Size&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732062] (rm_rune_detect) StderrLine: {'line': b'   37 | cv::Mat \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::applyAdaptiveHistogramEqualization(\n'}
+[0.732089] (rm_rune_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732112] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:37:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyAdaptiveHistogramEqualization(const cv::Mat&, double, const Size&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732138] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.732160] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.732183] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.732204] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732225] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:74:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyGaussianBlur(const cv::Mat&, const Size&, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732248] (rm_rune_detect) StderrLine: {'line': b'   74 | cv::Mat \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::applyGaussianBlur(\n'}
+[0.732269] (rm_rune_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732289] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:74:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::applyGaussianBlur(const cv::Mat&, const Size&, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732310] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.732331] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.732351] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.732371] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732447] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:87:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::processImage(const cv::Mat&, double, bool, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732508] (rm_rune_detect) StderrLine: {'line': b'   87 | cv::Mat \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::processImage(\n'}
+[0.732533] (rm_rune_detect) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732555] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:87:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat rm_rune_detect::ImagePreprocessor::processImage(const cv::Mat&, double, bool, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732616] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.732640] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.732664] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.732687] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732709] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:112:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_rune_detect::ImagePreprocessor::showComparison(const cv::Mat&, const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732730] (rm_rune_detect) StderrLine: {'line': b'  112 | void \x1b[01;31m\x1b[KImagePreprocessor\x1b[m\x1b[K::showComparison(\n'}
+[0.732751] (rm_rune_detect) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.732772] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:112:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_rune_detect::ImagePreprocessor::showComparison(const cv::Mat&, const cv::Mat&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.732795] (rm_rune_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/preprocess.cpp:1\x1b[m\x1b[K:\n'}
+[0.732815] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:12:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rm_rune_detect::ImagePreprocessor\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[0.732836] (rm_rune_detect) StderrLine: {'line': b'   12 | class \x1b[01;36m\x1b[KImagePreprocessor\x1b[m\x1b[K\n'}
+[0.732857] (rm_rune_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.801052] (-) TimerEvent: {}
+[0.901282] (-) TimerEvent: {}
+[0.960453] (rm_rune_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rm_rune_detect.dir/build.make:104\xef\xbc\x9aCMakeFiles/rm_rune_detect.dir/src/preprocess.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.960600] (rm_rune_detect) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.965391] (rm_rune_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rune_detect_node.dir/build.make:118\xef\xbc\x9aCMakeFiles/rune_detect_node.dir/src/preprocess.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.965507] (rm_rune_detect) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[1.001388] (-) TimerEvent: {}
+[1.101621] (-) TimerEvent: {}
+[1.201849] (-) TimerEvent: {}
+[1.302134] (-) TimerEvent: {}
+[1.402397] (-) TimerEvent: {}
+[1.502699] (-) TimerEvent: {}
+[1.603014] (-) TimerEvent: {}
+[1.703276] (-) TimerEvent: {}
+[1.803522] (-) TimerEvent: {}
+[1.903730] (-) TimerEvent: {}
+[2.003994] (-) TimerEvent: {}
+[2.104261] (-) TimerEvent: {}
+[2.204490] (-) TimerEvent: {}
+[2.304769] (-) TimerEvent: {}
+[2.405067] (-) TimerEvent: {}
+[2.505316] (-) TimerEvent: {}
+[2.605542] (-) TimerEvent: {}
+[2.705781] (-) TimerEvent: {}
+[2.806011] (-) TimerEvent: {}
+[2.906200] (-) TimerEvent: {}
+[3.006414] (-) TimerEvent: {}
+[3.106674] (-) TimerEvent: {}
+[3.207079] (-) TimerEvent: {}
+[3.307309] (-) TimerEvent: {}
+[3.407539] (-) TimerEvent: {}
+[3.507833] (-) TimerEvent: {}
+[3.608052] (-) TimerEvent: {}
+[3.708298] (-) TimerEvent: {}
+[3.808693] (-) TimerEvent: {}
+[3.908992] (-) TimerEvent: {}
+[4.009289] (-) TimerEvent: {}
+[4.109478] (-) TimerEvent: {}
+[4.209682] (-) TimerEvent: {}
+[4.309915] (-) TimerEvent: {}
+[4.410139] (-) TimerEvent: {}
+[4.510356] (-) TimerEvent: {}
+[4.610564] (-) TimerEvent: {}
+[4.710911] (-) TimerEvent: {}
+[4.811249] (-) TimerEvent: {}
+[4.911602] (-) TimerEvent: {}
+[5.011833] (-) TimerEvent: {}
+[5.112063] (-) TimerEvent: {}
+[5.212266] (-) TimerEvent: {}
+[5.312543] (-) TimerEvent: {}
+[5.412745] (-) TimerEvent: {}
+[5.512968] (-) TimerEvent: {}
+[5.613239] (-) TimerEvent: {}
+[5.713459] (-) TimerEvent: {}
+[5.813639] (-) TimerEvent: {}
+[5.913813] (-) TimerEvent: {}
+[6.014021] (-) TimerEvent: {}
+[6.114237] (-) TimerEvent: {}
+[6.214427] (-) TimerEvent: {}
+[6.314610] (-) TimerEvent: {}
+[6.414887] (-) TimerEvent: {}
+[6.515054] (-) TimerEvent: {}
+[6.615243] (-) TimerEvent: {}
+[6.715493] (-) TimerEvent: {}
+[6.815695] (-) TimerEvent: {}
+[6.915907] (-) TimerEvent: {}
+[7.016210] (-) TimerEvent: {}
+[7.116499] (-) TimerEvent: {}
+[7.127824] (rm_rune_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/rune_detect_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.128033] (rm_rune_detect) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[7.162048] (rm_rune_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/rm_rune_detect.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.162235] (rm_rune_detect) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.163923] (rm_rune_detect) CommandEnded: {'returncode': 2}
+[7.170002] (rm_rune_detect) JobEnded: {'identifier': 'rm_rune_detect', 'rc': 2}
+[7.180344] (-) EventReactorShutdown: {}

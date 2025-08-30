@@ -1,0 +1,8 @@
+In file included from [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:2[m[K:
+[01m[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/single_armor_tracker.hpp:6:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: 没有那个文件或目录
+    6 | #include [01;31m[K<Eigen/Dense>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/armor_tracker_component.dir/build.make:76：CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/armor_tracker_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

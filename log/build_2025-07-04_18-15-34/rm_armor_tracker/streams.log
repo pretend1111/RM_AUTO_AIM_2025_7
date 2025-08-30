@@ -1,0 +1,42 @@
+[0.759s] Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+[0.773s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.836s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.839s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.025s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.026s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.028s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.039s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.055s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[13.196s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.218s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.226s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[13.233s] -- Found rm_msgs: 0.0.0 (/home/pretend/code/install/rm_msgs/share/rm_msgs/cmake)
+[13.244s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[13.246s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.283s] -- Configuring done
+[13.291s] -- Generating done
+[13.294s] -- Build files have been written to: /home/pretend/code/build/rm_armor_tracker
+[13.308s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_component[0m
+[13.318s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o[0m
+[13.318s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/single_armor_tracker.cpp.o[0m
+[19.540s] [ 60%] [32m[1mLinking CXX shared library libarmor_tracker_component.so[0m
+[19.757s] [ 60%] Built target armor_tracker_component
+[19.767s] [ 80%] [32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/src/armor_tracker_main.cpp.o[0m
+[21.054s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[21.054s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[21.054s]                  from [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_main.cpp:1[m[K:
+[21.054s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Kvoid std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = rm_armor_tracker::SingleArmorTracker][m[K’:
+[21.054s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:361:17:[m[K   required from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = rm_armor_tracker::SingleArmorTracker; _Dp = std::default_delete<rm_armor_tracker::SingleArmorTracker>][m[K’
+[21.054s] [01m[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp:15:7:[m[K   required from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = rm_armor_tracker::ArmorTrackerNode; _Tp = rm_armor_tracker::ArmorTrackerNode][m[K’
+[21.054s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:535:15:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = rm_armor_tracker::ArmorTrackerNode; _Tp = rm_armor_tracker::ArmorTrackerNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rm_armor_tracker::ArmorTrackerNode>][m[K’
+[21.054s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:528:35:[m[K   required from ‘[01m[Kvoid std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_M_dispose() [with _Tp = rm_armor_tracker::ArmorTrackerNode; _Alloc = std::allocator<rm_armor_tracker::ArmorTrackerNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[21.054s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:526:7:[m[K   required from here
+[21.054s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:83:23:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Krm_armor_tracker::SingleArmorTracker[m[K’
+[21.054s]    83 |         static_assert([01;31m[Ksizeof(_Tp)[m[K>0,
+[21.054s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[21.079s] gmake[2]: *** [CMakeFiles/armor_tracker_node.dir/build.make:76：CMakeFiles/armor_tracker_node.dir/src/armor_tracker_main.cpp.o] 错误 1
+[21.079s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/armor_tracker_node.dir/all] 错误 2
+[21.079s] gmake: *** [Makefile:146：all] 错误 2
+[21.081s] Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '2': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32

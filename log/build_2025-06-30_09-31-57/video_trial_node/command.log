@@ -1,0 +1,6 @@
+Invoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/video_trial_node -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/video_trial_node
+Invoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/video_trial_node -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/video_trial_node
+Invoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32
+Invoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32
+Invoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/video_trial_node
+Invoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/video_trial_node

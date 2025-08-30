@@ -1,0 +1,13 @@
+[0.010s] Invoking command in '/home/pretend/code/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/hik_camera -- -j32 -l32
+[0.063s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[0.092s] [01m[K/home/pretend/code/src/ros2-hik-camera-main/src/hik_camera_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: 没有那个文件或目录
+[0.092s]     3 | #include [01;31m[K<camera_info_manager/camera_info_manager.hpp>[m[K
+[0.092s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.092s] compilation terminated.
+[0.093s] gmake[2]: *** [CMakeFiles/hik_camera.dir/build.make:76：CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o] 错误 1
+[0.093s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/hik_camera.dir/all] 错误 2
+[0.093s] gmake[1]: *** 正在等待未完成的任务....
+[1.845s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[1.937s] [ 75%] Built target hik_camera_node
+[1.937s] gmake: *** [Makefile:146：all] 错误 2

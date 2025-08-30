@@ -1,0 +1,8 @@
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_armor_detect::ArmorDetection> rm_armor_detect::ArmorDetectNode::postprocessResults(const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:383:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp_conf_0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  383 |             float [01;35m[Kkp_conf_0[m[K = output_data[5 * num_detections + i];
+      |                   [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_armor_detect::ArmorDetection> rm_armor_detect::ArmorDetectNode::postprocessResults(const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:383:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp_conf_0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  383 |             float [01;35m[Kkp_conf_0[m[K = output_data[5 * num_detections + i];
+      |                   [01;35m[K^~~~~~~~~[m[K

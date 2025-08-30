@@ -1,0 +1,9 @@
+In file included from [01m[K/home/pretend/code/src/mechax_trajectory/src/trajectoryer.cpp:5[m[K:
+[01m[K/home/pretend/code/src/mechax_trajectory/include/mechax_trajectory/trajectoryer.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krm_msgs/msg/receive_serial.hpp: 没有那个文件或目录
+   19 | #include [01;31m[K"rm_msgs/msg/receive_serial.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mechax_trajectory.dir/build.make:76：CMakeFiles/mechax_trajectory.dir/src/trajectoryer.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/mechax_trajectory.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

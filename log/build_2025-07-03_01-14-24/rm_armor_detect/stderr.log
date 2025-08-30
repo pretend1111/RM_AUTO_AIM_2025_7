@@ -1,0 +1,10 @@
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::VideoSubscriberNode::publish_armor_detections(const std::vector<rm_armor_detect::Armor>&, const Header&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:661:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  661 | riberNode::publish_armor_detections(const std::vector<Armor> & armors, [01;35m[Kconst std_msgs::msg::Header & header[m[K)
+      |                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::VideoSubscriberNode::publish_armor_detections_neural(const std::vector<rm_armor_detect::ArmorDetection>&, const Header&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:706:137:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  706 | rmor_detections_neural(const std::vector<ArmorDetection> & detections, [01;35m[Kconst std_msgs::msg::Header & header[m[K)
+      |                                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+

@@ -1,0 +1,430 @@
+[0.245s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.245s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faf4995e1a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faf4995d870>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faf4995d870>>)[0m
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.328s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/pretend/code'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.328s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.329s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extension 'ignore'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extension 'ignore_ament_install'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extensions ['colcon_pkg']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extension 'colcon_pkg'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extensions ['colcon_meta']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extension 'colcon_meta'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extensions ['ros']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_detect) by extension 'ros'
+[0.337s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/rm_armor_detect' with type 'ros.ament_cmake' and name 'rm_armor_detect'[0m
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extension 'ignore'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extension 'ignore_ament_install'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extensions ['colcon_pkg']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extension 'colcon_pkg'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extensions ['colcon_meta']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extension 'colcon_meta'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extensions ['ros']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_armor_tracker) by extension 'ros'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/rm_armor_tracker' with type 'ros.ament_cmake' and name 'rm_armor_tracker'[0m
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extension 'ignore'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extension 'ignore_ament_install'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extensions ['colcon_pkg']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extension 'colcon_pkg'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extensions ['colcon_meta']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extension 'colcon_meta'
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extensions ['ros']
+[0.338s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/rm_rune_detect) by extension 'ros'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/rm_rune_detect' with type 'ros.ament_cmake' and name 'rm_rune_detect'[0m
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extension 'ignore'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extension 'ignore_ament_install'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extensions ['colcon_pkg']
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extension 'colcon_pkg'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extensions ['colcon_meta']
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extension 'colcon_meta'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extensions ['ros']
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros2-hik-camera-main) by extension 'ros'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros2-hik-camera-main' with type 'ros.ament_cmake' and name 'hik_camera'[0m
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extension 'ignore'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extension 'ignore_ament_install'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extensions ['colcon_pkg']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extension 'colcon_pkg'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extensions ['colcon_meta']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extension 'colcon_meta'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extensions ['ros']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/video_trial_node) by extension 'ros'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/video_trial_node' with type 'ros.ament_cmake' and name 'video_trial_node'[0m
+[0.340s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.340s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.340s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.340s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.340s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.356s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.356s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.357s] [34mcolcon.colcon_core.prefix_path.colcon[0m [1;30mWARNING[0m [33mThe path '/home/pretend/code/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist[0m
+[0.357s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/pretend/code/src/install/rm_armor_detect' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.357s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/pretend/code/src/install/rm_armor_detect' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.358s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 7 installed packages in /home/pretend/code/install[0m
+[0.358s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 263 installed packages in /opt/ros/humble[0m
+[0.359s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'cmake_args' from command line to 'None'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'cmake_target' from command line to 'None'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'hik_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.376s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'hik_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretend/code/build/hik_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretend/code/install/hik_camera', 'merge_install': False, 'path': '/home/pretend/code/src/ros2-hik-camera-main', 'symlink_install': False, 'test_result_base': None}[0m
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'cmake_target' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rm_armor_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretend/code/build/rm_armor_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretend/code/install/rm_armor_detect', 'merge_install': False, 'path': '/home/pretend/code/src/rm_armor_detect', 'symlink_install': False, 'test_result_base': None}[0m
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'cmake_target' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_armor_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rm_armor_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretend/code/build/rm_armor_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretend/code/install/rm_armor_tracker', 'merge_install': False, 'path': '/home/pretend/code/src/rm_armor_tracker', 'symlink_install': False, 'test_result_base': None}[0m
+[0.377s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'cmake_target' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'rm_rune_detect' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'rm_rune_detect' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretend/code/build/rm_rune_detect', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretend/code/install/rm_rune_detect', 'merge_install': False, 'path': '/home/pretend/code/src/rm_rune_detect', 'symlink_install': False, 'test_result_base': None}[0m
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'cmake_target' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'video_trial_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'video_trial_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretend/code/build/video_trial_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretend/code/install/video_trial_node', 'merge_install': False, 'path': '/home/pretend/code/src/video_trial_node', 'symlink_install': False, 'test_result_base': None}[0m
+[0.378s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.379s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.379s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/pretend/code/src/ros2-hik-camera-main' with build type 'ament_cmake'
+[0.379s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/pretend/code/src/ros2-hik-camera-main'
+[0.381s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.381s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.381s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.385s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/pretend/code/src/rm_armor_detect' with build type 'ament_cmake'
+[0.385s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/pretend/code/src/rm_armor_detect'
+[0.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.388s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/pretend/code/src/rm_armor_tracker' with build type 'ament_cmake'
+[0.388s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/pretend/code/src/rm_armor_tracker'
+[0.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.390s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/pretend/code/src/rm_rune_detect' with build type 'ament_cmake'
+[0.390s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/pretend/code/src/rm_rune_detect'
+[0.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.392s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/pretend/code/src/video_trial_node' with build type 'ament_cmake'
+[0.392s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/pretend/code/src/video_trial_node'
+[0.392s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.398s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/hik_camera -- -j32 -l32[0m
+[0.401s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32[0m
+[0.404s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32[0m
+[0.409s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32[0m
+[0.414s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32[0m
+[0.426s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32[0m
+[0.433s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker[0m
+[0.445s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/hik_camera -- -j32 -l32[0m
+[0.447s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/hik_camera[0m
+[0.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_armor_tracker)
+[0.450s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker[0m
+[0.452s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker' for CMake module files
+[0.454s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker' for CMake config files
+[0.457s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_armor_tracker', 'cmake_prefix_path')
+[0.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/hook/cmake_prefix_path.ps1'
+[0.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/hook/cmake_prefix_path.dsv'
+[0.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/hook/cmake_prefix_path.sh'
+[0.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/bin'
+[0.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/lib/pkgconfig/rm_armor_tracker.pc'
+[0.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/lib/python3.10/site-packages'
+[0.458s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/bin'
+[0.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.ps1'
+[0.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv'
+[0.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.sh'
+[0.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.bash'
+[0.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.zsh'
+[0.461s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/rm_armor_tracker/share/colcon-core/packages/rm_armor_tracker)
+[0.461s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_armor_tracker)
+[0.461s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker' for CMake module files
+[0.461s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker' for CMake config files
+[0.461s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_armor_tracker', 'cmake_prefix_path')
+[0.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/hook/cmake_prefix_path.ps1'
+[0.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/hook/cmake_prefix_path.dsv'
+[0.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/hook/cmake_prefix_path.sh'
+[0.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/bin'
+[0.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/lib/pkgconfig/rm_armor_tracker.pc'
+[0.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/lib/python3.10/site-packages'
+[0.463s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_tracker/bin'
+[0.463s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.ps1'
+[0.463s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv'
+[0.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.sh'
+[0.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.bash'
+[0.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.zsh'
+[0.464s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/rm_armor_tracker/share/colcon-core/packages/rm_armor_tracker)
+[0.466s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32[0m
+[0.467s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect[0m
+[0.467s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(hik_camera)
+[0.468s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera' for CMake module files
+[0.468s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/hik_camera[0m
+[0.468s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera' for CMake config files
+[0.468s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hik_camera', 'cmake_prefix_path')
+[0.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[0.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[0.469s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[0.469s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/lib'
+[0.470s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hik_camera', 'ld_library_path_lib')
+[0.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[0.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[0.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[0.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/bin'
+[0.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[0.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/lib/python3.10/site-packages'
+[0.470s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/bin'
+[0.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.ps1'
+[0.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/hik_camera/share/hik_camera/package.dsv'
+[0.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.sh'
+[0.471s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.bash'
+[0.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.zsh'
+[0.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/hik_camera/share/colcon-core/packages/hik_camera)
+[0.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(hik_camera)
+[0.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera' for CMake module files
+[0.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera' for CMake config files
+[0.472s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hik_camera', 'cmake_prefix_path')
+[0.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.ps1'
+[0.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.dsv'
+[0.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/cmake_prefix_path.sh'
+[0.473s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/lib'
+[0.473s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('hik_camera', 'ld_library_path_lib')
+[0.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.ps1'
+[0.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.dsv'
+[0.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/hik_camera/share/hik_camera/hook/ld_library_path_lib.sh'
+[0.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/bin'
+[0.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/lib/pkgconfig/hik_camera.pc'
+[0.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/lib/python3.10/site-packages'
+[0.474s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/hik_camera/bin'
+[0.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.ps1'
+[0.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/hik_camera/share/hik_camera/package.dsv'
+[0.475s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.sh'
+[0.476s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.bash'
+[0.476s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/hik_camera/share/hik_camera/package.zsh'
+[0.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/hik_camera/share/colcon-core/packages/hik_camera)
+[0.480s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32[0m
+[0.480s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/video_trial_node[0m
+[0.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_rune_detect)
+[0.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect' for CMake module files
+[0.484s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_rune_detect[0m
+[0.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect' for CMake config files
+[0.487s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_rune_detect', 'cmake_prefix_path')
+[0.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.ps1'
+[0.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.dsv'
+[0.488s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.sh'
+[0.488s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/lib'
+[0.488s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_rune_detect', 'ld_library_path_lib')
+[0.488s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.ps1'
+[0.488s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.dsv'
+[0.489s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.sh'
+[0.489s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/bin'
+[0.489s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/lib/pkgconfig/rm_rune_detect.pc'
+[0.489s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/lib/python3.10/site-packages'
+[0.489s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/bin'
+[0.489s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.ps1'
+[0.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv'
+[0.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.sh'
+[0.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.bash'
+[0.491s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.zsh'
+[0.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/rm_rune_detect/share/colcon-core/packages/rm_rune_detect)
+[0.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_rune_detect)
+[0.491s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect' for CMake module files
+[0.492s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect' for CMake config files
+[0.492s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_rune_detect', 'cmake_prefix_path')
+[0.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.ps1'
+[0.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.dsv'
+[0.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/cmake_prefix_path.sh'
+[0.493s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/lib'
+[0.493s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_rune_detect', 'ld_library_path_lib')
+[0.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.ps1'
+[0.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.dsv'
+[0.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/hook/ld_library_path_lib.sh'
+[0.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/bin'
+[0.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/lib/pkgconfig/rm_rune_detect.pc'
+[0.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/lib/python3.10/site-packages'
+[0.494s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_rune_detect/bin'
+[0.495s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.ps1'
+[0.495s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv'
+[0.495s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.sh'
+[0.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.bash'
+[0.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.zsh'
+[0.497s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/rm_rune_detect/share/colcon-core/packages/rm_rune_detect)
+[0.498s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(video_trial_node)
+[0.499s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node' for CMake module files
+[0.499s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/video_trial_node[0m
+[0.499s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node' for CMake config files
+[0.499s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('video_trial_node', 'cmake_prefix_path')
+[0.499s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/cmake_prefix_path.ps1'
+[0.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/cmake_prefix_path.dsv'
+[0.500s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/cmake_prefix_path.sh'
+[0.501s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/lib'
+[0.501s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('video_trial_node', 'ld_library_path_lib')
+[0.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/ld_library_path_lib.ps1'
+[0.501s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/ld_library_path_lib.dsv'
+[0.502s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/ld_library_path_lib.sh'
+[0.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/bin'
+[0.502s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/lib/pkgconfig/video_trial_node.pc'
+[0.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/lib/python3.10/site-packages'
+[0.503s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/bin'
+[0.503s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.ps1'
+[0.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.dsv'
+[0.504s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.sh'
+[0.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.bash'
+[0.505s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.zsh'
+[0.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/video_trial_node/share/colcon-core/packages/video_trial_node)
+[0.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(video_trial_node)
+[0.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node' for CMake module files
+[0.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node' for CMake config files
+[0.506s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('video_trial_node', 'cmake_prefix_path')
+[0.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/cmake_prefix_path.ps1'
+[0.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/cmake_prefix_path.dsv'
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/cmake_prefix_path.sh'
+[0.507s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/lib'
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('video_trial_node', 'ld_library_path_lib')
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/ld_library_path_lib.ps1'
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/ld_library_path_lib.dsv'
+[0.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/video_trial_node/share/video_trial_node/hook/ld_library_path_lib.sh'
+[0.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/bin'
+[0.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/lib/pkgconfig/video_trial_node.pc'
+[0.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/lib/python3.10/site-packages'
+[0.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/video_trial_node/bin'
+[0.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.ps1'
+[0.509s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.dsv'
+[0.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.sh'
+[0.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.bash'
+[0.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/video_trial_node/share/video_trial_node/package.zsh'
+[0.510s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/video_trial_node/share/colcon-core/packages/video_trial_node)
+[15.641s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32[0m
+[15.642s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect[0m
+[15.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_armor_detect)
+[15.659s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect[0m
+[15.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect' for CMake module files
+[15.659s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect' for CMake config files
+[15.660s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_armor_detect', 'cmake_prefix_path')
+[15.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/cmake_prefix_path.ps1'
+[15.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/cmake_prefix_path.dsv'
+[15.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/cmake_prefix_path.sh'
+[15.660s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/lib'
+[15.660s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_armor_detect', 'ld_library_path_lib')
+[15.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/ld_library_path_lib.ps1'
+[15.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/ld_library_path_lib.dsv'
+[15.661s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/ld_library_path_lib.sh'
+[15.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/bin'
+[15.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/lib/pkgconfig/rm_armor_detect.pc'
+[15.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/lib/python3.10/site-packages'
+[15.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/bin'
+[15.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.ps1'
+[15.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv'
+[15.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.sh'
+[15.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.bash'
+[15.662s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.zsh'
+[15.662s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/rm_armor_detect/share/colcon-core/packages/rm_armor_detect)
+[15.663s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(rm_armor_detect)
+[15.663s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect' for CMake module files
+[15.663s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect' for CMake config files
+[15.663s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_armor_detect', 'cmake_prefix_path')
+[15.663s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/cmake_prefix_path.ps1'
+[15.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/cmake_prefix_path.dsv'
+[15.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/cmake_prefix_path.sh'
+[15.664s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/lib'
+[15.664s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('rm_armor_detect', 'ld_library_path_lib')
+[15.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/ld_library_path_lib.ps1'
+[15.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/ld_library_path_lib.dsv'
+[15.664s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/hook/ld_library_path_lib.sh'
+[15.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/bin'
+[15.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/lib/pkgconfig/rm_armor_detect.pc'
+[15.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/lib/python3.10/site-packages'
+[15.665s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/pretend/code/install/rm_armor_detect/bin'
+[15.665s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.ps1'
+[15.665s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv'
+[15.665s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.sh'
+[15.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.bash'
+[15.666s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.zsh'
+[15.666s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/pretend/code/install/rm_armor_detect/share/colcon-core/packages/rm_armor_detect)
+[15.666s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[15.666s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[15.666s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[15.666s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[15.669s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.669s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.669s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[15.673s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[15.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/pretend/code/install/local_setup.ps1'
+[15.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/pretend/code/install/_local_setup_util_ps1.py'
+[15.674s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/pretend/code/install/setup.ps1'
+[15.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/pretend/code/install/local_setup.sh'
+[15.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/pretend/code/install/_local_setup_util_sh.py'
+[15.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/pretend/code/install/setup.sh'
+[15.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/pretend/code/install/local_setup.bash'
+[15.676s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/pretend/code/install/setup.bash'
+[15.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/pretend/code/install/local_setup.zsh'
+[15.677s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/pretend/code/install/setup.zsh'

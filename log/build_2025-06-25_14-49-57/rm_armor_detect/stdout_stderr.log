@@ -1,0 +1,96 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pretend/code/src/rm_armor_detect/include;$<BUILD_INTERFACE:/home/pretend/code/src/rm_armor_detect/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pretend/code/build/rm_armor_detect
+[35m[1mConsolidate compiler generated dependencies of target armor_detect_component[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_detect[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_detect_main[0m
+[ 14%] [32m[1mLinking CXX executable armor_detect[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[ 57%] Built target armor_detect
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:117:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  117 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+      |                       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:117:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  117 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+      |                       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:307:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  307 |   float [01;35m[Kscale_x[m[K = img_width / input_width_;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:308:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  308 |   float [01;35m[Kscale_y[m[K = img_height / input_height_;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::ArmorDetectNode::parse_output(const std::vector<float>&, const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:307:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  307 |   float [01;35m[Kscale_x[m[K = img_width / input_width_;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:308:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  308 |   float [01;35m[Kscale_y[m[K = img_height / input_height_;
+      |         [01;35m[K^~~~~~~[m[K
+[ 71%] [32m[1mLinking CXX executable armor_detect_main[0m
+[ 85%] [32m[1mLinking CXX shared library libarmor_detect_component.so[0m
+[ 85%] Built target armor_detect_component
+[100%] Built target armor_detect_main
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch/armor_detect.launch.py
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/armor.onnx
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.sh
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+-- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+-- Installing: /home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so
+-- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so" to ""
+-- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/run_armor_detect.sh
+-- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport.cmake
+-- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport-release.cmake

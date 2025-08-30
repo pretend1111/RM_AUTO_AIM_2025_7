@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0ac95297e0eb4eaf6ba8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mechax_trajectory",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mechax_trajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mechax_trajectory-d60e396f89aa20f0b5d2.json",
+					"name" : "mechax_trajectory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mechax_trajectory_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mechax_trajectory_node-aaad74c825518cc8ae38.json",
+					"name" : "mechax_trajectory_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mechax_trajectory_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mechax_trajectory_uninstall-03eb5ef7a40b7cef698d.json",
+					"name" : "mechax_trajectory_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bceeb178d1895baf6cf3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pretend/code/build/mechax_trajectory",
+		"source" : "/home/pretend/code/src/mechax_trajectory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

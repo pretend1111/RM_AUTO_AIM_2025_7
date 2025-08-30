@@ -1,0 +1,68 @@
+[0.100s] Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+[0.121s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.194s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.209s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.373s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.433s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.435s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.149s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.192s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.208s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.218s] -- Found rm_msgs: 0.0.0 (/home/pretend/code/install/rm_msgs/share/rm_msgs/cmake)
+[7.227s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.271s] -- Configuring done
+[7.285s] -- Generating done
+[7.289s] -- Build files have been written to: /home/pretend/code/build/rm_armor_tracker
+[7.305s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_component[0m
+[7.314s] [ 16%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o[0m
+[7.314s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/single_armor_tracker.cpp.o[0m
+[7.315s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/trajectory.cpp.o[0m
+[8.944s] [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_tracker::ArmorTrackerNode::publishPrediction(const Header&)[m[K’:
+[8.944s] [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:65:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.944s]    65 | void ArmorTrackerNode::publishPrediction([01;35m[Kconst std_msgs::msg::Header & header[m[K)
+[8.944s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[9.024s] [01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:[m[K In member function ‘[01m[Kdouble rm_armor_tracker::SingleArmorTracker::calculateFlightTime(const Vector3d&)[m[K’:
+[9.024s] [01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:354:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_quaternion[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[9.025s]   354 |   Eigen::Vector4d [01;35m[Kcurrent_quaternion[m[K = state_.segment<4>(6);
+[9.025s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[13.202s] [ 66%] [32m[1mLinking CXX shared library libarmor_tracker_component.so[0m
+[13.404s] [ 66%] Built target armor_tracker_component
+[13.411s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_node[0m
+[13.419s] [ 83%] [32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/src/armor_tracker_main.cpp.o[0m
+[14.832s] [100%] [32m[1mLinking CXX executable armor_tracker_node[0m
+[15.013s] [100%] Built target armor_tracker_node
+[15.018s] Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+[15.019s] Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker
+[15.023s] -- Install configuration: "Release"
+[15.023s] -- Execute custom install script
+[15.024s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so
+[15.024s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_node
+[15.025s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp
+[15.025s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/single_armor_tracker.hpp
+[15.025s] -- Symlinking: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/trajectory.hpp
+[15.030s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/library_path.sh
+[15.031s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/library_path.dsv
+[15.031s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/package_run_dependencies/rm_armor_tracker
+[15.031s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/parent_prefix_path/rm_armor_tracker
+[15.031s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.sh
+[15.031s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.dsv
+[15.032s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.sh
+[15.032s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.dsv
+[15.032s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.bash
+[15.033s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.sh
+[15.033s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.zsh
+[15.033s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.dsv
+[15.033s] -- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv
+[15.038s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/packages/rm_armor_tracker
+[15.038s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/rclcpp_components/rm_armor_tracker
+[15.038s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.038s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+[15.039s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.039s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig.cmake
+[15.039s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig-version.cmake
+[15.039s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.xml
+[15.041s] Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker

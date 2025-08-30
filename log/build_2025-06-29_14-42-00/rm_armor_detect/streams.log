@@ -1,0 +1,57 @@
+[0.015s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[0.048s] [ 22%] Built target video_subscriber_node
+[0.059s] [ 33%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o[0m
+[0.059s] [ 44%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[0.060s] [ 55%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/number_classifier.cpp.o[0m
+[1.287s] In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/number_classifier.cpp:1[m[K:
+[1.287s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/number_classifier.hpp:[m[K In constructor ‘[01m[Krm_armor_detect::NumberClassifier::NumberClassifier(const string&, const string&, double, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[1.287s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/number_classifier.hpp:54:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Krm_armor_detect::NumberClassifier::threshold_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.287s]    54 |   double [01;35m[Kthreshold_[m[K;                        // 分类置信度阈值
+[1.287s]       |          [01;35m[K^~~~~~~~~~[m[K
+[1.287s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/number_classifier.hpp:53:28:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > rm_armor_detect::NumberClassifier::ignore_classes_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.287s]    53 |   std::vector<std::string> [01;35m[Kignore_classes_[m[K; // 需要忽略的类别
+[1.287s]       |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.287s] [01m[K/home/pretend/code/src/rm_armor_detect/src/number_classifier.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.287s]     6 | [01;35m[KNumberClassifier[m[K::NumberClassifier(
+[1.287s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[2.692s] [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::VideoSubscriberNode::display_thread_func()[m[K’:
+[2.692s] [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:172:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.693s]   172 |         double [01;35m[Kalpha[m[K = 1.0;  // 保持对比度不变
+[2.693s]       |                [01;35m[K^~~~~[m[K
+[8.120s] [ 66%] [32m[1mLinking CXX shared library libvideo_subscriber_component.so[0m
+[8.380s] [ 77%] Built target video_subscriber_component
+[8.395s] [ 88%] [32mBuilding CXX object CMakeFiles/video_subscriber_main.dir/src/video_subscriber_main.cpp.o[0m
+[11.723s] [100%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[12.097s] [100%] Built target video_subscriber_main
+[12.103s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[12.104s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[12.108s] -- Install configuration: "Release"
+[12.108s] -- Execute custom install script
+[12.109s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_node
+[12.109s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/car_detector.hpp
+[12.109s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/lights_detector.hpp
+[12.109s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/number_classifier.hpp
+[12.109s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/video_subscriber_node.hpp
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/libvideo_subscriber_component.so
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_main
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//car/car.onnx
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//number/label.txt
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//number/mlp.onnx
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[12.110s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[12.110s] -- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[12.115s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[12.115s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[12.115s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[12.115s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[12.115s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[12.116s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

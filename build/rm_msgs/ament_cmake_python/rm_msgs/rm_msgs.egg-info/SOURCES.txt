@@ -1,0 +1,8 @@
+setup.py
+rm_msgs/__init__.py
+rm_msgs.egg-info/PKG-INFO
+rm_msgs.egg-info/SOURCES.txt
+rm_msgs.egg-info/dependency_links.txt
+rm_msgs.egg-info/top_level.txt
+rm_msgs/msg/__init__.py
+rm_msgs/msg/_armor.py

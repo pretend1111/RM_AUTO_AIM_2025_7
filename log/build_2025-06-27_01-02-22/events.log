@@ -1,0 +1,634 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000298] (-) JobUnselected: {'identifier': 'rm_armor_tracker'}
+[0.000323] (-) JobUnselected: {'identifier': 'video_trial_node'}
+[0.000348] (rm_rune_detect) JobQueued: {'identifier': 'rm_rune_detect', 'dependencies': OrderedDict()}
+[0.000375] (rm_rune_detect) JobStarted: {'identifier': 'rm_rune_detect'}
+[0.005777] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'cmake'}
+[0.006658] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'build'}
+[0.006686] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_rune_detect', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32::/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.1.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2ce420d4-06ad-435a-ba0f-f5d0cbbb51eb.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.025560] (rm_rune_detect) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098863] (-) TimerEvent: {}
+[0.109964] (rm_rune_detect) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.113887] (rm_rune_detect) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199088] (-) TimerEvent: {}
+[0.299412] (-) TimerEvent: {}
+[0.399710] (-) TimerEvent: {}
+[0.500008] (-) TimerEvent: {}
+[0.540175] (rm_rune_detect) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.541482] (rm_rune_detect) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.544895] (rm_rune_detect) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.550797] (rm_rune_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.557491] (rm_rune_detect) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.575285] (rm_rune_detect) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.576194] (rm_rune_detect) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600127] (-) TimerEvent: {}
+[0.700466] (-) TimerEvent: {}
+[0.800785] (-) TimerEvent: {}
+[0.901127] (-) TimerEvent: {}
+[1.001581] (-) TimerEvent: {}
+[1.102024] (-) TimerEvent: {}
+[1.202395] (-) TimerEvent: {}
+[1.302733] (-) TimerEvent: {}
+[1.403157] (-) TimerEvent: {}
+[1.503670] (-) TimerEvent: {}
+[1.604038] (-) TimerEvent: {}
+[1.704411] (-) TimerEvent: {}
+[1.804826] (-) TimerEvent: {}
+[1.905276] (-) TimerEvent: {}
+[2.005655] (-) TimerEvent: {}
+[2.105971] (-) TimerEvent: {}
+[2.206275] (-) TimerEvent: {}
+[2.306593] (-) TimerEvent: {}
+[2.407013] (-) TimerEvent: {}
+[2.507358] (-) TimerEvent: {}
+[2.607664] (-) TimerEvent: {}
+[2.708010] (-) TimerEvent: {}
+[2.808428] (-) TimerEvent: {}
+[2.908845] (-) TimerEvent: {}
+[3.009198] (-) TimerEvent: {}
+[3.109526] (-) TimerEvent: {}
+[3.209847] (-) TimerEvent: {}
+[3.310260] (-) TimerEvent: {}
+[3.410605] (-) TimerEvent: {}
+[3.510930] (-) TimerEvent: {}
+[3.611272] (-) TimerEvent: {}
+[3.711686] (-) TimerEvent: {}
+[3.812299] (-) TimerEvent: {}
+[3.912679] (-) TimerEvent: {}
+[4.013032] (-) TimerEvent: {}
+[4.113391] (-) TimerEvent: {}
+[4.213715] (-) TimerEvent: {}
+[4.314094] (-) TimerEvent: {}
+[4.414443] (-) TimerEvent: {}
+[4.514769] (-) TimerEvent: {}
+[4.615110] (-) TimerEvent: {}
+[4.715586] (-) TimerEvent: {}
+[4.815996] (-) TimerEvent: {}
+[4.916323] (-) TimerEvent: {}
+[5.016798] (-) TimerEvent: {}
+[5.117193] (-) TimerEvent: {}
+[5.217575] (-) TimerEvent: {}
+[5.317923] (-) TimerEvent: {}
+[5.418216] (-) TimerEvent: {}
+[5.518649] (-) TimerEvent: {}
+[5.619063] (-) TimerEvent: {}
+[5.719468] (-) TimerEvent: {}
+[5.819893] (-) TimerEvent: {}
+[5.920193] (-) TimerEvent: {}
+[6.020532] (-) TimerEvent: {}
+[6.120907] (-) TimerEvent: {}
+[6.221204] (-) TimerEvent: {}
+[6.321511] (-) TimerEvent: {}
+[6.421899] (-) TimerEvent: {}
+[6.522219] (-) TimerEvent: {}
+[6.622551] (-) TimerEvent: {}
+[6.722863] (-) TimerEvent: {}
+[6.823250] (-) TimerEvent: {}
+[6.923684] (-) TimerEvent: {}
+[7.024127] (-) TimerEvent: {}
+[7.124485] (-) TimerEvent: {}
+[7.224833] (-) TimerEvent: {}
+[7.325153] (-) TimerEvent: {}
+[7.425490] (-) TimerEvent: {}
+[7.525802] (-) TimerEvent: {}
+[7.626135] (-) TimerEvent: {}
+[7.726542] (-) TimerEvent: {}
+[7.826857] (-) TimerEvent: {}
+[7.927160] (-) TimerEvent: {}
+[8.027550] (-) TimerEvent: {}
+[8.128096] (-) TimerEvent: {}
+[8.228698] (-) TimerEvent: {}
+[8.329169] (-) TimerEvent: {}
+[8.429474] (-) TimerEvent: {}
+[8.529771] (-) TimerEvent: {}
+[8.630130] (-) TimerEvent: {}
+[8.730577] (-) TimerEvent: {}
+[8.830879] (-) TimerEvent: {}
+[8.931210] (-) TimerEvent: {}
+[9.031651] (-) TimerEvent: {}
+[9.132023] (-) TimerEvent: {}
+[9.232350] (-) TimerEvent: {}
+[9.332668] (-) TimerEvent: {}
+[9.432995] (-) TimerEvent: {}
+[9.533309] (-) TimerEvent: {}
+[9.633625] (-) TimerEvent: {}
+[9.733968] (-) TimerEvent: {}
+[9.834347] (-) TimerEvent: {}
+[9.934701] (-) TimerEvent: {}
+[10.035116] (-) TimerEvent: {}
+[10.135572] (-) TimerEvent: {}
+[10.235895] (-) TimerEvent: {}
+[10.336187] (-) TimerEvent: {}
+[10.436474] (-) TimerEvent: {}
+[10.536768] (-) TimerEvent: {}
+[10.637068] (-) TimerEvent: {}
+[10.737515] (-) TimerEvent: {}
+[10.837923] (-) TimerEvent: {}
+[10.938339] (-) TimerEvent: {}
+[11.038714] (-) TimerEvent: {}
+[11.139054] (-) TimerEvent: {}
+[11.239347] (-) TimerEvent: {}
+[11.339648] (-) TimerEvent: {}
+[11.439977] (-) TimerEvent: {}
+[11.540374] (-) TimerEvent: {}
+[11.640694] (-) TimerEvent: {}
+[11.741083] (-) TimerEvent: {}
+[11.841427] (-) TimerEvent: {}
+[11.941879] (-) TimerEvent: {}
+[12.042445] (-) TimerEvent: {}
+[12.142893] (-) TimerEvent: {}
+[12.243306] (-) TimerEvent: {}
+[12.343636] (-) TimerEvent: {}
+[12.443958] (-) TimerEvent: {}
+[12.544397] (-) TimerEvent: {}
+[12.644717] (-) TimerEvent: {}
+[12.745047] (-) TimerEvent: {}
+[12.845349] (-) TimerEvent: {}
+[12.945658] (-) TimerEvent: {}
+[13.045961] (-) TimerEvent: {}
+[13.146383] (-) TimerEvent: {}
+[13.246681] (-) TimerEvent: {}
+[13.346994] (-) TimerEvent: {}
+[13.447433] (-) TimerEvent: {}
+[13.547747] (-) TimerEvent: {}
+[13.648058] (-) TimerEvent: {}
+[13.748548] (-) TimerEvent: {}
+[13.848876] (-) TimerEvent: {}
+[13.949353] (-) TimerEvent: {}
+[14.049863] (-) TimerEvent: {}
+[14.150204] (-) TimerEvent: {}
+[14.250484] (-) TimerEvent: {}
+[14.350777] (-) TimerEvent: {}
+[14.451092] (-) TimerEvent: {}
+[14.551408] (-) TimerEvent: {}
+[14.651724] (-) TimerEvent: {}
+[14.752148] (-) TimerEvent: {}
+[14.852554] (-) TimerEvent: {}
+[14.952945] (-) TimerEvent: {}
+[15.053242] (-) TimerEvent: {}
+[15.153537] (-) TimerEvent: {}
+[15.253871] (-) TimerEvent: {}
+[15.354190] (-) TimerEvent: {}
+[15.454539] (-) TimerEvent: {}
+[15.554851] (-) TimerEvent: {}
+[15.655148] (-) TimerEvent: {}
+[15.755483] (-) TimerEvent: {}
+[15.855846] (-) TimerEvent: {}
+[15.956270] (-) TimerEvent: {}
+[16.056611] (-) TimerEvent: {}
+[16.156983] (-) TimerEvent: {}
+[16.257300] (-) TimerEvent: {}
+[16.357727] (-) TimerEvent: {}
+[16.458024] (-) TimerEvent: {}
+[16.558338] (-) TimerEvent: {}
+[16.658626] (-) TimerEvent: {}
+[16.758898] (-) TimerEvent: {}
+[16.859326] (-) TimerEvent: {}
+[16.959658] (-) TimerEvent: {}
+[17.060030] (-) TimerEvent: {}
+[17.160500] (-) TimerEvent: {}
+[17.260810] (-) TimerEvent: {}
+[17.361119] (-) TimerEvent: {}
+[17.461499] (-) TimerEvent: {}
+[17.561872] (-) TimerEvent: {}
+[17.662254] (-) TimerEvent: {}
+[17.762583] (-) TimerEvent: {}
+[17.862909] (-) TimerEvent: {}
+[17.963353] (-) TimerEvent: {}
+[18.063779] (-) TimerEvent: {}
+[18.164277] (-) TimerEvent: {}
+[18.264634] (-) TimerEvent: {}
+[18.364938] (-) TimerEvent: {}
+[18.465271] (-) TimerEvent: {}
+[18.565662] (-) TimerEvent: {}
+[18.666020] (-) TimerEvent: {}
+[18.766320] (-) TimerEvent: {}
+[18.866605] (-) TimerEvent: {}
+[18.966971] (-) TimerEvent: {}
+[19.067441] (-) TimerEvent: {}
+[19.167827] (-) TimerEvent: {}
+[19.268104] (-) TimerEvent: {}
+[19.368603] (-) TimerEvent: {}
+[19.468955] (-) TimerEvent: {}
+[19.569265] (-) TimerEvent: {}
+[19.669738] (-) TimerEvent: {}
+[19.770157] (-) TimerEvent: {}
+[19.870480] (-) TimerEvent: {}
+[19.970850] (-) TimerEvent: {}
+[20.071150] (-) TimerEvent: {}
+[20.171504] (-) TimerEvent: {}
+[20.271811] (-) TimerEvent: {}
+[20.372147] (-) TimerEvent: {}
+[20.472511] (-) TimerEvent: {}
+[20.572829] (-) TimerEvent: {}
+[20.673288] (-) TimerEvent: {}
+[20.773718] (-) TimerEvent: {}
+[20.874081] (-) TimerEvent: {}
+[20.974414] (-) TimerEvent: {}
+[21.074750] (-) TimerEvent: {}
+[21.175214] (-) TimerEvent: {}
+[21.275565] (-) TimerEvent: {}
+[21.375920] (-) TimerEvent: {}
+[21.476211] (-) TimerEvent: {}
+[21.576514] (-) TimerEvent: {}
+[21.676843] (-) TimerEvent: {}
+[21.777164] (-) TimerEvent: {}
+[21.877482] (-) TimerEvent: {}
+[21.977968] (-) TimerEvent: {}
+[22.078387] (-) TimerEvent: {}
+[22.178751] (-) TimerEvent: {}
+[22.279073] (-) TimerEvent: {}
+[22.379397] (-) TimerEvent: {}
+[22.479727] (-) TimerEvent: {}
+[22.580030] (-) TimerEvent: {}
+[22.680445] (-) TimerEvent: {}
+[22.780772] (-) TimerEvent: {}
+[22.881270] (-) TimerEvent: {}
+[22.981601] (-) TimerEvent: {}
+[23.082024] (-) TimerEvent: {}
+[23.182460] (-) TimerEvent: {}
+[23.282962] (-) TimerEvent: {}
+[23.383279] (-) TimerEvent: {}
+[23.483619] (-) TimerEvent: {}
+[23.583926] (-) TimerEvent: {}
+[23.684298] (-) TimerEvent: {}
+[23.784617] (-) TimerEvent: {}
+[23.884915] (-) TimerEvent: {}
+[23.985233] (-) TimerEvent: {}
+[24.085676] (-) TimerEvent: {}
+[24.186010] (-) TimerEvent: {}
+[24.286320] (-) TimerEvent: {}
+[24.386638] (-) TimerEvent: {}
+[24.486940] (-) TimerEvent: {}
+[24.587243] (-) TimerEvent: {}
+[24.687557] (-) TimerEvent: {}
+[24.787901] (-) TimerEvent: {}
+[24.888305] (-) TimerEvent: {}
+[24.988611] (-) TimerEvent: {}
+[25.088915] (-) TimerEvent: {}
+[25.189307] (-) TimerEvent: {}
+[25.289689] (-) TimerEvent: {}
+[25.390098] (-) TimerEvent: {}
+[25.490419] (-) TimerEvent: {}
+[25.590790] (-) TimerEvent: {}
+[25.691123] (-) TimerEvent: {}
+[25.791533] (-) TimerEvent: {}
+[25.892024] (-) TimerEvent: {}
+[25.992465] (-) TimerEvent: {}
+[26.092789] (-) TimerEvent: {}
+[26.193234] (-) TimerEvent: {}
+[26.293612] (-) TimerEvent: {}
+[26.393972] (-) TimerEvent: {}
+[26.494304] (-) TimerEvent: {}
+[26.594592] (-) TimerEvent: {}
+[26.694885] (-) TimerEvent: {}
+[26.795238] (-) TimerEvent: {}
+[26.895588] (-) TimerEvent: {}
+[26.996004] (-) TimerEvent: {}
+[27.096393] (-) TimerEvent: {}
+[27.196918] (-) TimerEvent: {}
+[27.297244] (-) TimerEvent: {}
+[27.397580] (-) TimerEvent: {}
+[27.497896] (-) TimerEvent: {}
+[27.598207] (-) TimerEvent: {}
+[27.698483] (-) TimerEvent: {}
+[27.798913] (-) TimerEvent: {}
+[27.899241] (-) TimerEvent: {}
+[27.999653] (-) TimerEvent: {}
+[28.099997] (-) TimerEvent: {}
+[28.200304] (-) TimerEvent: {}
+[28.300610] (-) TimerEvent: {}
+[28.400967] (-) TimerEvent: {}
+[28.501297] (-) TimerEvent: {}
+[28.601708] (-) TimerEvent: {}
+[28.702034] (-) TimerEvent: {}
+[28.802344] (-) TimerEvent: {}
+[28.902664] (-) TimerEvent: {}
+[29.002999] (-) TimerEvent: {}
+[29.103325] (-) TimerEvent: {}
+[29.203652] (-) TimerEvent: {}
+[29.303990] (-) TimerEvent: {}
+[29.404321] (-) TimerEvent: {}
+[29.504622] (-) TimerEvent: {}
+[29.604983] (-) TimerEvent: {}
+[29.705287] (-) TimerEvent: {}
+[29.805718] (-) TimerEvent: {}
+[29.906039] (-) TimerEvent: {}
+[30.006363] (-) TimerEvent: {}
+[30.106831] (-) TimerEvent: {}
+[30.207226] (-) TimerEvent: {}
+[30.307663] (-) TimerEvent: {}
+[30.407973] (-) TimerEvent: {}
+[30.508279] (-) TimerEvent: {}
+[30.608601] (-) TimerEvent: {}
+[30.708904] (-) TimerEvent: {}
+[30.809202] (-) TimerEvent: {}
+[30.909622] (-) TimerEvent: {}
+[31.010002] (-) TimerEvent: {}
+[31.110496] (-) TimerEvent: {}
+[31.210892] (-) TimerEvent: {}
+[31.311482] (-) TimerEvent: {}
+[31.411833] (-) TimerEvent: {}
+[31.512166] (-) TimerEvent: {}
+[31.612534] (-) TimerEvent: {}
+[31.712840] (-) TimerEvent: {}
+[31.813150] (-) TimerEvent: {}
+[31.913613] (-) TimerEvent: {}
+[32.013933] (-) TimerEvent: {}
+[32.041829] (rm_rune_detect) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[32.071990] (rm_rune_detect) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[32.083005] (rm_rune_detect) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[32.101252] (rm_rune_detect) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[32.107742] (rm_rune_detect) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[32.114105] (-) TimerEvent: {}
+[32.214403] (-) TimerEvent: {}
+[32.314756] (-) TimerEvent: {}
+[32.415072] (-) TimerEvent: {}
+[32.515352] (-) TimerEvent: {}
+[32.615660] (-) TimerEvent: {}
+[32.716127] (-) TimerEvent: {}
+[32.816580] (-) TimerEvent: {}
+[32.916885] (-) TimerEvent: {}
+[33.017211] (-) TimerEvent: {}
+[33.117704] (-) TimerEvent: {}
+[33.218068] (-) TimerEvent: {}
+[33.318393] (-) TimerEvent: {}
+[33.418742] (-) TimerEvent: {}
+[33.519052] (-) TimerEvent: {}
+[33.619372] (-) TimerEvent: {}
+[33.719803] (-) TimerEvent: {}
+[33.820200] (-) TimerEvent: {}
+[33.920493] (-) TimerEvent: {}
+[34.020860] (-) TimerEvent: {}
+[34.121154] (-) TimerEvent: {}
+[34.221514] (-) TimerEvent: {}
+[34.321880] (-) TimerEvent: {}
+[34.422233] (-) TimerEvent: {}
+[34.522627] (-) TimerEvent: {}
+[34.622956] (-) TimerEvent: {}
+[34.723372] (-) TimerEvent: {}
+[34.823683] (-) TimerEvent: {}
+[34.923974] (-) TimerEvent: {}
+[35.024446] (-) TimerEvent: {}
+[35.124745] (-) TimerEvent: {}
+[35.225073] (-) TimerEvent: {}
+[35.325491] (-) TimerEvent: {}
+[35.425946] (-) TimerEvent: {}
+[35.526280] (-) TimerEvent: {}
+[35.626618] (-) TimerEvent: {}
+[35.726939] (-) TimerEvent: {}
+[35.827242] (-) TimerEvent: {}
+[35.927665] (-) TimerEvent: {}
+[36.027982] (-) TimerEvent: {}
+[36.128296] (-) TimerEvent: {}
+[36.228578] (-) TimerEvent: {}
+[36.328917] (-) TimerEvent: {}
+[36.429249] (-) TimerEvent: {}
+[36.529552] (-) TimerEvent: {}
+[36.629882] (-) TimerEvent: {}
+[36.730303] (-) TimerEvent: {}
+[36.830694] (-) TimerEvent: {}
+[36.930999] (-) TimerEvent: {}
+[37.031293] (-) TimerEvent: {}
+[37.131617] (-) TimerEvent: {}
+[37.231952] (-) TimerEvent: {}
+[37.332262] (-) TimerEvent: {}
+[37.432668] (-) TimerEvent: {}
+[37.533141] (-) TimerEvent: {}
+[37.633457] (-) TimerEvent: {}
+[37.733767] (-) TimerEvent: {}
+[37.834186] (-) TimerEvent: {}
+[37.934600] (-) TimerEvent: {}
+[38.035012] (-) TimerEvent: {}
+[38.135319] (-) TimerEvent: {}
+[38.235614] (-) TimerEvent: {}
+[38.336104] (-) TimerEvent: {}
+[38.436396] (-) TimerEvent: {}
+[38.536687] (-) TimerEvent: {}
+[38.637025] (-) TimerEvent: {}
+[38.644670] (rm_rune_detect) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[38.690617] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[38.690805] (rm_rune_detect) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/pretend/code/src/rm_rune_detect/include\n'}
+[38.690841] (rm_rune_detect) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[38.690903] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[38.691124] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[38.691485] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[38.691759] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[38.691829] (rm_rune_detect) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[38.691933] (rm_rune_detect) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[38.692516] (rm_rune_detect) StdoutLine: {'line': b'-- Configuring done\n'}
+[38.706873] (rm_rune_detect) StdoutLine: {'line': b'-- Generating done\n'}
+[38.711416] (rm_rune_detect) StdoutLine: {'line': b'-- Build files have been written to: /home/pretend/code/build/rm_rune_detect\n'}
+[38.731804] (rm_rune_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_rune_detect\x1b[0m\n'}
+[38.732898] (rm_rune_detect) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rune_detect_node\x1b[0m\n'}
+[38.737119] (-) TimerEvent: {}
+[38.745584] (rm_rune_detect) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/rune_detect_node.cpp.o\x1b[0m\n'}
+[38.746334] (rm_rune_detect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[38.746419] (rm_rune_detect) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o\x1b[0m\n'}
+[38.748530] (rm_rune_detect) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_main.cpp.o\x1b[0m\n'}
+[38.750486] (rm_rune_detect) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[38.750585] (rm_rune_detect) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_node.cpp.o\x1b[0m\n'}
+[38.750788] (rm_rune_detect) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o\x1b[0m\n'}
+[38.837343] (-) TimerEvent: {}
+[38.937793] (-) TimerEvent: {}
+[39.038153] (-) TimerEvent: {}
+[39.138476] (-) TimerEvent: {}
+[39.238858] (-) TimerEvent: {}
+[39.339308] (-) TimerEvent: {}
+[39.439829] (-) TimerEvent: {}
+[39.540412] (-) TimerEvent: {}
+[39.640752] (-) TimerEvent: {}
+[39.741080] (-) TimerEvent: {}
+[39.841425] (-) TimerEvent: {}
+[39.941761] (-) TimerEvent: {}
+[40.042142] (-) TimerEvent: {}
+[40.142629] (-) TimerEvent: {}
+[40.243011] (-) TimerEvent: {}
+[40.343398] (-) TimerEvent: {}
+[40.443807] (-) TimerEvent: {}
+[40.544198] (-) TimerEvent: {}
+[40.644545] (-) TimerEvent: {}
+[40.745204] (-) TimerEvent: {}
+[40.845657] (-) TimerEvent: {}
+[40.858697] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_rune_detect::OpenvinoDetect::initializeModel(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.859009] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:101:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kshape\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.859087] (rm_rune_detect) StderrLine: {'line': b'  101 |                 const auto& \x1b[01;35m\x1b[Kshape\x1b[m\x1b[K = input.get_shape();\n'}
+[40.859155] (rm_rune_detect) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[40.859219] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:111:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kshape\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.859290] (rm_rune_detect) StderrLine: {'line': b'  111 |                 const auto& \x1b[01;35m\x1b[Kshape\x1b[m\x1b[K = output.get_shape();\n'}
+[40.859353] (rm_rune_detect) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[40.870727] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.870884] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:396:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.870924] (rm_rune_detect) StderrLine: {'line': b'  396 |                 float \x1b[01;35m\x1b[Kcenter_x\x1b[m\x1b[K = (x1 + x2) / 2.0f;\n'}
+[40.870957] (rm_rune_detect) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.870990] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:397:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.871025] (rm_rune_detect) StderrLine: {'line': b'  397 |                 float \x1b[01;35m\x1b[Kcenter_y\x1b[m\x1b[K = (y1 + y2) / 2.0f;\n'}
+[40.871055] (rm_rune_detect) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.897402] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rm_rune_detect::OpenvinoDetect::initializeModel(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.897761] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:101:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kshape\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.897838] (rm_rune_detect) StderrLine: {'line': b'  101 |                 const auto& \x1b[01;35m\x1b[Kshape\x1b[m\x1b[K = input.get_shape();\n'}
+[40.897900] (rm_rune_detect) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[40.897959] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:111:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kshape\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.898018] (rm_rune_detect) StderrLine: {'line': b'  111 |                 const auto& \x1b[01;35m\x1b[Kshape\x1b[m\x1b[K = output.get_shape();\n'}
+[40.898074] (rm_rune_detect) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[40.904160] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[40.904306] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:396:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.904346] (rm_rune_detect) StderrLine: {'line': b'  396 |                 float \x1b[01;35m\x1b[Kcenter_x\x1b[m\x1b[K = (x1 + x2) / 2.0f;\n'}
+[40.904392] (rm_rune_detect) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.904426] (rm_rune_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:397:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcenter_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[40.904458] (rm_rune_detect) StderrLine: {'line': b'  397 |                 float \x1b[01;35m\x1b[Kcenter_y\x1b[m\x1b[K = (y1 + y2) / 2.0f;\n'}
+[40.904496] (rm_rune_detect) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[40.945916] (-) TimerEvent: {}
+[41.046518] (-) TimerEvent: {}
+[41.147016] (-) TimerEvent: {}
+[41.247511] (-) TimerEvent: {}
+[41.347964] (-) TimerEvent: {}
+[41.448442] (-) TimerEvent: {}
+[41.548886] (-) TimerEvent: {}
+[41.649203] (-) TimerEvent: {}
+[41.749593] (-) TimerEvent: {}
+[41.850094] (-) TimerEvent: {}
+[41.950626] (-) TimerEvent: {}
+[42.051080] (-) TimerEvent: {}
+[42.151573] (-) TimerEvent: {}
+[42.251990] (-) TimerEvent: {}
+[42.352360] (-) TimerEvent: {}
+[42.452826] (-) TimerEvent: {}
+[42.553331] (-) TimerEvent: {}
+[42.653756] (-) TimerEvent: {}
+[42.754141] (-) TimerEvent: {}
+[42.854493] (-) TimerEvent: {}
+[42.954857] (-) TimerEvent: {}
+[43.055283] (-) TimerEvent: {}
+[43.155720] (-) TimerEvent: {}
+[43.256096] (-) TimerEvent: {}
+[43.356397] (-) TimerEvent: {}
+[43.456846] (-) TimerEvent: {}
+[43.557183] (-) TimerEvent: {}
+[43.657511] (-) TimerEvent: {}
+[43.757931] (-) TimerEvent: {}
+[43.858354] (-) TimerEvent: {}
+[43.958752] (-) TimerEvent: {}
+[44.059103] (-) TimerEvent: {}
+[44.159455] (-) TimerEvent: {}
+[44.259793] (-) TimerEvent: {}
+[44.360105] (-) TimerEvent: {}
+[44.460398] (-) TimerEvent: {}
+[44.560705] (-) TimerEvent: {}
+[44.661063] (-) TimerEvent: {}
+[44.761507] (-) TimerEvent: {}
+[44.861864] (-) TimerEvent: {}
+[44.962180] (-) TimerEvent: {}
+[45.062544] (-) TimerEvent: {}
+[45.162907] (-) TimerEvent: {}
+[45.263288] (-) TimerEvent: {}
+[45.363646] (-) TimerEvent: {}
+[45.463990] (-) TimerEvent: {}
+[45.564417] (-) TimerEvent: {}
+[45.664861] (-) TimerEvent: {}
+[45.765183] (-) TimerEvent: {}
+[45.865532] (-) TimerEvent: {}
+[45.965900] (-) TimerEvent: {}
+[46.066201] (-) TimerEvent: {}
+[46.166538] (-) TimerEvent: {}
+[46.266863] (-) TimerEvent: {}
+[46.367182] (-) TimerEvent: {}
+[46.467479] (-) TimerEvent: {}
+[46.567858] (-) TimerEvent: {}
+[46.668195] (-) TimerEvent: {}
+[46.768491] (-) TimerEvent: {}
+[46.868820] (-) TimerEvent: {}
+[46.969208] (-) TimerEvent: {}
+[47.069566] (-) TimerEvent: {}
+[47.169909] (-) TimerEvent: {}
+[47.270229] (-) TimerEvent: {}
+[47.370606] (-) TimerEvent: {}
+[47.470964] (-) TimerEvent: {}
+[47.571271] (-) TimerEvent: {}
+[47.671587] (-) TimerEvent: {}
+[47.771900] (-) TimerEvent: {}
+[47.872226] (-) TimerEvent: {}
+[47.972535] (-) TimerEvent: {}
+[48.072833] (-) TimerEvent: {}
+[48.173135] (-) TimerEvent: {}
+[48.273483] (-) TimerEvent: {}
+[48.373846] (-) TimerEvent: {}
+[48.474154] (-) TimerEvent: {}
+[48.574480] (-) TimerEvent: {}
+[48.674840] (-) TimerEvent: {}
+[48.775272] (-) TimerEvent: {}
+[48.875743] (-) TimerEvent: {}
+[48.976215] (-) TimerEvent: {}
+[49.076688] (-) TimerEvent: {}
+[49.177015] (-) TimerEvent: {}
+[49.277453] (-) TimerEvent: {}
+[49.377744] (-) TimerEvent: {}
+[49.478097] (-) TimerEvent: {}
+[49.578406] (-) TimerEvent: {}
+[49.678904] (-) TimerEvent: {}
+[49.779222] (-) TimerEvent: {}
+[49.879573] (-) TimerEvent: {}
+[49.979982] (-) TimerEvent: {}
+[50.080321] (-) TimerEvent: {}
+[50.180612] (-) TimerEvent: {}
+[50.280979] (-) TimerEvent: {}
+[50.381347] (-) TimerEvent: {}
+[50.481776] (-) TimerEvent: {}
+[50.582104] (-) TimerEvent: {}
+[50.682467] (-) TimerEvent: {}
+[50.782818] (-) TimerEvent: {}
+[50.883150] (-) TimerEvent: {}
+[50.983502] (-) TimerEvent: {}
+[51.083811] (-) TimerEvent: {}
+[51.184191] (-) TimerEvent: {}
+[51.284565] (-) TimerEvent: {}
+[51.384932] (-) TimerEvent: {}
+[51.485246] (-) TimerEvent: {}
+[51.585656] (-) TimerEvent: {}
+[51.686005] (-) TimerEvent: {}
+[51.732075] (rm_rune_detect) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library librm_rune_detect.so\x1b[0m\n'}
+[51.786175] (-) TimerEvent: {}
+[51.802122] (rm_rune_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rune_detect_node\x1b[0m\n'}
+[51.886302] (-) TimerEvent: {}
+[51.986619] (-) TimerEvent: {}
+[52.086913] (-) TimerEvent: {}
+[52.187242] (-) TimerEvent: {}
+[52.287623] (-) TimerEvent: {}
+[52.297898] (rm_rune_detect) StdoutLine: {'line': b'[100%] Built target rm_rune_detect\n'}
+[52.387798] (-) TimerEvent: {}
+[52.488289] (-) TimerEvent: {}
+[52.570576] (rm_rune_detect) StdoutLine: {'line': b'[100%] Built target rune_detect_node\n'}
+[52.580076] (rm_rune_detect) CommandEnded: {'returncode': 0}
+[52.580976] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'install'}
+[52.588614] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pretend/code/build/rm_rune_detect'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32::/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.1.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2ce420d4-06ad-435a-ba0f-f5d0cbbb51eb.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/1273_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/ef5eeb47a684b4c217dfaf0463aa7ea952f8ab90/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/d/Quartus/modelsim_ase/win32aloem:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_startup:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[52.589662] (-) TimerEvent: {}
+[52.593887] (rm_rune_detect) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[52.594159] (rm_rune_detect) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[52.594494] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/rm_rune_detect/rune_detect_node\n'}
+[52.594594] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/lib/librm_rune_detect.so\n'}
+[52.594884] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/common_types.hpp\n'}
+[52.594992] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/openvino_detect.hpp\n'}
+[52.595168] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/preprocess.hpp\n'}
+[52.595290] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/rune_detect_node.hpp\n'}
+[52.595424] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/models/rune_detect_320.onnx\n'}
+[52.595506] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/launch/rune_detect.launch.py\n'}
+[52.595715] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/package_run_dependencies/rm_rune_detect\n'}
+[52.595877] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/parent_prefix_path/rm_rune_detect\n'}
+[52.595928] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.sh\n'}
+[52.595961] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.dsv\n'}
+[52.596159] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.sh\n'}
+[52.596438] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.dsv\n'}
+[52.596639] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.bash\n'}
+[52.597263] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.sh\n'}
+[52.597489] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.zsh\n'}
+[52.597790] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.dsv\n'}
+[52.598235] (rm_rune_detect) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv\n'}
+[52.605555] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/packages/rm_rune_detect\n'}
+[52.605874] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/rclcpp_components/rm_rune_detect\n'}
+[52.606039] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig.cmake\n'}
+[52.606217] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig-version.cmake\n'}
+[52.606389] (rm_rune_detect) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.xml\n'}
+[52.607549] (rm_rune_detect) CommandEnded: {'returncode': 0}
+[52.621251] (rm_rune_detect) JobEnded: {'identifier': 'rm_rune_detect', 'rc': 0}
+[52.622073] (-) EventReactorShutdown: {}

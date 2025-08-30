@@ -1,0 +1,50 @@
+[0.018s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.121s] [ 18%] Built target video_subscriber_node
+[0.125s] [ 27%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[0.125s] [ 36%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/pnp_solver.cpp.o[0m
+[6.276s] [ 45%] [32m[1mLinking CXX shared library libvideo_subscriber_component.so[0m
+[6.814s] [ 81%] Built target video_subscriber_component
+[6.830s] [ 90%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[7.309s] [100%] Built target video_subscriber_main
+[7.313s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[7.316s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[7.319s] -- Install configuration: ""
+[7.320s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_node
+[7.320s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include/
+[7.320s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect
+[7.320s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/video_subscriber_node.hpp
+[7.320s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/number_classifier.hpp
+[7.320s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/armor_types.hpp
+[7.321s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/car_detector.hpp
+[7.321s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/simple_lights_detector.hpp
+[7.321s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/pnp_solver.hpp
+[7.321s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/openvino_armor_detector.hpp
+[7.321s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/libvideo_subscriber_component.so
+[7.324s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/libvideo_subscriber_component.so" to ""
+[7.325s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_main
+[7.325s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/video_subscriber_main" to ""
+[7.326s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/
+[7.326s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//number
+[7.327s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//number/mlp.onnx
+[7.327s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//number/label.txt
+[7.327s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//car
+[7.327s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//car/car.onnx
+[7.327s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//armor
+[7.328s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models//armor/armor.onnx
+[7.328s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[7.328s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[7.328s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[7.328s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[7.328s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[7.329s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[7.329s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[7.330s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[7.331s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

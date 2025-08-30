@@ -1,0 +1,58 @@
+[0.019s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.127s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.454s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.456s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.492s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.182s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.214s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[15.232s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[15.238s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[19.012s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.070s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.071s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pretend/code/src/rm_armor_detect/include>
+[19.071s] -- Configured cppcheck exclude dirs and/or files: 
+[19.072s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.074s] -- Added test 'lint_cmake' to check CMake code style
+[19.075s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.082s] -- Added test 'uncrustify' to check C / C++ code style
+[19.082s] -- Configured uncrustify additional arguments: 
+[19.083s] -- Added test 'xmllint' to check XML markup files
+[19.084s] -- Configuring done
+[19.112s] -- Generating done
+[19.121s] -- Build files have been written to: /home/pretend/code/build/rm_armor_detect
+[19.146s] [  8%] [32mBuilding CXX object CMakeFiles/pnp_solver.dir/src/pnp_solver.cpp.o[0m
+[19.146s] [ 16%] [32mBuilding CXX object CMakeFiles/car_detector.dir/src/car_detector.cpp.o[0m
+[19.146s] [ 25%] [32mBuilding CXX object CMakeFiles/number_classifier.dir/src/number_classifier.cpp.o[0m
+[20.540s] [ 33%] [32m[1mLinking CXX static library libpnp_solver.a[0m
+[20.560s] [ 33%] Built target pnp_solver
+[20.854s] [ 41%] [32m[1mLinking CXX static library libcar_detector.a[0m
+[20.872s] [ 50%] [32m[1mLinking CXX static library libnumber_classifier.a[0m
+[20.874s] [ 50%] Built target car_detector
+[20.892s] [ 50%] Built target number_classifier
+[20.904s] [ 58%] [32mBuilding CXX object CMakeFiles/lights_detector.dir/src/lights_detector.cpp.o[0m
+[22.505s] [ 66%] [32m[1mLinking CXX static library liblights_detector.a[0m
+[22.524s] [ 66%] Built target lights_detector
+[22.536s] [ 75%] [32mBuilding CXX object CMakeFiles/video_subscriber_node.dir/src/video_subscriber_node.cpp.o[0m
+[24.906s] In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:1[m[K:
+[24.906s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:[m[K In constructor ‘[01m[Krm_armor_detect::VideoSubscriberNode::VideoSubscriberNode(const rclcpp::NodeOptions&)[m[K’:
+[24.906s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:94:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Krm_armor_detect::VideoSubscriberNode::last_fps_calc_time_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[24.906s]    94 |   rclcpp::Time [01;35m[Klast_fps_calc_time_[m[K;
+[24.906s]       |                [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[24.906s] [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:78:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool rm_armor_detect::VideoSubscriberNode::camera_info_received_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[24.906s]    78 |   bool [01;35m[Kcamera_info_received_[m[K;
+[24.906s]       |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[24.906s] [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:6:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[24.906s]     6 | [01;35m[KVideoSubscriberNode[m[K::VideoSubscriberNode(const rclcpp::NodeOptions & options)
+[24.906s]       | [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[33.826s] [ 83%] [32m[1mLinking CXX static library libvideo_subscriber_node.a[0m
+[33.858s] [ 83%] Built target video_subscriber_node
+[33.865s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_main[0m
+[33.876s] [ 91%] [32mBuilding CXX object CMakeFiles/video_subscriber_main.dir/src/video_subscriber_main.cpp.o[0m
+[37.013s] [100%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[37.510s] [100%] Built target video_subscriber_main

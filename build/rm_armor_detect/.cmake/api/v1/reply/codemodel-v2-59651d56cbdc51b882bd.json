@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-86d1b5881c7817f6afdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_armor_detect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_armor_detect_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_armor_detect_uninstall-Release-066fe01d2375342b7ff7.json",
+					"name" : "rm_armor_detect_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-f7a4dd852d3dd69ad9a3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_subscriber_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_subscriber_component-Release-670e6dda039ccfa72209.json",
+					"name" : "video_subscriber_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_subscriber_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_subscriber_main-Release-e4e645ac615e1a873b63.json",
+					"name" : "video_subscriber_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_subscriber_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_subscriber_node-Release-b2a9e32194a5f6649726.json",
+					"name" : "video_subscriber_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pretend/code/build/rm_armor_detect",
+		"source" : "/home/pretend/code/src/rm_armor_detect"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,67 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pretend/code/src/rm_armor_detect/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pretend/code/build/rm_armor_detect
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber_node[0m
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[ 14%] Built target video_subscriber_node
+[ 21%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o[0m
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:[m[K In constructor ‘[01m[Krm_armor_detect::NumberClassifier::NumberClassifier(const string&, const string&, double, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:118:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Krm_armor_detect::NumberClassifier::threshold_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  118 |   double [01;35m[Kthreshold_[m[K;
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:117:28:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > rm_armor_detect::NumberClassifier::ignore_classes_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  117 |   std::vector<std::string> [01;35m[Kignore_classes_[m[K;
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 | [01;35m[KNumberClassifier[m[K::NumberClassifier(
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::NumberClassifier::classify(std::vector<rm_armor_detect::Armor>&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:119:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 |     if ([01;35m[Klabel_id < class_names_.size()[m[K) {
+      |         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[ 28%] [32m[1mLinking CXX shared library libvideo_subscriber_component.so[0m
+[ 42%] Built target video_subscriber_component
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber_main[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/armor_detect_demo.dir/src/armor_detect_demo.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/enhanced_video_subscriber.dir/src/enhanced_video_subscriber.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/realtime_armor_detect.dir/src/realtime_armor_detect.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[ 78%] Built target video_subscriber_main
+[ 85%] [32m[1mLinking CXX executable armor_detect_demo[0m
+[ 92%] [32m[1mLinking CXX executable realtime_armor_detect[0m
+[ 92%] Built target armor_detect_demo
+[01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:68:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid EnhancedVideoSubscriber::processImage(cv::Mat&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   68 |     void [01;31m[KprocessImage[m[K(cv::Mat & image) override
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid EnhancedVideoSubscriber::processImage(cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:120:30:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessImage[m[K’ is not a member of ‘[01m[Krm_armor_detect::VideoSubscriberNode[m[K’
+  120 |         VideoSubscriberNode::[01;31m[KprocessImage[m[K(image);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[ 92%] Built target realtime_armor_detect
+gmake[2]: *** [CMakeFiles/enhanced_video_subscriber.dir/build.make:76：CMakeFiles/enhanced_video_subscriber.dir/src/enhanced_video_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/enhanced_video_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

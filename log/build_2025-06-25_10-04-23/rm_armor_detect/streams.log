@@ -1,0 +1,62 @@
+[0.015s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target armor_detect[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target armor_detect_component[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target armor_detect_main[0m
+[0.076s] [ 28%] Built target armor_detect
+[0.078s] [ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[0.082s] [ 57%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_main.cpp.o[0m
+[0.082s] [ 71%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[2.962s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[2.962s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.962s]   109 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+[2.962s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.962s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[2.962s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.963s]   109 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+[2.963s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[9.617s] [ 85%] [32m[1mLinking CXX executable armor_detect_main[0m
+[9.643s] [100%] [32m[1mLinking CXX shared library libarmor_detect_component.so[0m
+[9.988s] [100%] Built target armor_detect_component
+[10.148s] [100%] Built target armor_detect_main
+[10.154s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[10.160s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[10.164s] -- Install configuration: "Release"
+[10.165s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+[10.165s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include
+[10.165s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect
+[10.165s] -- Installing: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp
+[10.166s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so
+[10.167s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so" to ""
+[10.168s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main
+[10.168s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main" to ""
+[10.168s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch
+[10.169s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch/armor_detect.launch.py
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/armor.onnx
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/run_armor_detect.sh
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.sh
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.dsv
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[10.169s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[10.170s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[10.170s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport-release.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_libraries-extras.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_targets-extras.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[10.171s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[10.172s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

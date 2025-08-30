@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target rm_rune_detect[0m
+[35m[1mConsolidate compiler generated dependencies of target rune_detect_node[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library librm_rune_detect.so[0m
+[ 44%] [32m[1mLinking CXX executable rune_detect_node[0m
+[ 66%] Built target rm_rune_detect
+[100%] Built target rune_detect_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/lib/rm_rune_detect/rune_detect_node
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/lib/librm_rune_detect.so
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/common_types.hpp
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/openvino_detect.hpp
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/preprocess.hpp
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/include//rm_rune_detect/rune_detect_node.hpp
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/models/rune_detect_320.onnx
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/launch/rune_detect.launch.py
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/package_run_dependencies/rm_rune_detect
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/parent_prefix_path/rm_rune_detect
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.sh
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.sh
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/environment/path.dsv
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.bash
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.sh
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.zsh
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/local_setup.dsv
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.dsv
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/packages/rm_rune_detect
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/ament_index/resource_index/rclcpp_components/rm_rune_detect
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig.cmake
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/cmake/rm_rune_detectConfig-version.cmake
+-- Symlinking: /home/pretend/code/install/rm_rune_detect/share/rm_rune_detect/package.xml

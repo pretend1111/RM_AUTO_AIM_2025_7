@@ -1,0 +1,46 @@
+[0.017s] Invoking command in '/home/pretend/code/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/hik_camera -- -j32 -l32
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/hik_camera_node.dir/rclcpp_components/node_main_hik_camera_node.cpp.o[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o[0m
+[2.002s] [ 75%] [32m[1mLinking CXX executable hik_camera_node[0m
+[2.132s] [100%] [32m[1mLinking CXX shared library libhik_camera.so[0m
+[2.442s] [100%] Built target hik_camera_node
+[2.599s] [100%] Built target hik_camera
+[2.604s] Invoked command in '/home/pretend/code/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/hik_camera -- -j32 -l32
+[2.607s] Invoking command in '/home/pretend/code/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/hik_camera
+[2.610s] -- Install configuration: ""
+[2.610s] -- Up-to-date: /home/pretend/code/install/hik_camera/lib
+[2.610s] -- Up-to-date: /home/pretend/code/install/hik_camera/lib/libMvCameraControl.so
+[2.610s] -- Up-to-date: /home/pretend/code/install/hik_camera/lib/libMediaProcess.so
+[2.610s] -- Up-to-date: /home/pretend/code/install/hik_camera/lib/libMvUsb3vTL.so
+[2.610s] -- Up-to-date: /home/pretend/code/install/hik_camera/lib/libMVRender.so
+[2.610s] -- Up-to-date: /home/pretend/code/install/hik_camera/lib/libFormatConversion.so
+[2.611s] -- Installing: /home/pretend/code/install/hik_camera/lib/hik_camera/hik_camera_node
+[2.612s] -- Set runtime path of "/home/pretend/code/install/hik_camera/lib/hik_camera/hik_camera_node" to ""
+[2.612s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/environment/library_path.sh
+[2.612s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/environment/library_path.dsv
+[2.613s] -- Installing: /home/pretend/code/install/hik_camera/lib/libhik_camera.so
+[2.613s] -- Set runtime path of "/home/pretend/code/install/hik_camera/lib/libhik_camera.so" to ""
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/config
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/config/camera_info_example.yaml
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/config/camera_params_example.yaml
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/launch
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/launch/hik_camera.launch.py
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/ament_index/resource_index/package_run_dependencies/hik_camera
+[2.614s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/ament_index/resource_index/parent_prefix_path/hik_camera
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/environment/ament_prefix_path.sh
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/environment/ament_prefix_path.dsv
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/environment/path.sh
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/environment/path.dsv
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/local_setup.bash
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/local_setup.sh
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/local_setup.zsh
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/local_setup.dsv
+[2.615s] -- Installing: /home/pretend/code/install/hik_camera/share/hik_camera/package.dsv
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/ament_index/resource_index/packages/hik_camera
+[2.615s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/ament_index/resource_index/rclcpp_components/hik_camera
+[2.616s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.616s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[2.616s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig.cmake
+[2.616s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/cmake/hik_cameraConfig-version.cmake
+[2.616s] -- Up-to-date: /home/pretend/code/install/hik_camera/share/hik_camera/package.xml
+[2.617s] Invoked command in '/home/pretend/code/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/hik_camera

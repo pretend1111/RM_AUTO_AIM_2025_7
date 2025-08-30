@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/humble/include/rcl/rcl/timer.h:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/wait.h:33[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:31[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/single_armor_tracker.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_tracker::SingleArmorTracker::processArmorMsg(const ConstSharedPtr&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:63:26:[m[K [01;31m[Kerror: [m[K‘[01m[KRCUTILS_NS_TO_S[m[K’ was not declared in this scope
+   63 |     int64_t current_ns = [01;31m[KRCL_NS_TO_S[m[K * static_cast<int64_t>(current_timestamp.sec) +
+      |                          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_tracker::SingleArmorTracker::updateFilter(const Vector3d&, const Vector4d&, bool)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:168:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knanosec[m[K’; did you mean ‘[01m[Knanoseconds[m[K’?
+  168 |     int64_t dt_ns = current_time.[01;31m[Knanosec[m[K() - last_update_time_.nanosec();
+      |                                  [01;31m[K^~~~~~~[m[K
+      |                                  [32m[Knanoseconds[m[K
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/single_armor_tracker.cpp:168:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knanosec[m[K’; did you mean ‘[01m[Knanoseconds[m[K’?
+  168 |     int64_t dt_ns = current_time.nanosec() - last_update_time_.[01;31m[Knanosec[m[K();
+      |                                                                [01;31m[K^~~~~~~[m[K
+      |                                                                [32m[Knanoseconds[m[K
+gmake[2]: *** [CMakeFiles/armor_tracker_component.dir/build.make:90：CMakeFiles/armor_tracker_component.dir/src/single_armor_tracker.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/armor_tracker_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

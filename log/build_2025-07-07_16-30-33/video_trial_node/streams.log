@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32
+[0.048s] [ 60%] Built target video_publisher_node
+[0.049s] [100%] Built target video_trial_node
+[0.058s] Invoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/video_trial_node -- -j32 -l32
+[0.059s] Invoking command in '/home/pretend/code/build/video_trial_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/video_trial_node
+[0.068s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /home/pretend/code/install/video_trial_node/lib/video_trial_node/video_publisher_node
+[0.068s] -- Up-to-date: /home/pretend/code/install/video_trial_node/lib/libvideo_trial_node.so
+[0.068s] -- Up-to-date: /home/pretend/code/install/video_trial_node/include/
+[0.068s] -- Up-to-date: /home/pretend/code/install/video_trial_node/include//video_trial_node
+[0.068s] -- Up-to-date: /home/pretend/code/install/video_trial_node/include//video_trial_node/video_publisher_node.hpp
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/launch
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/launch/video_publisher.launch.py
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/ament_index/resource_index/package_run_dependencies/video_trial_node
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/ament_index/resource_index/parent_prefix_path/video_trial_node
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/environment/path.sh
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/environment/path.dsv
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/local_setup.bash
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/local_setup.sh
+[0.069s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/local_setup.zsh
+[0.070s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/local_setup.dsv
+[0.070s] -- Installing: /home/pretend/code/install/video_trial_node/share/video_trial_node/package.dsv
+[0.070s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/ament_index/resource_index/packages/video_trial_node
+[0.070s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/ament_index/resource_index/rclcpp_components/video_trial_node
+[0.070s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/cmake/video_trial_nodeConfig.cmake
+[0.070s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/cmake/video_trial_nodeConfig-version.cmake
+[0.070s] -- Up-to-date: /home/pretend/code/install/video_trial_node/share/video_trial_node/package.xml
+[0.091s] Invoked command in '/home/pretend/code/build/video_trial_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/video_trial_node

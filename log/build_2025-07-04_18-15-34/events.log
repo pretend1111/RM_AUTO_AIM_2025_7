@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000135] (-) JobUnselected: {'identifier': 'rm_armor_detect'}
+[0.000144] (-) JobUnselected: {'identifier': 'rm_msgs'}
+[0.000151] (-) JobUnselected: {'identifier': 'rm_rune_detect'}
+[0.000157] (-) JobUnselected: {'identifier': 'video_trial_node'}
+[0.000166] (rm_armor_tracker) JobQueued: {'identifier': 'rm_armor_tracker', 'dependencies': OrderedDict([('rm_msgs', '/home/pretend/code/install/rm_msgs')])}
+[0.000176] (rm_armor_tracker) JobStarted: {'identifier': 'rm_armor_tracker'}
+[0.099424] (-) TimerEvent: {}
+[0.199660] (-) TimerEvent: {}
+[0.299884] (-) TimerEvent: {}
+[0.400116] (-) TimerEvent: {}
+[0.500342] (-) TimerEvent: {}
+[0.600577] (-) TimerEvent: {}
+[0.700823] (-) TimerEvent: {}
+[0.757974] (rm_armor_tracker) JobProgress: {'identifier': 'rm_armor_tracker', 'progress': 'cmake'}
+[0.758902] (rm_armor_tracker) JobProgress: {'identifier': 'rm_armor_tracker', 'progress': 'build'}
+[0.758946] (rm_armor_tracker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_armor_tracker', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_armor_tracker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ff79c011-3fc2-4524-b85c-c64fc710a9fa.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/41359_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/rm_msgs:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_armor_tracker'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/home/pretend/code/install/rm_msgs/local/lib/python3.10/dist-packages:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.772709] (rm_armor_tracker) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800893] (-) TimerEvent: {}
+[0.835965] (rm_armor_tracker) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.839336] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.900990] (-) TimerEvent: {}
+[1.001247] (-) TimerEvent: {}
+[1.024705] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.025758] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.028523] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.032952] (rm_armor_tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.039049] (rm_armor_tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.054787] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.055418] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101341] (-) TimerEvent: {}
+[1.201576] (-) TimerEvent: {}
+[1.301849] (-) TimerEvent: {}
+[1.402071] (-) TimerEvent: {}
+[1.502295] (-) TimerEvent: {}
+[1.602527] (-) TimerEvent: {}
+[1.702760] (-) TimerEvent: {}
+[1.803090] (-) TimerEvent: {}
+[1.903326] (-) TimerEvent: {}
+[2.003555] (-) TimerEvent: {}
+[2.103785] (-) TimerEvent: {}
+[2.204029] (-) TimerEvent: {}
+[2.304284] (-) TimerEvent: {}
+[2.404540] (-) TimerEvent: {}
+[2.504758] (-) TimerEvent: {}
+[2.604996] (-) TimerEvent: {}
+[2.705213] (-) TimerEvent: {}
+[2.805448] (-) TimerEvent: {}
+[2.905661] (-) TimerEvent: {}
+[3.005877] (-) TimerEvent: {}
+[3.106157] (-) TimerEvent: {}
+[3.206480] (-) TimerEvent: {}
+[3.306718] (-) TimerEvent: {}
+[3.406974] (-) TimerEvent: {}
+[3.507207] (-) TimerEvent: {}
+[3.607426] (-) TimerEvent: {}
+[3.707661] (-) TimerEvent: {}
+[3.807877] (-) TimerEvent: {}
+[3.908100] (-) TimerEvent: {}
+[4.008332] (-) TimerEvent: {}
+[4.108542] (-) TimerEvent: {}
+[4.208756] (-) TimerEvent: {}
+[4.308992] (-) TimerEvent: {}
+[4.409207] (-) TimerEvent: {}
+[4.509423] (-) TimerEvent: {}
+[4.609648] (-) TimerEvent: {}
+[4.709864] (-) TimerEvent: {}
+[4.810081] (-) TimerEvent: {}
+[4.910294] (-) TimerEvent: {}
+[5.010512] (-) TimerEvent: {}
+[5.110779] (-) TimerEvent: {}
+[5.211022] (-) TimerEvent: {}
+[5.311251] (-) TimerEvent: {}
+[5.411481] (-) TimerEvent: {}
+[5.511716] (-) TimerEvent: {}
+[5.611949] (-) TimerEvent: {}
+[5.712186] (-) TimerEvent: {}
+[5.812411] (-) TimerEvent: {}
+[5.912637] (-) TimerEvent: {}
+[6.012879] (-) TimerEvent: {}
+[6.113115] (-) TimerEvent: {}
+[6.213342] (-) TimerEvent: {}
+[6.313592] (-) TimerEvent: {}
+[6.413822] (-) TimerEvent: {}
+[6.514068] (-) TimerEvent: {}
+[6.614300] (-) TimerEvent: {}
+[6.714513] (-) TimerEvent: {}
+[6.814744] (-) TimerEvent: {}
+[6.914965] (-) TimerEvent: {}
+[7.015186] (-) TimerEvent: {}
+[7.115419] (-) TimerEvent: {}
+[7.215647] (-) TimerEvent: {}
+[7.315863] (-) TimerEvent: {}
+[7.416178] (-) TimerEvent: {}
+[7.516396] (-) TimerEvent: {}
+[7.616605] (-) TimerEvent: {}
+[7.716816] (-) TimerEvent: {}
+[7.817059] (-) TimerEvent: {}
+[7.917283] (-) TimerEvent: {}
+[8.017623] (-) TimerEvent: {}
+[8.117843] (-) TimerEvent: {}
+[8.218069] (-) TimerEvent: {}
+[8.318322] (-) TimerEvent: {}
+[8.418641] (-) TimerEvent: {}
+[8.518882] (-) TimerEvent: {}
+[8.619135] (-) TimerEvent: {}
+[8.719350] (-) TimerEvent: {}
+[8.819574] (-) TimerEvent: {}
+[8.919780] (-) TimerEvent: {}
+[9.019983] (-) TimerEvent: {}
+[9.120189] (-) TimerEvent: {}
+[9.220494] (-) TimerEvent: {}
+[9.320710] (-) TimerEvent: {}
+[9.420912] (-) TimerEvent: {}
+[9.521122] (-) TimerEvent: {}
+[9.621349] (-) TimerEvent: {}
+[9.721578] (-) TimerEvent: {}
+[9.821808] (-) TimerEvent: {}
+[9.922033] (-) TimerEvent: {}
+[10.022245] (-) TimerEvent: {}
+[10.122466] (-) TimerEvent: {}
+[10.222687] (-) TimerEvent: {}
+[10.322897] (-) TimerEvent: {}
+[10.423103] (-) TimerEvent: {}
+[10.523327] (-) TimerEvent: {}
+[10.623539] (-) TimerEvent: {}
+[10.723749] (-) TimerEvent: {}
+[10.823976] (-) TimerEvent: {}
+[10.924183] (-) TimerEvent: {}
+[11.024403] (-) TimerEvent: {}
+[11.124625] (-) TimerEvent: {}
+[11.224862] (-) TimerEvent: {}
+[11.325072] (-) TimerEvent: {}
+[11.425280] (-) TimerEvent: {}
+[11.525492] (-) TimerEvent: {}
+[11.625706] (-) TimerEvent: {}
+[11.725942] (-) TimerEvent: {}
+[11.826151] (-) TimerEvent: {}
+[11.926370] (-) TimerEvent: {}
+[12.026604] (-) TimerEvent: {}
+[12.126831] (-) TimerEvent: {}
+[12.227081] (-) TimerEvent: {}
+[12.327306] (-) TimerEvent: {}
+[12.427500] (-) TimerEvent: {}
+[12.527735] (-) TimerEvent: {}
+[12.627963] (-) TimerEvent: {}
+[12.728198] (-) TimerEvent: {}
+[12.828450] (-) TimerEvent: {}
+[12.928663] (-) TimerEvent: {}
+[13.028865] (-) TimerEvent: {}
+[13.129084] (-) TimerEvent: {}
+[13.195649] (rm_armor_tracker) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.217728] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[13.226341] (rm_armor_tracker) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[13.229146] (-) TimerEvent: {}
+[13.232831] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rm_msgs: 0.0.0 (/home/pretend/code/install/rm_msgs/share/rm_msgs/cmake)\n'}
+[13.243965] (rm_armor_tracker) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.245825] (rm_armor_tracker) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.283575] (rm_armor_tracker) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.291061] (rm_armor_tracker) StdoutLine: {'line': b'-- Generating done\n'}
+[13.294077] (rm_armor_tracker) StdoutLine: {'line': b'-- Build files have been written to: /home/pretend/code/build/rm_armor_tracker\n'}
+[13.307856] (rm_armor_tracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_tracker_component\x1b[0m\n'}
+[13.318122] (rm_armor_tracker) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o\x1b[0m\n'}
+[13.318282] (rm_armor_tracker) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/single_armor_tracker.cpp.o\x1b[0m\n'}
+[13.329252] (-) TimerEvent: {}
+[13.429479] (-) TimerEvent: {}
+[13.529727] (-) TimerEvent: {}
+[13.629954] (-) TimerEvent: {}
+[13.730226] (-) TimerEvent: {}
+[13.830607] (-) TimerEvent: {}
+[13.930913] (-) TimerEvent: {}
+[14.031163] (-) TimerEvent: {}
+[14.131378] (-) TimerEvent: {}
+[14.231603] (-) TimerEvent: {}
+[14.331854] (-) TimerEvent: {}
+[14.432128] (-) TimerEvent: {}
+[14.532332] (-) TimerEvent: {}
+[14.632618] (-) TimerEvent: {}
+[14.732882] (-) TimerEvent: {}
+[14.833123] (-) TimerEvent: {}
+[14.933310] (-) TimerEvent: {}
+[15.033486] (-) TimerEvent: {}
+[15.133776] (-) TimerEvent: {}
+[15.234001] (-) TimerEvent: {}
+[15.334233] (-) TimerEvent: {}
+[15.434469] (-) TimerEvent: {}
+[15.534685] (-) TimerEvent: {}
+[15.634894] (-) TimerEvent: {}
+[15.735162] (-) TimerEvent: {}
+[15.835474] (-) TimerEvent: {}
+[15.935795] (-) TimerEvent: {}
+[16.036015] (-) TimerEvent: {}
+[16.136321] (-) TimerEvent: {}
+[16.236555] (-) TimerEvent: {}
+[16.336789] (-) TimerEvent: {}
+[16.436995] (-) TimerEvent: {}
+[16.537214] (-) TimerEvent: {}
+[16.637489] (-) TimerEvent: {}
+[16.737819] (-) TimerEvent: {}
+[16.838173] (-) TimerEvent: {}
+[16.938416] (-) TimerEvent: {}
+[17.038635] (-) TimerEvent: {}
+[17.138956] (-) TimerEvent: {}
+[17.239253] (-) TimerEvent: {}
+[17.339456] (-) TimerEvent: {}
+[17.439645] (-) TimerEvent: {}
+[17.539875] (-) TimerEvent: {}
+[17.640078] (-) TimerEvent: {}
+[17.740288] (-) TimerEvent: {}
+[17.840620] (-) TimerEvent: {}
+[17.940829] (-) TimerEvent: {}
+[18.041005] (-) TimerEvent: {}
+[18.141190] (-) TimerEvent: {}
+[18.241407] (-) TimerEvent: {}
+[18.341626] (-) TimerEvent: {}
+[18.441798] (-) TimerEvent: {}
+[18.542061] (-) TimerEvent: {}
+[18.642386] (-) TimerEvent: {}
+[18.742590] (-) TimerEvent: {}
+[18.842813] (-) TimerEvent: {}
+[18.943107] (-) TimerEvent: {}
+[19.043275] (-) TimerEvent: {}
+[19.143492] (-) TimerEvent: {}
+[19.243682] (-) TimerEvent: {}
+[19.344002] (-) TimerEvent: {}
+[19.444232] (-) TimerEvent: {}
+[19.540025] (rm_armor_tracker) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libarmor_tracker_component.so\x1b[0m\n'}
+[19.544294] (-) TimerEvent: {}
+[19.644460] (-) TimerEvent: {}
+[19.744696] (-) TimerEvent: {}
+[19.757225] (rm_armor_tracker) StdoutLine: {'line': b'[ 60%] Built target armor_tracker_component\n'}
+[19.766827] (rm_armor_tracker) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/src/armor_tracker_main.cpp.o\x1b[0m\n'}
+[19.844747] (-) TimerEvent: {}
+[19.944960] (-) TimerEvent: {}
+[20.045132] (-) TimerEvent: {}
+[20.145468] (-) TimerEvent: {}
+[20.245692] (-) TimerEvent: {}
+[20.345891] (-) TimerEvent: {}
+[20.446072] (-) TimerEvent: {}
+[20.546295] (-) TimerEvent: {}
+[20.646537] (-) TimerEvent: {}
+[20.746749] (-) TimerEvent: {}
+[20.846993] (-) TimerEvent: {}
+[20.947212] (-) TimerEvent: {}
+[21.047428] (-) TimerEvent: {}
+[21.053805] (rm_armor_tracker) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[21.053919] (rm_armor_tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[21.053947] (rm_armor_tracker) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_main.cpp:1\x1b[m\x1b[K:\n'}
+[21.053969] (rm_armor_tracker) StderrLine: {'line': b'/usr/include/c++/11/bits/unique_ptr.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = rm_armor_tracker::SingleArmorTracker]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.053993] (rm_armor_tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:361:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = rm_armor_tracker::SingleArmorTracker; _Dp = std::default_delete<rm_armor_tracker::SingleArmorTracker>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.054032] (rm_armor_tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp:15:7:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = rm_armor_tracker::ArmorTrackerNode; _Tp = rm_armor_tracker::ArmorTrackerNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.054069] (rm_armor_tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:535:15:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = rm_armor_tracker::ArmorTrackerNode; _Tp = rm_armor_tracker::ArmorTrackerNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rm_armor_tracker::ArmorTrackerNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.054095] (rm_armor_tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:528:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_M_dispose() [with _Tp = rm_armor_tracker::ArmorTrackerNode; _Alloc = std::allocator<rm_armor_tracker::ArmorTrackerNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.054119] (rm_armor_tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:526:7:\x1b[m\x1b[K   required from here\n'}
+[21.054141] (rm_armor_tracker) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:83:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid application of \xe2\x80\x98\x1b[01m\x1b[Ksizeof\x1b[m\x1b[K\xe2\x80\x99 to incomplete type \xe2\x80\x98\x1b[01m\x1b[Krm_armor_tracker::SingleArmorTracker\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.054163] (rm_armor_tracker) StderrLine: {'line': b'   83 |         static_assert(\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K>0,\n'}
+[21.054183] (rm_armor_tracker) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.078797] (rm_armor_tracker) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armor_tracker_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/armor_tracker_node.dir/src/armor_tracker_main.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[21.078985] (rm_armor_tracker) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/armor_tracker_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[21.079090] (rm_armor_tracker) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[21.080928] (rm_armor_tracker) CommandEnded: {'returncode': 2}
+[21.087894] (rm_armor_tracker) JobEnded: {'identifier': 'rm_armor_tracker', 'rc': 2}
+[21.098317] (-) EventReactorShutdown: {}

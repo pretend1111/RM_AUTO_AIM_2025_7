@@ -1,0 +1,108 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rm_msgs: 0.0.0 (/home/pretend/code/install/rm_msgs/share/rm_msgs/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/pretend/code/src/rm_armor_tracker/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pretend/code/build/rm_armor_tracker
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker_node[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker_component[0m
+[ 33%] Built target armor_tracker_node
+[ 50%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp:3[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_tracker::ArmorTrackerNode::parse_armor_message(const ConstSharedPtr&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:73:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   73 |               [01;35m[K"  - 时间戳: %ld.%09ld"[m[K, [32m[Ktimestamp.sec[m[K, timestamp.nanosec);
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+      |                                                  [32m[K|[m[K
+      |                                                  [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type {aka int}[m[K
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:73:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   73 |               "  - 时间戳: [01;36m[K%ld[m[K.%09ld", timestamp.sec, timestamp.nanosec);
+      |                            [01;36m[K~~^[m[K
+      |                              [01;36m[K|[m[K
+      |                              [01;36m[Klong int[m[K
+      |                            [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp:3[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:73:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   73 |               [01;35m[K"  - 时间戳: %ld.%09ld"[m[K, timestamp.sec, [32m[Ktimestamp.nanosec[m[K);
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K                 [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                 [32m[K|[m[K
+      |                                                                 [32m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type {aka unsigned int}[m[K
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:73:36:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   73 |               "  - 时间戳: %ld.[01;36m[K%09ld[m[K", timestamp.sec, timestamp.nanosec);
+      |                                [01;36m[K~~~~^[m[K
+      |                                    [01;36m[K|[m[K
+      |                                    [01;36m[Klong int[m[K
+      |                                [32m[K%09d[m[K
+[ 66%] [32m[1mLinking CXX shared library libarmor_tracker_component.so[0m
+[ 66%] Built target armor_tracker_component
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker_main[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/armor_tracker_main.dir/src/armor_tracker_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable armor_tracker_main[0m
+[100%] Built target armor_tracker_main
+-- Install configuration: ""
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_node
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/include/
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/include//rm_armor_tracker
+-- Installing: /home/pretend/code/install/rm_armor_tracker/include//rm_armor_tracker/armor_tracker_node.hpp
+-- Installing: /home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so
+-- Set runtime path of "/home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so" to ""
+-- Installing: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_main
+-- Set runtime path of "/home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_main" to ""
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/package_run_dependencies/rm_armor_tracker
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/parent_prefix_path/rm_armor_tracker
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.sh
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.sh
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.dsv
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.bash
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.sh
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.zsh
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.dsv
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/packages/rm_armor_tracker
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/rclcpp_components/rm_armor_tracker
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig.cmake
+-- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig-version.cmake
+-- Installing: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.xml

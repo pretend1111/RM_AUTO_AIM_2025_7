@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_node[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_component[0m
+[0.100s] [ 33%] Built target armor_tracker_component
+[0.101s] [ 66%] Built target armor_tracker_node
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_main[0m
+[0.117s] [100%] Built target armor_tracker_main
+[0.128s] Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_tracker -- -j32 -l32
+[0.135s] Invoking command in '/home/pretend/code/build/rm_armor_tracker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker
+[0.138s] -- Install configuration: ""
+[0.139s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_node
+[0.139s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/include/
+[0.139s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/include//rm_armor_tracker
+[0.140s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/include//rm_armor_tracker/armor_tracker_node.hpp
+[0.140s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so
+[0.141s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_main
+[0.141s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/package_run_dependencies/rm_armor_tracker
+[0.142s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/parent_prefix_path/rm_armor_tracker
+[0.142s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.sh
+[0.143s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.dsv
+[0.143s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.bash
+[0.143s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.sh
+[0.143s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.zsh
+[0.143s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.dsv
+[0.143s] -- Installing: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv
+[0.144s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/packages/rm_armor_tracker
+[0.144s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/rclcpp_components/rm_armor_tracker
+[0.144s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig.cmake
+[0.145s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig-version.cmake
+[0.145s] -- Up-to-date: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.xml
+[0.170s] Invoked command in '/home/pretend/code/build/rm_armor_tracker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_tracker

@@ -1,0 +1,1 @@
+Invoking command in '/home/pretend/code/build/hik_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/ros2-hik-camera-main -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/hik_camera

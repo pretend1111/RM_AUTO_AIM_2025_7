@@ -1,0 +1,37 @@
+[0.018s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[0.054s] [ 22%] Built target video_subscriber_node
+[0.065s] [ 33%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o[0m
+[1.324s] [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::LightsDetector::is_light(const rm_armor_detect::Light&)[m[K’:
+[1.324s] [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:210:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+[1.324s]   210 |   [01;31m[Kcout[m[K<<"灯条倾斜角度"<<light.tilt_angle<<endl;
+[1.324s]       |   [01;31m[K^~~~[m[K
+[1.324s]       |   [32m[Kstd::cout[m[K
+[1.324s] In file included from [01m[K/usr/include/opencv4/opencv2/flann/params.h:37[m[K,
+[1.324s]                  from [01m[K/usr/include/opencv4/opencv2/flann/flann_base.hpp:41[m[K,
+[1.324s]                  from [01m[K/usr/include/opencv4/opencv2/flann.hpp:48[m[K,
+[1.324s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:65[m[K,
+[1.324s]                  from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/lights_detector.hpp:4[m[K,
+[1.324s]                  from [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:1[m[K:
+[1.324s] [01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[1.324s]    61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+[1.324s]       |                  [01;36m[K^~~~[m[K
+[1.324s] [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:210:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+[1.324s]   210 |   cout<<"灯条倾斜角度"<<light.tilt_angle<<[01;31m[Kendl[m[K;
+[1.324s]       |                                           [01;31m[K^~~~[m[K
+[1.324s]       |                                           [32m[Kstd::endl[m[K
+[1.324s] In file included from [01m[K/usr/include/c++/11/istream:39[m[K,
+[1.324s]                  from [01m[K/usr/include/c++/11/sstream:38[m[K,
+[1.324s]                  from [01m[K/usr/include/c++/11/complex:45[m[K,
+[1.324s]                  from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+[1.324s]                  from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+[1.324s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[1.324s]                  from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/lights_detector.hpp:4[m[K,
+[1.324s]                  from [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:1[m[K:
+[1.324s] [01m[K/usr/include/c++/11/ostream:684:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+[1.324s]   684 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+[1.325s]       |     [01;36m[K^~~~[m[K
+[1.926s] gmake[2]: *** [CMakeFiles/video_subscriber_component.dir/build.make:104：CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o] 错误 1
+[1.926s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/video_subscriber_component.dir/all] 错误 2
+[1.926s] gmake: *** [Makefile:146：all] 错误 2
+[1.928s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32

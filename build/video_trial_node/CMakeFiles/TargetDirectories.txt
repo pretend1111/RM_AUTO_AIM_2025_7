@@ -1,0 +1,11 @@
+/home/pretend/code/build/video_trial_node/CMakeFiles/uninstall.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/video_trial_node_uninstall.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/video_publisher_node.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/video_trial_node.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/test.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/edit_cache.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/rebuild_cache.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/list_install_components.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/install.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/install/local.dir
+/home/pretend/code/build/video_trial_node/CMakeFiles/install/strip.dir

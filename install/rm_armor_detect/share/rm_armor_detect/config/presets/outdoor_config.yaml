@@ -1,0 +1,45 @@
+# 室外环境装甲板检测配置
+# 适用于室外强光条件，距离3-8米的检测场景
+
+/video_subscriber_node:
+  ros__parameters:
+    # 基础参数
+    topic_name: "image_raw"
+    display_image: true
+    window_name: "室外装甲板检测"
+    use_sensor_data_qos: true
+    
+    # 曝光增强 - 室外光线强，需要降低增益
+    enable_exposure_enhancement: true
+    exposure_gain: 0.5
+    
+    # 车辆检测
+    enable_car_detection: true
+    model_path: "~/code/src/rm_armor_detect/models/car/car.onnx"
+    detection_confidence_threshold: 0.08
+    
+    # 数字分类
+    enable_number_classification: true
+    number_model_path: "~/code/src/rm_armor_detect/models/number/mlp.onnx"
+    number_label_path: "~/code/src/rm_armor_detect/models/number/label.txt"
+    number_confidence_threshold: 0.75
+    
+    # 二值化阈值 - 室外光线强，提高阈值
+    binary_threshold: 200
+    detect_color: 1
+    debug_contours: false  # 室外检测关闭调试以提高性能
+    
+    # 灯条参数 - 室外光线变化大，放宽限制
+    light_params:
+      min_ratio: 0.12
+      max_ratio: 0.5
+      max_angle: 35.0
+    
+    # 装甲板参数 - 适合远距离检测
+    armor_params:
+      min_light_ratio: 0.75
+      min_small_center_distance: 0.6
+      max_small_center_distance: 2.8
+      min_large_center_distance: 2.8
+      max_large_center_distance: 4.5
+      max_angle: 30.0 

@@ -1,0 +1,1 @@
+/home/pretend/code/build/rm_armor_tracker/ament_cmake_environment_hooks/local_setup.sh

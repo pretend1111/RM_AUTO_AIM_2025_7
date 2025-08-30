@@ -1,0 +1,7 @@
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::VideoSubscriberNode::image_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:78:40:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kcv::Mat&[m[K’ to ‘[01m[Kconst cv::Mat[m[K’ discards qualifiers
+   78 |       cv::Mat& display_frame = [01;31m[Kcv_ptr->image[m[K;
+      |                                [01;31m[K~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/video_subscriber_component.dir/build.make:76：CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/video_subscriber_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

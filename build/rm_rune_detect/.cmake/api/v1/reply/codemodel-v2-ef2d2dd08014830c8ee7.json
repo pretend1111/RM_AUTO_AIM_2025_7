@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-96ed20017f743f302aaf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rm_rune_detect",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_rune_detect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_rune_detect-Release-102f6d79559885844868.json",
+					"name" : "rm_rune_detect",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rm_rune_detect_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rm_rune_detect_uninstall-Release-a604ece24691b6928bf3.json",
+					"name" : "rm_rune_detect_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rune_detect_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rune_detect_node-Release-10f83e1c82f9b9064887.json",
+					"name" : "rune_detect_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-43b28e222c2de3bfa714.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pretend/code/build/rm_rune_detect",
+		"source" : "/home/pretend/code/src/rm_rune_detect"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+camera_info_manager:cv_bridge:image_transport:opencv4:rclcpp:rclcpp_components:sensor_msgs

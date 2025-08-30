@@ -1,0 +1,162 @@
+[0.009s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/rm_rune_detect -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_rune_detect
+[0.048s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.143s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.775s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.777s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.784s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.840s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.842s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[29.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[29.717s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[29.736s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[29.766s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[29.774s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[37.352s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[37.394s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.394s] -- Configured cppcheck include dirs: /home/pretend/code/src/rm_rune_detect/include
+[37.394s] -- Configured cppcheck exclude dirs and/or files: 
+[37.394s] -- Added test 'flake8' to check Python code syntax and style conventions
+[37.395s] -- Added test 'lint_cmake' to check CMake code style
+[37.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[37.395s] -- Added test 'uncrustify' to check C / C++ code style
+[37.395s] -- Configured uncrustify additional arguments: 
+[37.396s] -- Added test 'xmllint' to check XML markup files
+[37.397s] -- Configuring done
+[37.417s] -- Generating done
+[37.421s] -- Build files have been written to: /home/pretend/code/build/rm_rune_detect
+[37.429s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/rm_rune_detect -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_rune_detect
+[37.431s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[37.453s] [35m[1mConsolidate compiler generated dependencies of target rm_rune_detect[0m
+[37.453s] [35m[1mConsolidate compiler generated dependencies of target rune_detect_node[0m
+[37.462s] [ 11%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o[0m
+[37.464s] [ 22%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o[0m
+[38.677s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)[m[K’:
+[38.677s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[38.677s]   389 |                 float [01;35m[Kcenter_x[m[K = (x1 + x2) / 2.0f;
+[38.677s]       |                       [01;35m[K^~~~~~~~[m[K
+[38.677s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[38.677s]   390 |                 float [01;35m[Kcenter_y[m[K = (y1 + y2) / 2.0f;
+[38.677s]       |                       [01;35m[K^~~~~~~~[m[K
+[38.677s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)[m[K’:
+[38.677s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[38.677s]   389 |                 float [01;35m[Kcenter_x[m[K = (x1 + x2) / 2.0f;
+[38.677s]       |                       [01;35m[K^~~~~~~~[m[K
+[38.677s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[38.677s]   390 |                 float [01;35m[Kcenter_y[m[K = (y1 + y2) / 2.0f;
+[38.677s]       |                       [01;35m[K^~~~~~~~[m[K
+[38.680s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:488:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[38.680s]   488 |             if (std::abs([01;31m[Kx[m[K) > 1.0f || std::abs(y) > 1.0f ||
+[38.680s]       |                          [01;31m[K^[m[K
+[38.680s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:488:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[38.680s]   488 |             if (std::abs([01;31m[Kx[m[K) > 1.0f || std::abs(y) > 1.0f ||
+[38.681s]       |                          [01;31m[K^[m[K
+[38.682s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:488:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.682s]   488 |             if (std::abs(x) > 1.0f || std::abs([01;31m[Ky[m[K) > 1.0f ||
+[38.682s]       |                                                [01;31m[K^[m[K
+[38.682s]       |                                                [32m[Kyn[m[K
+[38.683s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:488:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.683s]   488 |             if (std::abs(x) > 1.0f || std::abs([01;31m[Ky[m[K) > 1.0f ||
+[38.683s]       |                                                [01;31m[K^[m[K
+[38.683s]       |                                                [32m[Kyn[m[K
+[38.684s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:489:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.684s]   489 |                 std::abs([01;31m[Kw[m[K) > 1.0f || std::abs(h) > 1.0f) {
+[38.684s]       |                          [01;31m[K^[m[K
+[38.684s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:489:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.684s]   489 |                 std::abs([01;31m[Kw[m[K) > 1.0f || std::abs(h) > 1.0f) {
+[38.684s]       |                          [01;31m[K^[m[K
+[38.686s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:489:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.686s]   489 |                 std::abs(w) > 1.0f || std::abs([01;31m[Kh[m[K) > 1.0f) {
+[38.686s]       |                                                [01;31m[K^[m[K
+[38.686s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:489:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.686s]   489 |                 std::abs(w) > 1.0f || std::abs([01;31m[Kh[m[K) > 1.0f) {
+[38.686s]       |                                                [01;31m[K^[m[K
+[38.687s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:497:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[38.687s]   497 |                 [01;31m[Kx[m[K = x * img_width;
+[38.687s]       |                 [01;31m[K^[m[K
+[38.688s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:497:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[38.688s]   497 |                 [01;31m[Kx[m[K = x * img_width;
+[38.688s]       |                 [01;31m[K^[m[K
+[38.689s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:498:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.689s]   498 |                 [01;31m[Ky[m[K = y * img_height;
+[38.689s]       |                 [01;31m[K^[m[K
+[38.689s]       |                 [32m[Kyn[m[K
+[38.690s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:498:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.690s]   498 |                 [01;31m[Ky[m[K = y * img_height;
+[38.690s]       |                 [01;31m[K^[m[K
+[38.690s]       |                 [32m[Kyn[m[K
+[38.691s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:499:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.691s]   499 |                 [01;31m[Kw[m[K = w * img_width;
+[38.691s]       |                 [01;31m[K^[m[K
+[38.692s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:499:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.692s]   499 |                 [01;31m[Kw[m[K = w * img_width;
+[38.692s]       |                 [01;31m[K^[m[K
+[38.693s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:500:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.693s]   500 |                 [01;31m[Kh[m[K = h * img_height;
+[38.693s]       |                 [01;31m[K^[m[K
+[38.693s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:500:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.693s]   500 |                 [01;31m[Kh[m[K = h * img_height;
+[38.694s]       |                 [01;31m[K^[m[K
+[38.694s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:503:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[38.694s]   503 |                 [01;31m[Kx[m[K = x * scale_factor_.x;
+[38.694s]       |                 [01;31m[K^[m[K
+[38.695s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:503:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[38.695s]   503 |                 [01;31m[Kx[m[K = x * scale_factor_.x;
+[38.695s]       |                 [01;31m[K^[m[K
+[38.696s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:504:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.696s]   504 |                 [01;31m[Ky[m[K = y * scale_factor_.y;
+[38.696s]       |                 [01;31m[K^[m[K
+[38.696s]       |                 [32m[Kyn[m[K
+[38.697s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:504:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.697s]   504 |                 [01;31m[Ky[m[K = y * scale_factor_.y;
+[38.697s]       |                 [01;31m[K^[m[K
+[38.697s]       |                 [32m[Kyn[m[K
+[38.698s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:505:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.698s]   505 |                 [01;31m[Kw[m[K = w * scale_factor_.x;
+[38.698s]       |                 [01;31m[K^[m[K
+[38.698s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:505:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.698s]   505 |                 [01;31m[Kw[m[K = w * scale_factor_.x;
+[38.698s]       |                 [01;31m[K^[m[K
+[38.699s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:506:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.699s]   506 |                 [01;31m[Kh[m[K = h * scale_factor_.y;
+[38.699s]       |                 [01;31m[K^[m[K
+[38.700s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:506:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.700s]   506 |                 [01;31m[Kh[m[K = h * scale_factor_.y;
+[38.700s]       |                 [01;31m[K^[m[K
+[38.701s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:510:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope; did you mean ‘[01m[Kx1[m[K’?
+[38.701s]   510 |             float x1 = [01;31m[Kx[m[K - w / 2;
+[38.701s]       |                        [01;31m[K^[m[K
+[38.701s]       |                        [32m[Kx1[m[K
+[38.702s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:510:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope; did you mean ‘[01m[Kx1[m[K’?
+[38.702s]   510 |             float x1 = [01;31m[Kx[m[K - w / 2;
+[38.703s]       |                        [01;31m[K^[m[K
+[38.703s]       |                        [32m[Kx1[m[K
+[38.704s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:510:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.704s]   510 |             float x1 = x - [01;31m[Kw[m[K / 2;
+[38.704s]       |                            [01;31m[K^[m[K
+[38.704s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:510:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kw[m[K’ was not declared in this scope
+[38.704s]   510 |             float x1 = x - [01;31m[Kw[m[K / 2;
+[38.704s]       |                            [01;31m[K^[m[K
+[38.706s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:511:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.706s]   511 |             float y1 = [01;31m[Ky[m[K - h / 2;
+[38.706s]       |                        [01;31m[K^[m[K
+[38.706s]       |                        [32m[Kyn[m[K
+[38.706s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:511:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[38.706s]   511 |             float y1 = [01;31m[Ky[m[K - h / 2;
+[38.706s]       |                        [01;31m[K^[m[K
+[38.706s]       |                        [32m[Kyn[m[K
+[38.708s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:511:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.708s]   511 |             float y1 = y - [01;31m[Kh[m[K / 2;
+[38.708s]       |                            [01;31m[K^[m[K
+[38.708s] [01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:511:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kh[m[K’ was not declared in this scope
+[38.708s]   511 |             float y1 = y - [01;31m[Kh[m[K / 2;
+[38.708s]       |                            [01;31m[K^[m[K
+[39.163s] gmake[2]: *** [CMakeFiles/rm_rune_detect.dir/build.make:90：CMakeFiles/rm_rune_detect.dir/src/openvino_detect.cpp.o] 错误 1
+[39.163s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/rm_rune_detect.dir/all] 错误 2
+[39.163s] gmake[1]: *** 正在等待未完成的任务....
+[39.168s] gmake[2]: *** [CMakeFiles/rune_detect_node.dir/build.make:104：CMakeFiles/rune_detect_node.dir/src/openvino_detect.cpp.o] 错误 1
+[39.168s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rune_detect_node.dir/all] 错误 2
+[39.168s] gmake: *** [Makefile:146：all] 错误 2
+[39.170s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32

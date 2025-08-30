@@ -1,0 +1,28 @@
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp: In member function ‘void rm_rune_detect::OpenvinoDetect::initializeModel(const string&)’:
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:94:29: warning: unused variable ‘shape’ [-Wunused-variable]
+   94 |                 const auto& shape = input.get_shape();
+      |                             ^~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:104:29: warning: unused variable ‘shape’ [-Wunused-variable]
+  104 |                 const auto& shape = output.get_shape();
+      |                             ^~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp: In member function ‘std::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)’:
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23: warning: unused variable ‘center_x’ [-Wunused-variable]
+  389 |                 float center_x = (x1 + x2) / 2.0f;
+      |                       ^~~~~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23: warning: unused variable ‘center_y’ [-Wunused-variable]
+  390 |                 float center_y = (y1 + y2) / 2.0f;
+      |                       ^~~~~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp: In member function ‘void rm_rune_detect::OpenvinoDetect::initializeModel(const string&)’:
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:94:29: warning: unused variable ‘shape’ [-Wunused-variable]
+   94 |                 const auto& shape = input.get_shape();
+      |                             ^~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:104:29: warning: unused variable ‘shape’ [-Wunused-variable]
+  104 |                 const auto& shape = output.get_shape();
+      |                             ^~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp: In member function ‘std::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)’:
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:389:23: warning: unused variable ‘center_x’ [-Wunused-variable]
+  389 |                 float center_x = (x1 + x2) / 2.0f;
+      |                       ^~~~~~~~
+/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:390:23: warning: unused variable ‘center_y’ [-Wunused-variable]
+  390 |                 float center_y = (y1 + y2) / 2.0f;
+      |                       ^~~~~~~~

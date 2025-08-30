@@ -1,0 +1,49 @@
+[35m[1mConsolidate compiler generated dependencies of target armor_detect[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_main.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[ 71%] Built target armor_detect
+[ 85%] [32m[1mLinking CXX shared library libarmor_detect_component.so[0m
+[100%] [32m[1mLinking CXX executable armor_detect_main[0m
+[100%] Built target armor_detect_component
+[100%] Built target armor_detect_main
+-- Install configuration: ""
+-- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+-- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect" to ""
+-- Installing: /home/pretend/code/install/rm_armor_detect/include
+-- Installing: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect
+-- Installing: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp
+-- Installing: /home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so
+-- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so" to ""
+-- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main
+-- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main" to ""
+-- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch/armor_detect.launch.py
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/armor.onnx
+-- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/run_armor_detect.sh
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.sh
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.dsv
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport-noconfig.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+-- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml

@@ -1,0 +1,25 @@
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:[m[K In constructor ‘[01m[Krm_armor_detect::NumberClassifier::NumberClassifier(const string&, const string&, double, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:118:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Krm_armor_detect::NumberClassifier::threshold_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  118 |   double [01;35m[Kthreshold_[m[K;
+      |          [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/simple_lights_detector.hpp:117:28:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > rm_armor_detect::NumberClassifier::ignore_classes_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  117 |   std::vector<std::string> [01;35m[Kignore_classes_[m[K;
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:14:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   14 | [01;35m[KNumberClassifier[m[K::NumberClassifier(
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::NumberClassifier::classify(std::vector<rm_armor_detect::Armor>&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:119:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  119 |     if ([01;35m[Klabel_id < class_names_.size()[m[K) {
+      |         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:68:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid EnhancedVideoSubscriber::processImage(cv::Mat&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   68 |     void [01;31m[KprocessImage[m[K(cv::Mat & image) override
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:[m[K In member function ‘[01m[Kvoid EnhancedVideoSubscriber::processImage(cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/enhanced_video_subscriber.cpp:120:30:[m[K [01;31m[Kerror: [m[K‘[01m[KprocessImage[m[K’ is not a member of ‘[01m[Krm_armor_detect::VideoSubscriberNode[m[K’
+  120 |         VideoSubscriberNode::[01;31m[KprocessImage[m[K(image);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/enhanced_video_subscriber.dir/build.make:76：CMakeFiles/enhanced_video_subscriber.dir/src/enhanced_video_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/enhanced_video_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

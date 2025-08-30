@@ -1,0 +1,60 @@
+[0.093s] Invoking command in '/home/pretend/code/build/mechax_trajectory': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake /home/pretend/code/src/mechax_trajectory -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/mechax_trajectory
+[0.248s] -- The C compiler identification is GNU 11.4.0
+[0.876s] -- The CXX compiler identification is GNU 11.4.0
+[1.353s] -- Detecting C compiler ABI info
+[1.497s] -- Detecting C compiler ABI info - done
+[1.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.501s] -- Detecting C compile features
+[1.501s] -- Detecting C compile features - done
+[1.503s] -- Detecting CXX compiler ABI info
+[1.656s] -- Detecting CXX compiler ABI info - done
+[1.660s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.660s] -- Detecting CXX compile features
+[1.660s] -- Detecting CXX compile features - done
+[1.663s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.738s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.083s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.086s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.090s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.127s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.128s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.985s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.892s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.976s] -- Looking for pthread.h
+[12.121s] -- Looking for pthread.h - found
+[12.121s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.273s] -- Found Threads: TRUE  
+[12.466s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[12.467s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[12.467s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[12.510s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.524s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.524s] -- Configured cppcheck include dirs: /home/pretend/code/src/mechax_trajectory/include;/home/pretend/code/src/mechax_trajectory/include/mechax_trajectory
+[12.524s] -- Configured cppcheck exclude dirs and/or files: 
+[12.525s] -- Added test 'lint_cmake' to check CMake code style
+[12.526s] -- Added test 'uncrustify' to check C / C++ code style
+[12.526s] -- Configured uncrustify additional arguments: 
+[12.527s] -- Added test 'xmllint' to check XML markup files
+[12.528s] -- Configuring done
+[12.539s] -- Generating done
+[12.542s] -- Build files have been written to: /home/pretend/code/build/mechax_trajectory
+[12.548s] Invoked command in '/home/pretend/code/build/mechax_trajectory' returned '0': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake /home/pretend/code/src/mechax_trajectory -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/mechax_trajectory
+[12.549s] Invoking command in '/home/pretend/code/build/mechax_trajectory': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --build /home/pretend/code/build/mechax_trajectory -- -j32 -l32
+[12.572s] [ 25%] [32mBuilding CXX object CMakeFiles/mechax_trajectory_node.dir/rclcpp_components/node_main_mechax_trajectory_node.cpp.o[0m
+[12.573s] [ 50%] [32mBuilding CXX object CMakeFiles/mechax_trajectory.dir/src/trajectoryer.cpp.o[0m
+[12.731s] In file included from [01m[K/home/pretend/code/src/mechax_trajectory/src/trajectoryer.cpp:5[m[K:
+[12.731s] [01m[K/home/pretend/code/src/mechax_trajectory/include/mechax_trajectory/trajectoryer.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Krm_msgs/msg/receive_serial.hpp: 没有那个文件或目录
+[12.731s]    19 | #include [01;31m[K"rm_msgs/msg/receive_serial.hpp"[m[K
+[12.731s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.731s] compilation terminated.
+[12.732s] gmake[2]: *** [CMakeFiles/mechax_trajectory.dir/build.make:76：CMakeFiles/mechax_trajectory.dir/src/trajectoryer.cpp.o] 错误 1
+[12.732s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/mechax_trajectory.dir/all] 错误 2
+[12.732s] gmake[1]: *** 正在等待未完成的任务....
+[14.236s] [ 75%] [32m[1mLinking CXX executable mechax_trajectory_node[0m
+[14.435s] [ 75%] Built target mechax_trajectory_node
+[14.435s] gmake: *** [Makefile:146：all] 错误 2
+[14.436s] Invoked command in '/home/pretend/code/build/mechax_trajectory' returned '2': CMAKE_PREFIX_PATH=/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64 /usr/bin/cmake --build /home/pretend/code/build/mechax_trajectory -- -j32 -l32

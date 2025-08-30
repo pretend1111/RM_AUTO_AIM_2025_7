@@ -1,0 +1,119 @@
+[0.006s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target armor_detect[0m
+[0.043s] [ 14%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_main.cpp.o[0m
+[0.043s] [ 28%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[0.044s] [ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[0.048s] [ 71%] Built target armor_detect
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s]   100 |     ov::Shape input_shape = {1, [01;35m[Kinput_channels_[m[K, input_height_, input_width_};
+[2.421s]       |                                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:50:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s]   100 |     ov::Shape input_shape = {1, input_channels_, [01;35m[Kinput_height_[m[K, input_width_};
+[2.421s]       |                                                  [01;35m[K^~~~~~~~~~~~~[m[K
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:50:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:65:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s]   100 |     ov::Shape input_shape = {1, input_channels_, input_height_, [01;35m[Kinput_width_[m[K};
+[2.421s]       |                                                                 [01;35m[K^~~~~~~~~~~~[m[K
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:65:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s]   100 |     ov::Shape input_shape = {1, [01;35m[Kinput_channels_[m[K, input_height_, input_width_};
+[2.421s]       |                                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.421s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:50:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.422s]   100 |     ov::Shape input_shape = {1, input_channels_, [01;35m[Kinput_height_[m[K, input_width_};
+[2.422s]       |                                                  [01;35m[K^~~~~~~~~~~~~[m[K
+[2.422s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:50:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.422s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:65:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.422s]   100 |     ov::Shape input_shape = {1, input_channels_, input_height_, [01;35m[Kinput_width_[m[K};
+[2.422s]       |                                                                 [01;35m[K^~~~~~~~~~~~[m[K
+[2.422s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:100:65:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.476s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:99:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.476s]    99 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+[2.476s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.479s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:99:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.479s]    99 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+[2.479s]       |                       [01;35m[K^~~~~~~~~~[m[K
+[2.699s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::ArmorDetectNode::inference_thread_func()[m[K’:
+[2.699s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:13:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.699s]   220 |         {1, [01;35m[Kinput_channels_[m[K, input_height_, input_width_},
+[2.699s]       |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:13:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:30:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s]   220 |         {1, input_channels_, [01;35m[Kinput_height_[m[K, input_width_},
+[2.700s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:30:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s]   220 |         {1, input_channels_, input_height_, [01;35m[Kinput_width_[m[K},
+[2.700s]       |                                             [01;35m[K^~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:241:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.700s]   241 |           output_shape[0] == output_rows_ &&
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:242:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.700s]   242 |           output_shape[1] == output_cols_) {
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::ArmorDetectNode::inference_thread_func()[m[K’:
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:13:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s]   220 |         {1, [01;35m[Kinput_channels_[m[K, input_height_, input_width_},
+[2.700s]       |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:13:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_channels_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:30:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s]   220 |         {1, input_channels_, [01;35m[Kinput_height_[m[K, input_width_},
+[2.700s]       |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:30:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_height_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s]   220 |         {1, input_channels_, input_height_, [01;35m[Kinput_width_[m[K},
+[2.700s]       |                                             [01;35m[K^~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:220:45:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K((rm_armor_detect::ArmorDetectNode*)this)->rm_armor_detect::ArmorDetectNode::input_width_[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.700s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:241:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.701s]   241 |           output_shape[0] == output_rows_ &&
+[2.701s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:242:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<long unsigned int>, long unsigned int>::value_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.701s]   242 |           output_shape[1] == output_cols_) {
+[6.754s] [ 85%] [32m[1mLinking CXX shared library libarmor_detect_component.so[0m
+[6.754s] [100%] [32m[1mLinking CXX executable armor_detect_main[0m
+[7.489s] [100%] Built target armor_detect_component
+[7.760s] [100%] Built target armor_detect_main
+[7.765s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[7.770s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[7.773s] -- Install configuration: ""
+[7.773s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+[7.773s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect" to ""
+[7.773s] -- Installing: /home/pretend/code/install/rm_armor_detect/include
+[7.773s] -- Installing: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect
+[7.773s] -- Installing: /home/pretend/code/install/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp
+[7.774s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so
+[7.776s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/libarmor_detect_component.so" to ""
+[7.776s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main
+[7.778s] -- Set runtime path of "/home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_main" to ""
+[7.778s] -- Up-to-date: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect
+[7.778s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch
+[7.778s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch/armor_detect.launch.py
+[7.778s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models
+[7.778s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/armor.onnx
+[7.786s] -- Installing: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/run_armor_detect.sh
+[7.786s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.sh
+[7.786s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/library_path.dsv
+[7.787s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[7.787s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[7.787s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[7.787s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[7.787s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[7.787s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/export_rm_armor_detectExport-noconfig.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_libraries-extras.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_targets-extras.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[7.788s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[7.789s] -- Installing: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[7.790s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

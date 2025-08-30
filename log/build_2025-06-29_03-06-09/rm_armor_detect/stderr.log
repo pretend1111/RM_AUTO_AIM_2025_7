@@ -1,0 +1,8 @@
+[01m[K/home/pretend/code/src/rm_armor_detect/src/car_detector.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_armor_detect::Detection> rm_armor_detect::CarDetector::postprocess(const ov::Tensor&, float, float)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/car_detector.cpp:110:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knms_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  110 |                                                [01;35m[Kfloat nms_threshold[m[K)
+      |                                                [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::VideoSubscriberNode::display_thread_func()[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:159:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  159 |         double [01;35m[Kalpha[m[K = 1.0;  // 保持对比度不变
+      |                [01;35m[K^~~~~[m[K

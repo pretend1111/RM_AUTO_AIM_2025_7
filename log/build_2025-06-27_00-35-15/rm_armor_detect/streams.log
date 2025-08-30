@@ -1,0 +1,74 @@
+[0.017s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/rm_armor_detect -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_armor_detect
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.116s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.121s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.521s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.522s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.565s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.527s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[15.561s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[15.572s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[15.588s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[15.594s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[19.092s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.148s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.149s] -- Configured cppcheck include dirs: /home/pretend/code/src/rm_armor_detect/include
+[19.149s] -- Configured cppcheck exclude dirs and/or files: 
+[19.149s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.149s] -- Added test 'lint_cmake' to check CMake code style
+[19.149s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.149s] -- Added test 'uncrustify' to check C / C++ code style
+[19.150s] -- Configured uncrustify additional arguments: 
+[19.150s] -- Added test 'xmllint' to check XML markup files
+[19.150s] -- Configuring done
+[19.166s] -- Generating done
+[19.170s] -- Build files have been written to: /home/pretend/code/build/rm_armor_detect
+[19.180s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pretend/code/src/rm_armor_detect -DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_armor_detect
+[19.182s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[19.207s] [35m[1mConsolidate compiler generated dependencies of target rm_armor_detect[0m
+[19.207s] [35m[1mConsolidate compiler generated dependencies of target armor_detect_node[0m
+[19.218s] [ 20%] [32mBuilding CXX object CMakeFiles/rm_armor_detect.dir/src/armor_detect_node.cpp.o[0m
+[19.219s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_detect_node.dir/src/armor_detect_main.cpp.o[0m
+[19.220s] [ 60%] [32mBuilding CXX object CMakeFiles/armor_detect_node.dir/src/armor_detect_node.cpp.o[0m
+[22.505s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_armor_detect::ArmorDetection> rm_armor_detect::ArmorDetectNode::postprocessResults(const cv::Mat&)[m[K’:
+[22.505s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:383:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp_conf_0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.505s]   383 |             float [01;35m[Kkp_conf_0[m[K = output_data[5 * num_detections + i];
+[22.505s]       |                   [01;35m[K^~~~~~~~~[m[K
+[22.511s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_armor_detect::ArmorDetection> rm_armor_detect::ArmorDetectNode::postprocessResults(const cv::Mat&)[m[K’:
+[22.511s] [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:383:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kkp_conf_0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[22.511s]   383 |             float [01;35m[Kkp_conf_0[m[K = output_data[5 * num_detections + i];
+[22.511s]       |                   [01;35m[K^~~~~~~~~[m[K
+[30.635s] [ 80%] [32m[1mLinking CXX executable armor_detect_node[0m
+[30.636s] [100%] [32m[1mLinking CXX shared library librm_armor_detect.so[0m
+[31.074s] [100%] Built target rm_armor_detect
+[31.330s] [100%] Built target armor_detect_node
+[31.339s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[31.341s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect
+[31.347s] -- Install configuration: "Release"
+[31.347s] -- Execute custom install script
+[31.347s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/rm_armor_detect/armor_detect_node
+[31.347s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/lib/librm_armor_detect.so
+[31.347s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/include//rm_armor_detect/armor_detect_node.hpp
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/models/armor.onnx
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/launch/armor_detect.launch.py
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/package_run_dependencies/rm_armor_detect
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/parent_prefix_path/rm_armor_detect
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.sh
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/ament_prefix_path.dsv
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.sh
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/environment/path.dsv
+[31.348s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.bash
+[31.349s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.sh
+[31.349s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.zsh
+[31.349s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/local_setup.dsv
+[31.349s] -- Symlinking: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.dsv
+[31.356s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/packages/rm_armor_detect
+[31.356s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/ament_index/resource_index/rclcpp_components/rm_armor_detect
+[31.356s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig.cmake
+[31.356s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/cmake/rm_armor_detectConfig-version.cmake
+[31.356s] -- Up-to-date symlink: /home/pretend/code/install/rm_armor_detect/share/rm_armor_detect/package.xml
+[31.357s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_armor_detect

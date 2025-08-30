@@ -1,0 +1,11 @@
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/uninstall.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/mechax_trajectory_uninstall.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/mechax_trajectory.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/mechax_trajectory_node.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/test.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/edit_cache.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/rebuild_cache.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/list_install_components.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/install.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/install/local.dir
+/home/pretend/code/build/mechax_trajectory/CMakeFiles/install/strip.dir

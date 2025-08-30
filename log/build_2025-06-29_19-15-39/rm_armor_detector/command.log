@@ -1,0 +1,2 @@
+Invoking command in '/home/pretend/code/build/rm_armor_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detector -- -j32 -l32
+Invoked command in '/home/pretend/code/build/rm_armor_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detector -- -j32 -l32

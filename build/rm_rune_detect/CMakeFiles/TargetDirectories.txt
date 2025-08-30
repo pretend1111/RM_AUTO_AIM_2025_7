@@ -1,0 +1,11 @@
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/uninstall.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/rm_rune_detect_uninstall.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/rune_detect_node.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/rm_rune_detect.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/test.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/edit_cache.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/rebuild_cache.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/list_install_components.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/install.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/install/local.dir
+/home/pretend/code/build/rm_rune_detect/CMakeFiles/install/strip.dir

@@ -1,0 +1,279 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (-) JobUnselected: {'identifier': 'hik_camera'}
+[0.000139] (-) JobUnselected: {'identifier': 'rm_armor_detect'}
+[0.000158] (-) JobUnselected: {'identifier': 'rm_msgs'}
+[0.000176] (-) JobUnselected: {'identifier': 'rm_rune_detect'}
+[0.000195] (-) JobUnselected: {'identifier': 'video_trial_node'}
+[0.000215] (rm_armor_tracker) JobQueued: {'identifier': 'rm_armor_tracker', 'dependencies': OrderedDict([('rm_msgs', '/home/pretend/code/install/rm_msgs')])}
+[0.000236] (rm_armor_tracker) JobStarted: {'identifier': 'rm_armor_tracker'}
+[0.099444] (-) TimerEvent: {}
+[0.128379] (rm_armor_tracker) JobProgress: {'identifier': 'rm_armor_tracker', 'progress': 'cmake'}
+[0.130051] (rm_armor_tracker) Command: {'cmd': ['/usr/bin/cmake', '/home/pretend/code/src/rm_armor_tracker', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pretend/code/install/rm_armor_tracker'], 'cwd': '/home/pretend/code/build/rm_armor_tracker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03cc1c2e-4e13-4e7e-bf62-bef6c4c32311.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/7616_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/rm_msgs:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_armor_tracker'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/home/pretend/code/install/rm_msgs/local/lib/python3.10/dist-packages:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.143802] (rm_armor_tracker) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199539] (-) TimerEvent: {}
+[0.213433] (rm_armor_tracker) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.227402] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299661] (-) TimerEvent: {}
+[0.399920] (-) TimerEvent: {}
+[0.447781] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.450094] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.455632] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.464890] (rm_armor_tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.475749] (rm_armor_tracker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500013] (-) TimerEvent: {}
+[0.504914] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.507119] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600101] (-) TimerEvent: {}
+[0.700332] (-) TimerEvent: {}
+[0.800566] (-) TimerEvent: {}
+[0.900795] (-) TimerEvent: {}
+[1.001021] (-) TimerEvent: {}
+[1.101226] (-) TimerEvent: {}
+[1.201446] (-) TimerEvent: {}
+[1.301669] (-) TimerEvent: {}
+[1.401908] (-) TimerEvent: {}
+[1.502123] (-) TimerEvent: {}
+[1.602343] (-) TimerEvent: {}
+[1.702561] (-) TimerEvent: {}
+[1.802787] (-) TimerEvent: {}
+[1.903003] (-) TimerEvent: {}
+[2.003219] (-) TimerEvent: {}
+[2.103425] (-) TimerEvent: {}
+[2.203620] (-) TimerEvent: {}
+[2.303825] (-) TimerEvent: {}
+[2.404019] (-) TimerEvent: {}
+[2.504226] (-) TimerEvent: {}
+[2.604427] (-) TimerEvent: {}
+[2.704616] (-) TimerEvent: {}
+[2.804837] (-) TimerEvent: {}
+[2.905065] (-) TimerEvent: {}
+[3.005286] (-) TimerEvent: {}
+[3.105513] (-) TimerEvent: {}
+[3.205726] (-) TimerEvent: {}
+[3.305937] (-) TimerEvent: {}
+[3.406150] (-) TimerEvent: {}
+[3.506361] (-) TimerEvent: {}
+[3.606575] (-) TimerEvent: {}
+[3.706787] (-) TimerEvent: {}
+[3.806995] (-) TimerEvent: {}
+[3.907165] (-) TimerEvent: {}
+[4.007336] (-) TimerEvent: {}
+[4.107511] (-) TimerEvent: {}
+[4.207740] (-) TimerEvent: {}
+[4.308021] (-) TimerEvent: {}
+[4.408252] (-) TimerEvent: {}
+[4.508422] (-) TimerEvent: {}
+[4.608627] (-) TimerEvent: {}
+[4.708842] (-) TimerEvent: {}
+[4.809089] (-) TimerEvent: {}
+[4.909346] (-) TimerEvent: {}
+[5.009532] (-) TimerEvent: {}
+[5.109699] (-) TimerEvent: {}
+[5.209944] (-) TimerEvent: {}
+[5.310164] (-) TimerEvent: {}
+[5.410368] (-) TimerEvent: {}
+[5.510602] (-) TimerEvent: {}
+[5.610842] (-) TimerEvent: {}
+[5.711053] (-) TimerEvent: {}
+[5.811266] (-) TimerEvent: {}
+[5.911474] (-) TimerEvent: {}
+[6.011694] (-) TimerEvent: {}
+[6.111965] (-) TimerEvent: {}
+[6.212174] (-) TimerEvent: {}
+[6.312395] (-) TimerEvent: {}
+[6.412607] (-) TimerEvent: {}
+[6.512805] (-) TimerEvent: {}
+[6.613080] (-) TimerEvent: {}
+[6.713291] (-) TimerEvent: {}
+[6.813490] (-) TimerEvent: {}
+[6.913684] (-) TimerEvent: {}
+[7.013875] (-) TimerEvent: {}
+[7.114095] (-) TimerEvent: {}
+[7.214339] (-) TimerEvent: {}
+[7.314600] (-) TimerEvent: {}
+[7.414802] (-) TimerEvent: {}
+[7.514996] (-) TimerEvent: {}
+[7.615220] (-) TimerEvent: {}
+[7.715528] (-) TimerEvent: {}
+[7.815816] (-) TimerEvent: {}
+[7.915994] (-) TimerEvent: {}
+[8.016167] (-) TimerEvent: {}
+[8.116387] (-) TimerEvent: {}
+[8.216593] (-) TimerEvent: {}
+[8.316796] (-) TimerEvent: {}
+[8.417018] (-) TimerEvent: {}
+[8.517203] (-) TimerEvent: {}
+[8.617408] (-) TimerEvent: {}
+[8.717728] (-) TimerEvent: {}
+[8.817959] (-) TimerEvent: {}
+[8.918176] (-) TimerEvent: {}
+[9.018458] (-) TimerEvent: {}
+[9.118708] (-) TimerEvent: {}
+[9.218939] (-) TimerEvent: {}
+[9.319152] (-) TimerEvent: {}
+[9.419372] (-) TimerEvent: {}
+[9.519603] (-) TimerEvent: {}
+[9.619811] (-) TimerEvent: {}
+[9.720013] (-) TimerEvent: {}
+[9.820271] (-) TimerEvent: {}
+[9.920473] (-) TimerEvent: {}
+[10.020676] (-) TimerEvent: {}
+[10.120911] (-) TimerEvent: {}
+[10.221097] (-) TimerEvent: {}
+[10.321377] (-) TimerEvent: {}
+[10.421679] (-) TimerEvent: {}
+[10.521920] (-) TimerEvent: {}
+[10.622166] (-) TimerEvent: {}
+[10.722399] (-) TimerEvent: {}
+[10.822629] (-) TimerEvent: {}
+[10.922844] (-) TimerEvent: {}
+[11.023063] (-) TimerEvent: {}
+[11.123281] (-) TimerEvent: {}
+[11.223499] (-) TimerEvent: {}
+[11.323676] (-) TimerEvent: {}
+[11.423845] (-) TimerEvent: {}
+[11.524086] (-) TimerEvent: {}
+[11.624305] (-) TimerEvent: {}
+[11.724513] (-) TimerEvent: {}
+[11.824725] (-) TimerEvent: {}
+[11.924949] (-) TimerEvent: {}
+[12.025147] (-) TimerEvent: {}
+[12.125370] (-) TimerEvent: {}
+[12.225579] (-) TimerEvent: {}
+[12.325805] (-) TimerEvent: {}
+[12.387580] (rm_armor_tracker) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.425943] (-) TimerEvent: {}
+[12.430566] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[12.448057] (rm_armor_tracker) StdoutLine: {'line': b'-- Found rm_msgs: 0.0.0 (/home/pretend/code/install/rm_msgs/share/rm_msgs/cmake)\n'}
+[12.474725] (rm_armor_tracker) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.524217] (rm_armor_tracker) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.525206] (rm_armor_tracker) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.525347] (rm_armor_tracker) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pretend/code/src/rm_armor_tracker/include>\n'}
+[12.525384] (rm_armor_tracker) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.525765] (rm_armor_tracker) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.525806] (rm_armor_tracker) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.525990] (-) TimerEvent: {}
+[12.526770] (rm_armor_tracker) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.527472] (rm_armor_tracker) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.527523] (rm_armor_tracker) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.527689] (rm_armor_tracker) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.529517] (rm_armor_tracker) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.541161] (rm_armor_tracker) StdoutLine: {'line': b'-- Generating done\n'}
+[12.543627] (rm_armor_tracker) StdoutLine: {'line': b'-- Build files have been written to: /home/pretend/code/build/rm_armor_tracker\n'}
+[12.547925] (rm_armor_tracker) CommandEnded: {'returncode': 0}
+[12.549333] (rm_armor_tracker) JobProgress: {'identifier': 'rm_armor_tracker', 'progress': 'build'}
+[12.549376] (rm_armor_tracker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_armor_tracker', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_armor_tracker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03cc1c2e-4e13-4e7e-bf62-bef6c4c32311.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/7616_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/rm_msgs:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_armor_tracker'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/home/pretend/code/install/rm_msgs/local/lib/python3.10/dist-packages:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[12.569347] (rm_armor_tracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_tracker_node\x1b[0m\n'}
+[12.569458] (rm_armor_tracker) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_tracker_component\x1b[0m\n'}
+[12.576875] (rm_armor_tracker) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/rclcpp_components/node_main_armor_tracker_node.cpp.o\x1b[0m\n'}
+[12.577615] (rm_armor_tracker) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o\x1b[0m\n'}
+[12.577777] (rm_armor_tracker) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/single_armor_tracker.cpp.o\x1b[0m\n'}
+[12.626088] (-) TimerEvent: {}
+[12.726314] (-) TimerEvent: {}
+[12.826654] (-) TimerEvent: {}
+[12.926946] (-) TimerEvent: {}
+[13.027283] (-) TimerEvent: {}
+[13.127509] (-) TimerEvent: {}
+[13.227745] (-) TimerEvent: {}
+[13.327974] (-) TimerEvent: {}
+[13.428275] (-) TimerEvent: {}
+[13.528540] (-) TimerEvent: {}
+[13.628846] (-) TimerEvent: {}
+[13.729110] (-) TimerEvent: {}
+[13.829362] (-) TimerEvent: {}
+[13.929671] (-) TimerEvent: {}
+[14.029955] (-) TimerEvent: {}
+[14.130281] (-) TimerEvent: {}
+[14.230528] (-) TimerEvent: {}
+[14.330851] (-) TimerEvent: {}
+[14.431161] (-) TimerEvent: {}
+[14.531430] (-) TimerEvent: {}
+[14.631749] (-) TimerEvent: {}
+[14.644781] (rm_armor_tracker) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable armor_tracker_node\x1b[0m\n'}
+[14.731835] (-) TimerEvent: {}
+[14.832066] (-) TimerEvent: {}
+[14.932335] (-) TimerEvent: {}
+[14.953787] (rm_armor_tracker) StdoutLine: {'line': b'[ 80%] Built target armor_tracker_node\n'}
+[15.032411] (-) TimerEvent: {}
+[15.132615] (-) TimerEvent: {}
+[15.232889] (-) TimerEvent: {}
+[15.333166] (-) TimerEvent: {}
+[15.433524] (-) TimerEvent: {}
+[15.533764] (-) TimerEvent: {}
+[15.634007] (-) TimerEvent: {}
+[15.734350] (-) TimerEvent: {}
+[15.834596] (-) TimerEvent: {}
+[15.934951] (-) TimerEvent: {}
+[16.035200] (-) TimerEvent: {}
+[16.135596] (-) TimerEvent: {}
+[16.236011] (-) TimerEvent: {}
+[16.336359] (-) TimerEvent: {}
+[16.436762] (-) TimerEvent: {}
+[16.537024] (-) TimerEvent: {}
+[16.637332] (-) TimerEvent: {}
+[16.737581] (-) TimerEvent: {}
+[16.837826] (-) TimerEvent: {}
+[16.938091] (-) TimerEvent: {}
+[17.038307] (-) TimerEvent: {}
+[17.138543] (-) TimerEvent: {}
+[17.238763] (-) TimerEvent: {}
+[17.338979] (-) TimerEvent: {}
+[17.439202] (-) TimerEvent: {}
+[17.539452] (-) TimerEvent: {}
+[17.639699] (-) TimerEvent: {}
+[17.739956] (-) TimerEvent: {}
+[17.840160] (-) TimerEvent: {}
+[17.940386] (-) TimerEvent: {}
+[18.040594] (-) TimerEvent: {}
+[18.140830] (-) TimerEvent: {}
+[18.241061] (-) TimerEvent: {}
+[18.341294] (-) TimerEvent: {}
+[18.441517] (-) TimerEvent: {}
+[18.541747] (-) TimerEvent: {}
+[18.641997] (-) TimerEvent: {}
+[18.742238] (-) TimerEvent: {}
+[18.842641] (-) TimerEvent: {}
+[18.942912] (-) TimerEvent: {}
+[19.043157] (-) TimerEvent: {}
+[19.143414] (-) TimerEvent: {}
+[19.211362] (rm_armor_tracker) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libarmor_tracker_component.so\x1b[0m\n'}
+[19.243524] (-) TimerEvent: {}
+[19.343749] (-) TimerEvent: {}
+[19.443998] (-) TimerEvent: {}
+[19.544301] (-) TimerEvent: {}
+[19.644523] (-) TimerEvent: {}
+[19.744739] (-) TimerEvent: {}
+[19.845071] (-) TimerEvent: {}
+[19.945299] (-) TimerEvent: {}
+[20.045542] (-) TimerEvent: {}
+[20.145798] (-) TimerEvent: {}
+[20.188649] (rm_armor_tracker) StdoutLine: {'line': b'[100%] Built target armor_tracker_component\n'}
+[20.195285] (rm_armor_tracker) CommandEnded: {'returncode': 0}
+[20.195598] (rm_armor_tracker) JobProgress: {'identifier': 'rm_armor_tracker', 'progress': 'install'}
+[20.199910] (rm_armor_tracker) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pretend/code/build/rm_armor_tracker'], 'cwd': '/home/pretend/code/build/rm_armor_tracker', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pretend'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('GIT_ASKPASS', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pretend/code/install/rm_msgs/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/home/pretend/code/install/video_trial_node/lib:/home/pretend/code/install/rm_rune_detect/lib:/home/pretend/code/install/rm_armor_tracker/lib:/home/pretend/code/install/rm_armor_detect/lib:/home/pretend/code/install/hik_camera/lib:/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/intel/openvino_2025/runtime/lib/intel64:/opt/intel/openvino_2025/runtime/lib/intel64'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('OLDPWD', '/home/pretend/code/src'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.2.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-03cc1c2e-4e13-4e7e-bf62-bef6c4c32311.sock'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/node'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pretend/code/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('NAME', 'Y9000P'), ('WSL_INTEROP', '/run/WSL/7616_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig:/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/home/pretend/.cursor-server/bin/031e7e0ff1e2eda9c1a0f5df67d44053b059c5d0/bin/remote-cli:/home/pretend/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/d/software/Bandizip:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/usbipd-win/:/mnt/d/MATLAB/R2024b/runtime/win64:/mnt/d/MATLAB/R2024b/bin:/mnt/e/anaconda3:/mnt/e/anaconda3/Library/mingw-w64/bin:/mnt/e/anaconda3/Library/usr/bin:/mnt/e/anaconda3/Library/bin:/mnt/e/anaconda3/Scripts:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/45385/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/45385/AppData/Local/Microsoft/WindowsApps:/mnt/d/Microsoft VS Code/bin:/mnt/d/MingW/mingw64/bin:/mnt/c/Users/45385/AppData/Roaming/npm:/mnt/e/cursor/resources/app/bin:/snap/bin'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a41c444197.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/rm_msgs:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_armor_tracker'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/home/pretend/code/install/rm_msgs/local/lib/python3.10/dist-packages:/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('CMAKE_PREFIX_PATH', '/home/pretend/code/install/rm_msgs:/home/pretend/code/install/video_trial_node:/home/pretend/code/install/rm_rune_detect:/home/pretend/code/install/rm_armor_tracker:/home/pretend/code/install/rm_armor_detect:/home/pretend/code/install/hik_camera:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[20.203124] (rm_armor_tracker) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[20.203385] (rm_armor_tracker) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.203585] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_node\n'}
+[20.207976] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so\n'}
+[20.212523] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp\n'}
+[20.216300] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/single_armor_tracker.hpp\n'}
+[20.220372] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/package_run_dependencies/rm_armor_tracker\n'}
+[20.225146] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/parent_prefix_path/rm_armor_tracker\n'}
+[20.229313] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.sh\n'}
+[20.233108] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.dsv\n'}
+[20.236743] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.sh\n'}
+[20.240582] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.dsv\n'}
+[20.244444] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.bash\n'}
+[20.245829] (-) TimerEvent: {}
+[20.248394] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.sh\n'}
+[20.252151] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.zsh\n'}
+[20.255696] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.dsv\n'}
+[20.259678] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv\n'}
+[20.263644] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/packages/rm_armor_tracker\n'}
+[20.268749] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/rclcpp_components/rm_armor_tracker\n'}
+[20.272822] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig.cmake\n'}
+[20.276735] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig-version.cmake\n'}
+[20.280490] (rm_armor_tracker) StdoutLine: {'line': b'-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.xml\n'}
+[20.285096] (rm_armor_tracker) CommandEnded: {'returncode': 0}
+[20.294565] (rm_armor_tracker) JobEnded: {'identifier': 'rm_armor_tracker', 'rc': 0}
+[20.295056] (-) EventReactorShutdown: {}

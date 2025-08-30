@@ -1,0 +1,15 @@
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_main.cpp:1[m[K:
+/usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Kvoid std::default_delete<_Tp>::operator()(_Tp*) const [with _Tp = rm_armor_tracker::SingleArmorTracker][m[K’:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:361:17:[m[K   required from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>::~unique_ptr() [with _Tp = rm_armor_tracker::SingleArmorTracker; _Dp = std::default_delete<rm_armor_tracker::SingleArmorTracker>][m[K’
+[01m[K/home/pretend/code/src/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp:15:7:[m[K   required from ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = rm_armor_tracker::ArmorTrackerNode; _Tp = rm_armor_tracker::ArmorTrackerNode][m[K’
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:535:15:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = rm_armor_tracker::ArmorTrackerNode; _Tp = rm_armor_tracker::ArmorTrackerNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<rm_armor_tracker::ArmorTrackerNode>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:528:35:[m[K   required from ‘[01m[Kvoid std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_M_dispose() [with _Tp = rm_armor_tracker::ArmorTrackerNode; _Alloc = std::allocator<rm_armor_tracker::ArmorTrackerNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:526:7:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:83:23:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Krm_armor_tracker::SingleArmorTracker[m[K’
+   83 |         static_assert([01;31m[Ksizeof(_Tp)[m[K>0,
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/armor_tracker_node.dir/build.make:76：CMakeFiles/armor_tracker_node.dir/src/armor_tracker_main.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/armor_tracker_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

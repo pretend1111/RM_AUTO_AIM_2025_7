@@ -1,0 +1,28 @@
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kvoid rm_rune_detect::OpenvinoDetect::initializeModel(const string&)[m[K’:
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:100:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  100 |                 const auto& [01;35m[Kshape[m[K = input.get_shape();
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:110:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |                 const auto& [01;35m[Kshape[m[K = output.get_shape();
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:395:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  395 |                 float [01;35m[Kcenter_x[m[K = (x1 + x2) / 2.0f;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:396:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  396 |                 float [01;35m[Kcenter_y[m[K = (y1 + y2) / 2.0f;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kvoid rm_rune_detect::OpenvinoDetect::initializeModel(const string&)[m[K’:
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:100:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  100 |                 const auto& [01;35m[Kshape[m[K = input.get_shape();
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:110:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kshape[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  110 |                 const auto& [01;35m[Kshape[m[K = output.get_shape();
+      |                             [01;35m[K^~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_rune_detect::Detection> rm_rune_detect::OpenvinoDetect::extractDetections(const float*, const ov::Shape&, const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:395:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  395 |                 float [01;35m[Kcenter_x[m[K = (x1 + x2) / 2.0f;
+      |                       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_rune_detect/src/openvino_detect.cpp:396:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcenter_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  396 |                 float [01;35m[Kcenter_y[m[K = (y1 + y2) / 2.0f;
+      |                       [01;35m[K^~~~~~~~[m[K

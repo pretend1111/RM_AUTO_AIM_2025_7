@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[ 33%] Built target video_subscriber_node
+[ 50%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In constructor ‘[01m[Krm_armor_detect::VideoSubscriberNode::VideoSubscriberNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:28:48:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriptionOptions[m[K’ is not a member of ‘[01m[Kimage_transport[m[K’; did you mean ‘[01m[Krclcpp::SubscriptionOptions[m[K’?
+   28 |   auto subscription_options = image_transport::[01;31m[KSubscriptionOptions[m[K();
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:182:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::SubscriptionOptions[m[K’ declared here
+  182 | using [01;36m[KSubscriptionOptions[m[K = SubscriptionOptionsWithAllocator<std::allocator<void>>;
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/video_subscriber_component.dir/build.make:76：CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/video_subscriber_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,11 @@
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:[m[K In constructor ‘[01m[Krm_armor_detect::VideoSubscriberNode::VideoSubscriberNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:51:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Krm_armor_detect::VideoSubscriberNode::last_fps_calc_time_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   51 |   rclcpp::Time [01;35m[Klast_fps_calc_time_[m[K;
+      |                [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/video_subscriber_node.hpp:34:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool rm_armor_detect::VideoSubscriberNode::skip_frames_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   34 |   bool [01;35m[Kskip_frames_[m[K;  // 是否跳帧以保持实时性
+      |        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    7 | [01;35m[KVideoSubscriberNode[m[K::VideoSubscriberNode(const rclcpp::NodeOptions & options)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K

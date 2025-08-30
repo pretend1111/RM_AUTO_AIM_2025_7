@@ -1,0 +1,44 @@
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In constructor ‘[01m[Krm_armor_detect::ArmorDetectNode::ArmorDetectNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:67:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(const char [4])[m[K’
+   67 |     image_transport::TransportHints("raw"[01;31m[K)[m[K);
+      |                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:5[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::TransportHints(const rclcpp::Node*, const string&, const string&)[m[K’
+   61 |   [01;36m[KTransportHints[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+   62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::TransportHints(const image_transport::TransportHints&)[m[K’
+   45 | class [01;36m[KTransportHints[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::TransportHints(image_transport::TransportHints&&)[m[K’
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In constructor ‘[01m[Krm_armor_detect::ArmorDetectNode::ArmorDetectNode(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:67:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::TransportHints::TransportHints(const char [4])[m[K’
+   67 |     image_transport::TransportHints("raw"[01;31m[K)[m[K);
+      |                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:43[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:5[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:61:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::TransportHints(const rclcpp::Node*, const string&, const string&)[m[K’
+   61 |   [01;36m[KTransportHints[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:62:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kconst rclcpp::Node*[m[K’
+   62 |     [01;36m[Kconst rclcpp::Node * node[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::TransportHints(const image_transport::TransportHints&)[m[K’
+   45 | class [01;36m[KTransportHints[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kconst image_transport::TransportHints&[m[K’
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::TransportHints::TransportHints(image_transport::TransportHints&&)[m[K’
+[01m[K/opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp:45:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [4][m[K’ to ‘[01m[Kimage_transport::TransportHints&&[m[K’
+gmake[2]: *** [CMakeFiles/armor_detect_main.dir/build.make:90：CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/armor_detect_component.dir/build.make:76：CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/armor_detect_main.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/armor_detect_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

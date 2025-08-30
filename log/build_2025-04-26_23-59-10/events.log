@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (hik_camera) JobQueued: {'identifier': 'hik_camera', 'dependencies': OrderedDict()}
+[0.000614] (rm_rune_detect) JobQueued: {'identifier': 'rm_rune_detect', 'dependencies': OrderedDict()}
+[0.000633] (hik_camera) JobStarted: {'identifier': 'hik_camera'}
+[0.005397] (rm_rune_detect) JobStarted: {'identifier': 'rm_rune_detect'}
+[0.007338] (hik_camera) JobProgress: {'identifier': 'hik_camera', 'progress': 'cmake'}
+[0.008116] (hik_camera) JobProgress: {'identifier': 'hik_camera', 'progress': 'build'}
+[0.008541] (hik_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/hik_camera', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/hik_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pretend'), ('SSH_AGENT_PID', '1087'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-VsAMjSHjiZ,guid=d43359bc3cbc0dfd37168391680cf402'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Y9000P:@/tmp/.ICE-unix/1040,unix/Y9000P:/tmp/.ICE-unix/1040'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'xfce-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e172d12_7969_4dcc_aedb_9bcac3afc029'), ('DISPLAY', ':10.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.54'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXpq211A/agent.1086'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/hik_camera'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.010835] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'cmake'}
+[0.011821] (rm_rune_detect) JobProgress: {'identifier': 'rm_rune_detect', 'progress': 'build'}
+[0.012650] (rm_rune_detect) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pretend/code/build/rm_rune_detect', '--', '-j32', '-l32'], 'cwd': '/home/pretend/code/build/rm_rune_detect', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'pretend'), ('SSH_AGENT_PID', '1087'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib:/opt/intel/openvino_2025.0.0/runtime/lib/intel64:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('TBB_DIR', '/opt/intel/openvino_2025.0.0/runtime/3rdparty/tbb/lib/cmake/TBB'), ('HOME', '/home/pretend'), ('DESKTOP_SESSION', 'xfce'), ('ROS_PYTHON_VERSION', '3'), ('INTEL_OPENVINO_DIR', '/opt/intel/openvino_2025.0.0'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-VsAMjSHjiZ,guid=d43359bc3cbc0dfd37168391680cf402'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pretend'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/openvino_2025.0.0/runtime/lib/intel64/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Y9000P:@/tmp/.ICE-unix/1040,unix/Y9000P:/tmp/.ICE-unix/1040'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'xfce-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6e172d12_7969_4dcc_aedb_9bcac3afc029'), ('DISPLAY', ':10.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.54'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXpq211A/agent.1086'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pretend/code/build/rm_rune_detect'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/opt/intel/openvino_2025.0.0/python:/opt/intel/openvino_2025.0.0/python/python3:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('OpenVINO_DIR', '/opt/intel/openvino_2025.0.0/runtime/cmake'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039456] (hik_camera) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o\x1b[0m\n'}
+[0.039692] (rm_rune_detect) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_node.cpp.o\x1b[0m\n'}
+[0.040055] (rm_rune_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/rune_detect_node.cpp.o\x1b[0m\n'}
+[0.042571] (hik_camera) StdoutLine: {'line': b'[ 75%] Built target hik_camera_node\n'}
+[0.060430] (hik_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pretend/code/src/ros2-hik-camera-main/src/hik_camera_node.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_info_manager/camera_info_manager.hpp: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.060569] (hik_camera) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<camera_info_manager/camera_info_manager.hpp>\x1b[m\x1b[K\n'}
+[0.060597] (hik_camera) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.060619] (hik_camera) StderrLine: {'line': b'compilation terminated.\n'}
+[0.061477] (hik_camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hik_camera.dir/build.make:76\xef\xbc\x9aCMakeFiles/hik_camera.dir/src/hik_camera_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.061643] (hik_camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/hik_camera.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.061673] (hik_camera) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.063007] (hik_camera) CommandEnded: {'returncode': 2}
+[0.072064] (hik_camera) JobEnded: {'identifier': 'hik_camera', 'rc': 2}
+[0.099568] (-) TimerEvent: {}
+[0.199861] (-) TimerEvent: {}
+[0.300114] (-) TimerEvent: {}
+[0.400363] (-) TimerEvent: {}
+[0.500629] (-) TimerEvent: {}
+[0.600919] (-) TimerEvent: {}
+[0.701216] (-) TimerEvent: {}
+[0.801466] (-) TimerEvent: {}
+[0.901683] (-) TimerEvent: {}
+[1.001904] (-) TimerEvent: {}
+[1.102145] (-) TimerEvent: {}
+[1.202378] (-) TimerEvent: {}
+[1.302655] (-) TimerEvent: {}
+[1.402894] (-) TimerEvent: {}
+[1.503137] (-) TimerEvent: {}
+[1.603431] (-) TimerEvent: {}
+[1.703660] (-) TimerEvent: {}
+[1.803913] (-) TimerEvent: {}
+[1.904145] (-) TimerEvent: {}
+[2.004492] (-) TimerEvent: {}
+[2.104815] (-) TimerEvent: {}
+[2.205084] (-) TimerEvent: {}
+[2.305419] (-) TimerEvent: {}
+[2.405674] (-) TimerEvent: {}
+[2.506017] (-) TimerEvent: {}
+[2.606235] (-) TimerEvent: {}
+[2.706556] (-) TimerEvent: {}
+[2.806773] (-) TimerEvent: {}
+[2.907027] (-) TimerEvent: {}
+[3.007412] (-) TimerEvent: {}
+[3.107674] (-) TimerEvent: {}
+[3.207896] (-) TimerEvent: {}
+[3.308142] (-) TimerEvent: {}
+[3.408448] (-) TimerEvent: {}
+[3.508732] (-) TimerEvent: {}
+[3.608989] (-) TimerEvent: {}
+[3.709310] (-) TimerEvent: {}
+[3.809561] (-) TimerEvent: {}
+[3.909783] (-) TimerEvent: {}
+[4.010105] (-) TimerEvent: {}
+[4.110512] (-) TimerEvent: {}
+[4.210822] (-) TimerEvent: {}
+[4.311136] (-) TimerEvent: {}
+[4.411557] (-) TimerEvent: {}
+[4.511867] (-) TimerEvent: {}
+[4.612240] (-) TimerEvent: {}
+[4.712530] (-) TimerEvent: {}
+[4.812838] (-) TimerEvent: {}
+[4.913194] (-) TimerEvent: {}
+[5.013495] (-) TimerEvent: {}
+[5.113883] (-) TimerEvent: {}
+[5.214339] (-) TimerEvent: {}
+[5.314668] (-) TimerEvent: {}
+[5.415103] (-) TimerEvent: {}
+[5.515504] (-) TimerEvent: {}
+[5.615766] (-) TimerEvent: {}
+[5.716038] (-) TimerEvent: {}
+[5.816295] (-) TimerEvent: {}
+[5.916569] (-) TimerEvent: {}
+[6.016869] (-) TimerEvent: {}
+[6.117188] (-) TimerEvent: {}
+[6.217485] (-) TimerEvent: {}
+[6.317721] (-) TimerEvent: {}
+[6.417958] (-) TimerEvent: {}
+[6.518243] (-) TimerEvent: {}
+[6.618505] (-) TimerEvent: {}
+[6.718789] (-) TimerEvent: {}
+[6.819030] (-) TimerEvent: {}
+[6.919299] (-) TimerEvent: {}
+[7.019538] (-) TimerEvent: {}
+[7.119976] (-) TimerEvent: {}
+[7.220294] (-) TimerEvent: {}
+[7.320599] (-) TimerEvent: {}
+[7.414007] (rm_rune_detect) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library librm_rune_detect.so\x1b[0m\n'}
+[7.420698] (-) TimerEvent: {}
+[7.420904] (rm_rune_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rune_detect_node\x1b[0m\n'}
+[7.520817] (-) TimerEvent: {}
+[7.621320] (-) TimerEvent: {}
+[7.721678] (-) TimerEvent: {}
+[7.821930] (-) TimerEvent: {}
+[7.904940] (rm_rune_detect) StdoutLine: {'line': b'[100%] Built target rm_rune_detect\n'}
+[7.922044] (-) TimerEvent: {}
+[8.022315] (-) TimerEvent: {}
+[8.122571] (-) TimerEvent: {}
+[8.222777] (-) TimerEvent: {}
+[8.323096] (-) TimerEvent: {}
+[8.325167] (rm_rune_detect) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[8.325272] (rm_rune_detect) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[8.360979] (rm_rune_detect) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[8.361806] (rm_rune_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rune_detect_node.dir/build.make:243\xef\xbc\x9arune_detect_node] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[8.361937] (rm_rune_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/rune_detect_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.362114] (rm_rune_detect) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[8.363296] (rm_rune_detect) JobEnded: {'identifier': 'rm_rune_detect', 'rc': 'SIGINT'}
+[8.373809] (-) EventReactorShutdown: {}

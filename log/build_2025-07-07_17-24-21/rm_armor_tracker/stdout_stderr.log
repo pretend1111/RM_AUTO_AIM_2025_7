@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker_component[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/armor_tracker_component.dir/src/armor_tracker_node.cpp.o[0m
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_tracker::ArmorTrackerNode::publishPrediction(const Header&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_tracker/src/armor_tracker_node.cpp:105:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 | void ArmorTrackerNode::publishPrediction([01;35m[Kconst std_msgs::msg::Header & header[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 33%] [32m[1mLinking CXX shared library libarmor_tracker_component.so[0m
+[ 66%] Built target armor_tracker_component
+[ 83%] [32m[1mLinking CXX executable armor_tracker_node[0m
+[100%] Built target armor_tracker_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/lib/libarmor_tracker_component.so
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/lib/rm_armor_tracker/armor_tracker_node
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/armor_tracker_node.hpp
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/single_armor_tracker.hpp
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/include/rm_armor_tracker/trajectory.hpp
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/launch/armor_tracker.launch.py
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/library_path.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/library_path.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/package_run_dependencies/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/parent_prefix_path/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/environment/path.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.bash
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.sh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.zsh
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/local_setup.dsv
+-- Symlinking: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.dsv
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/packages/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/ament_index/resource_index/rclcpp_components/rm_armor_tracker
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/cmake/rm_armor_trackerConfig-version.cmake
+-- Up-to-date symlink: /home/pretend/code/install/rm_armor_tracker/share/rm_armor_tracker/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/pretend/code/build/rm_startup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_startup -- -j32 -l32
+Invoked command in '/home/pretend/code/build/rm_startup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_startup -- -j32 -l32
+Invoking command in '/home/pretend/code/build/rm_startup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_startup
+Invoked command in '/home/pretend/code/build/rm_startup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pretend/code/build/rm_startup

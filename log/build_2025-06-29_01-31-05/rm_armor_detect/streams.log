@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/pretend/code/build/rm_armor_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target video_subscriber_component[0m
+[0.042s] [ 33%] Built target video_subscriber_node
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o[0m
+[2.239s] [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid rm_armor_detect::VideoSubscriberNode::image_callback(const ConstSharedPtr&)[m[K’:
+[2.239s] [01m[K/home/pretend/code/src/rm_armor_detect/src/video_subscriber_node.cpp:78:40:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kcv::Mat&[m[K’ to ‘[01m[Kconst cv::Mat[m[K’ discards qualifiers
+[2.239s]    78 |       cv::Mat& display_frame = [01;31m[Kcv_ptr->image[m[K;
+[2.239s]       |                                [01;31m[K~~~~~~~~^~~~~[m[K
+[4.456s] gmake[2]: *** [CMakeFiles/video_subscriber_component.dir/build.make:76：CMakeFiles/video_subscriber_component.dir/src/video_subscriber_node.cpp.o] 错误 1
+[4.456s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/video_subscriber_component.dir/all] 错误 2
+[4.457s] gmake: *** [Makefile:146：all] 错误 2
+[4.458s] Invoked command in '/home/pretend/code/build/rm_armor_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_armor_detect -- -j32 -l32

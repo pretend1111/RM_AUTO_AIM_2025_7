@@ -1,0 +1,16 @@
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:[m[K In member function ‘[01m[Kstd::vector<rm_armor_detect::Armor> rm_armor_detect::SimpleLightsDetector::matchLights(const std::vector<rm_armor_detect::Light>&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:202:26:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator!=[m[K’ (operand types are ‘[01m[Kconst rm_armor_detect::Color[m[K’ and ‘[01m[Kint[m[K’)
+  202 |       if ([32m[Klight_1->color[m[K [01;31m[K!=[m[K [34m[Kdetect_color_[m[K || light_2->color != detect_color_) continue;
+      |           [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~[m[K
+      |                    [32m[K|[m[K        [34m[K|[m[K
+      |                    [32m[K|[m[K        [34m[Kint[m[K
+      |                    [32m[Kconst rm_armor_detect::Color[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/lights_detector.cpp:202:61:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator!=[m[K’ (operand types are ‘[01m[Kconst rm_armor_detect::Color[m[K’ and ‘[01m[Kint[m[K’)
+  202 |       if (light_1->color != detect_color_ || [32m[Klight_2->color[m[K [01;31m[K!=[m[K [34m[Kdetect_color_[m[K) continue;
+      |                                              [32m[K~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~[m[K
+      |                                                       [32m[K|[m[K        [34m[K|[m[K
+      |                                                       [32m[K|[m[K        [34m[Kint[m[K
+      |                                                       [32m[Kconst rm_armor_detect::Color[m[K
+gmake[2]: *** [CMakeFiles/video_subscriber_component.dir/build.make:104：CMakeFiles/video_subscriber_component.dir/src/lights_detector.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/video_subscriber_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

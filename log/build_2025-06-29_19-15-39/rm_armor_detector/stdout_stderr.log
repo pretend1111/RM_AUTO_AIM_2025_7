@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target rm_armor_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target rm_armor_detector_node[0m
+[ 25%] Built target rm_armor_detector_node
+[ 37%] [32mBuilding CXX object CMakeFiles/rm_armor_detector.dir/src/detector_node/detector_node.cpp.o[0m
+In file included from [01m[K/home/pretend/code/src/armor_detect参考代码/src/detector_node/detector_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/armor_detect参考代码/include/rm_armor_detector/detector_node/detector_node.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Krm_msgs/msg/armor.hpp: 没有那个文件或目录
+   20 | #include [01;31m[K"rm_msgs/msg/armor.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rm_armor_detector.dir/build.make:76：CMakeFiles/rm_armor_detector.dir/src/detector_node/detector_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rm_armor_detector.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

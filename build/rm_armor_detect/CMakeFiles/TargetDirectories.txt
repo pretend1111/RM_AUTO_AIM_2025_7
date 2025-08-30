@@ -1,0 +1,12 @@
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/uninstall.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/rm_armor_detect_uninstall.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/video_subscriber_component.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/video_subscriber_node.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/video_subscriber_main.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/test.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/edit_cache.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/rebuild_cache.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/list_install_components.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/install.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/install/local.dir
+/home/pretend/code/build/rm_armor_detect/CMakeFiles/install/strip.dir

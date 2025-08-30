@@ -1,0 +1,49 @@
+/video_subscriber_node:
+  ros__parameters:
+    # ==== 基础订阅参数 ====
+    topic_name: "image_raw"                    # 订阅的图像话题名称
+    display_image: true                        # 是否显示图像窗口
+    window_name: "装甲板检测显示"              # 显示窗口名称
+    use_sensor_data_qos: true                  # 是否使用sensor_data QoS设置
+    
+    # ==== 曝光增强参数 ====
+    enable_exposure_enhancement: true          # 是否启用曝光增强
+    exposure_gain: 0.7                         # 曝光增益系数 (0.1-2.0)
+    
+    # ==== 车辆检测参数 ====
+    enable_car_detection: true                 # 是否启用车辆检测
+    model_path: "~/code/src/rm_armor_detect/models/car/car.onnx"  # 车辆检测模型路径
+    detection_confidence_threshold: 0.05       # 车辆检测置信度阈值 (0.0-1.0)
+    
+    # ==== 数字分类参数 ====
+    enable_number_classification: true         # 是否启用数字分类
+    number_model_path: "~/code/src/rm_armor_detect/models/number/mlp.onnx"     # 数字分类模型路径
+    number_label_path: "~/code/src/rm_armor_detect/models/number/label.txt"    # 数字分类标签文件路径
+    number_confidence_threshold: 0.7           # 数字分类置信度阈值 (0.0-1.0)
+    
+    # ==== 基础检测参数 ====
+    binary_threshold: 150                      # 二值化阈值 (0-255)
+    detect_color: 1                            # 检测颜色 (0:蓝色, 1:红色)
+    debug_contours: true                       # 是否显示轮廓调试信息
+    
+    # ==== 灯条检测参数 ====
+    light_params:
+      min_ratio: 0.1                           # 灯条最小宽高比 (短边/长边)
+      max_ratio: 0.6                           # 灯条最大宽高比
+      max_angle: 40.0                          # 灯条最大倾斜角度(度)
+    
+    # ==== 装甲板匹配参数 ====
+    armor_params:
+      min_light_ratio: 0.7                     # 灯条最小长度比 (短灯条/长灯条)
+      min_small_center_distance: 0.8           # 小装甲板最小中心距 (单位:灯条长度)
+      max_small_center_distance: 3.2           # 小装甲板最大中心距
+      min_large_center_distance: 3.2           # 大装甲板最小中心距
+      max_large_center_distance: 5.5           # 大装甲板最大中心距
+      max_angle: 35.0                          # 装甲板最大角度(度)
+    
+    # ==== 车辆检测器内部参数 ====
+    car_detector_params:
+      input_width: 480                         # 模型输入宽度
+      input_height: 480                        # 模型输入高度
+      nms_threshold: 0.4                       # 非极大值抑制阈值
+      postprocess_conf_threshold: 0.5          # 后处理置信度阈值 

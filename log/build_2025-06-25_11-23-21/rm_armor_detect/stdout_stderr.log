@@ -1,0 +1,211 @@
+[35m[1mConsolidate compiler generated dependencies of target armor_detect_component[0m
+[35m[1mConsolidate compiler generated dependencies of target armor_detect_main[0m
+[ 28%] Built target armor_detect
+[ 42%] [32mBuilding CXX object CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o[0m
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:117:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  117 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+      |                       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K At global scope:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:421:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  421 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:426:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  426 |   [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "检测到 %zu 个装甲板", armors.size());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:426:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  426 |   [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "检测到 %zu 个装甲板", armors.size());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:429:9:[m[K [01;31m[Kerror: [m[K‘[01m[KArmorDetectNode[m[K’ has not been declared
+  429 | cv::Mat [01;31m[KArmorDetectNode[m[K::draw_results(const cv::Mat& img)
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In function ‘[01m[Kcv::Mat draw_results(const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:434:15:[m[K [01;31m[Kerror: [m[K‘[01m[KArmorBox[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_armor_detect::ArmorBox[m[K’?
+  434 |   std::vector<[01;31m[KArmorBox[m[K> current_results;
+      |               [01;31m[K^~~~~~~~[m[K
+      |               [32m[Krm_armor_detect::ArmorBox[m[K
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:21:8:[m[K [01;36m[Knote: [m[K‘[01m[Krm_armor_detect::ArmorBox[m[K’ declared here
+   21 | struct [01;36m[KArmorBox[m[K {
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:434:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  434 |   std::vector<ArmorBox[01;31m[K>[m[K current_results;
+      |                       [01;31m[K^[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:434:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:436:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_mutex_[m[K’ was not declared in this scope
+  436 |     std::lock_guard<std::mutex> lock([01;31m[Kresult_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:437:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetected_armors_[m[K’ was not declared in this scope
+  437 |     current_results = [01;31m[Kdetected_armors_[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+  441 |   for (const auto& armor : [01;31m[Kcurrent_results[m[K) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+  108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+      |                                     [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/filesystem:46[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/pass/serialize.hpp:15[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/graph_util.hpp:22[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/core.hpp:20[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/openvino.hpp:13[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:9[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/fs_dir.h:549:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::filesystem::__cxx11::begin[m[K’
+  549 |   [01;36m[Kbegin[m[K(recursive_directory_iterator __iter) noexcept
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+  441 |   for (const auto& armor : [01;31m[Kcurrent_results[m[K) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+  110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+      |                                     [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/filesystem:46[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/pass/serialize.hpp:15[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/graph_util.hpp:22[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/core.hpp:20[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/openvino.hpp:13[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:9[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/fs_dir.h:554:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::filesystem::__cxx11::end[m[K’
+  554 |   [01;36m[Kend[m[K(recursive_directory_iterator) noexcept
+      |   [01;36m[K^~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K At global scope:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:460:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  460 | [01;31m[K}[m[K // namespace rm_armor_detect
+      | [01;31m[K^[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In member function ‘[01m[Kbool rm_armor_detect::ArmorDetectNode::init_model()[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:117:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinput_type[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  117 |     ov::element::Type [01;35m[Kinput_type[m[K = ov::element::f32;
+      |                       [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K At global scope:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:421:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  421 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:426:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  426 |   [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "检测到 %zu 个装甲板", armors.size());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:426:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  426 |   [01;31m[KRCLCPP_DEBUG[m[K(this->get_logger(), "检测到 %zu 个装甲板", armors.size());
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:429:9:[m[K [01;31m[Kerror: [m[K‘[01m[KArmorDetectNode[m[K’ has not been declared
+  429 | cv::Mat [01;31m[KArmorDetectNode[m[K::draw_results(const cv::Mat& img)
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K In function ‘[01m[Kcv::Mat draw_results(const cv::Mat&)[m[K’:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:434:15:[m[K [01;31m[Kerror: [m[K‘[01m[KArmorBox[m[K’ was not declared in this scope; did you mean ‘[01m[Krm_armor_detect::ArmorBox[m[K’?
+  434 |   std::vector<[01;31m[KArmorBox[m[K> current_results;
+      |               [01;31m[K^~~~~~~~[m[K
+      |               [32m[Krm_armor_detect::ArmorBox[m[K
+In file included from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:21:8:[m[K [01;36m[Knote: [m[K‘[01m[Krm_armor_detect::ArmorBox[m[K’ declared here
+   21 | struct [01;36m[KArmorBox[m[K {
+      |        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:434:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  434 |   std::vector<ArmorBox[01;31m[K>[m[K current_results;
+      |                       [01;31m[K^[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:434:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:436:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_mutex_[m[K’ was not declared in this scope
+  436 |     std::lock_guard<std::mutex> lock([01;31m[Kresult_mutex_[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:437:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kdetected_armors_[m[K’ was not declared in this scope
+  437 |     current_results = [01;31m[Kdetected_armors_[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kbegin[m[K’ was not declared in this scope
+  441 |   for (const auto& armor : [01;31m[Kcurrent_results[m[K) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::begin[m[K’
+  108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+      |                                     [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/filesystem:46[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/pass/serialize.hpp:15[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/graph_util.hpp:22[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/core.hpp:20[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/openvino.hpp:13[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:9[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/fs_dir.h:549:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::filesystem::__cxx11::begin[m[K’
+  549 |   [01;36m[Kbegin[m[K(recursive_directory_iterator __iter) noexcept
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kend[m[K’ was not declared in this scope
+  441 |   for (const auto& armor : [01;31m[Kcurrent_results[m[K) {
+      |                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:441:28:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:4[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/range_access.h:110:37:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::end[m[K’
+  110 |   template<typename _Tp> const _Tp* [01;36m[Kend[m[K(const valarray<_Tp>&) noexcept;
+      |                                     [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/filesystem:46[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/pass/serialize.hpp:15[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/graph_util.hpp:22[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/core/core.hpp:20[m[K,
+                 from [01m[K/opt/intel/openvino_2025.0.0/runtime/include/openvino/openvino.hpp:13[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/include/rm_armor_detect/armor_detect_node.hpp:9[m[K,
+                 from [01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/fs_dir.h:554:3:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::filesystem::__cxx11::end[m[K’
+  554 |   [01;36m[Kend[m[K(recursive_directory_iterator) noexcept
+      |   [01;36m[K^~~[m[K
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:[m[K At global scope:
+[01m[K/home/pretend/code/src/rm_armor_detect/src/armor_detect_node.cpp:460:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  460 | [01;31m[K}[m[K // namespace rm_armor_detect
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/armor_detect_main.dir/build.make:90：CMakeFiles/armor_detect_main.dir/src/armor_detect_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/armor_detect_main.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/armor_detect_component.dir/build.make:76：CMakeFiles/armor_detect_component.dir/src/armor_detect_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/armor_detect_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pretend/code/src/rm_armor_detect/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pretend/code/build/rm_armor_detect
+[  8%] [32mBuilding CXX object CMakeFiles/pnp_solver.dir/src/pnp_solver.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/car_detector.dir/src/car_detector.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/number_classifier.dir/src/number_classifier.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libpnp_solver.a[0m
+[ 33%] Built target pnp_solver
+[ 41%] [32m[1mLinking CXX static library libcar_detector.a[0m
+[ 50%] [32m[1mLinking CXX static library libnumber_classifier.a[0m
+[ 50%] Built target car_detector
+[ 50%] Built target number_classifier
+[ 58%] [32mBuilding CXX object CMakeFiles/lights_detector.dir/src/lights_detector.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library liblights_detector.a[0m
+[ 66%] Built target lights_detector
+[ 75%] [32mBuilding CXX object CMakeFiles/video_subscriber_node.dir/src/video_subscriber_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX static library libvideo_subscriber_node.a[0m
+[ 83%] Built target video_subscriber_node
+[35m[1mConsolidate compiler generated dependencies of target video_subscriber_main[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/video_subscriber_main.dir/src/video_subscriber_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable video_subscriber_main[0m
+[100%] Built target video_subscriber_main

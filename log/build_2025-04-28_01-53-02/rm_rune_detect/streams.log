@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/pretend/code/build/rm_rune_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
+[0.036s] [ 11%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/rune_detect_node.cpp.o[0m
+[0.037s] [ 22%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_main.cpp.o[0m
+[0.041s] [ 33%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/preprocess.cpp.o[0m
+[0.041s] [ 44%] [32mBuilding CXX object CMakeFiles/rune_detect_node.dir/src/rune_detect_node.cpp.o[0m
+[0.041s] [ 55%] [32mBuilding CXX object CMakeFiles/rm_rune_detect.dir/src/preprocess.cpp.o[0m
+[2.280s] In file included from [01m[K/home/pretend/code/src/rm_rune_detect/src/rune_detect_node.cpp:2[m[K:
+[2.280s] [01m[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:11:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct rm_rune_detect::Detection[m[K’
+[2.280s]    11 | struct [01;31m[KDetection[m[K
+[2.280s]       |        [01;31m[K^~~~~~~~~[m[K
+[2.280s] In file included from [01m[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/rune_detect_node.hpp:13[m[K,
+[2.280s]                  from [01m[K/home/pretend/code/src/rm_rune_detect/src/rune_detect_node.cpp:1[m[K:
+[2.280s] [01m[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/openvino_detect.hpp:13:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct rm_rune_detect::Detection[m[K’
+[2.280s]    13 | struct [01;36m[KDetection[m[K {
+[2.281s]       |        [01;36m[K^~~~~~~~~[m[K
+[2.283s] In file included from [01m[K/home/pretend/code/src/rm_rune_detect/src/rune_detect_node.cpp:2[m[K:
+[2.283s] [01m[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/preprocess.hpp:11:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct rm_rune_detect::Detection[m[K’
+[2.283s]    11 | struct [01;31m[KDetection[m[K
+[2.283s]       |        [01;31m[K^~~~~~~~~[m[K
+[2.283s] In file included from [01m[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/rune_detect_node.hpp:13[m[K,
+[2.283s]                  from [01m[K/home/pretend/code/src/rm_rune_detect/src/rune_detect_node.cpp:1[m[K:
+[2.283s] [01m[K/home/pretend/code/src/rm_rune_detect/include/rm_rune_detect/openvino_detect.hpp:13:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct rm_rune_detect::Detection[m[K’
+[2.283s]    13 | struct [01;36m[KDetection[m[K {
+[2.283s]       |        [01;36m[K^~~~~~~~~[m[K
+[4.740s] gmake[2]: *** [CMakeFiles/rune_detect_node.dir/build.make:90：CMakeFiles/rune_detect_node.dir/src/rune_detect_node.cpp.o] 错误 1
+[4.740s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/rune_detect_node.dir/all] 错误 2
+[4.740s] gmake[1]: *** 正在等待未完成的任务....
+[4.766s] gmake[2]: *** [CMakeFiles/rm_rune_detect.dir/build.make:76：CMakeFiles/rm_rune_detect.dir/src/rune_detect_node.cpp.o] 错误 1
+[4.766s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/rm_rune_detect.dir/all] 错误 2
+[4.767s] gmake: *** [Makefile:146：all] 错误 2
+[4.769s] Invoked command in '/home/pretend/code/build/rm_rune_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretend/code/build/rm_rune_detect -- -j32 -l32
